@@ -1,0 +1,8 @@
+"STUDYID","DOMAIN","ETCD","ELEMENT","TESTRL","TEENRL","TEDUR"
+"CDISCPILOT01","TE","FOLO","Follow_up","End of last scheduled visit on study (including early termination)","Completion of all specified followup activities (which vary on a patient-by-patient basis)",""
+"CDISCPILOT01","TE","HIE","High_End","Administration of first dose (from patches supplied at Visit 12)","","P2W"
+"CDISCPILOT01","TE","HIM","High_Middle","Administration of first dose (from patches supplied at Visit 4)","","P22W"
+"CDISCPILOT01","TE","HIS","High_Start","Administration of first dose","","P2W"
+"CDISCPILOT01","TE","LO","Low","Administration of first dose","","P26W"
+"CDISCPILOT01","TE","PBO","Placebo","Administration of first dose","","P26W"
+"CDISCPILOT01","TE","SCRN","Screen","Informed consent","Completion of all screening activities and no more than 2 weeks from informed consent",""
