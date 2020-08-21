@@ -8,6 +8,11 @@
 | domain | varchar | DM |  |
 | usubjid | varchar |  |  |
 | subjid | int |  |  |
+| sex | varchar | F |  |
+| age | int | 74 |  |
+| dmdtc | date | 2012-12-13 |  |
+| race | varchar | WHITE |  |
+| ethnic | varchar | NOT HISPANIC OR LATINO |  |
 | rfstdtc | date |  |  |
 | rfendtc | date |  |  |
 | rfxstdtc | date |  |  |
@@ -17,18 +22,33 @@
 | dthdtc | date |  |  |
 | dthfl | varchar |  |  |
 | siteid | int | 718 |  |
-| age | int | 74 |  |
 | ageu | varchar | YEARS |  |
-| sex | varchar | F |  |
-| race | varchar | WHITE |  |
-| ethnic | varchar | NOT HISPANIC OR LATINO |  |
 | armcd | varchar | Xan_Hi |  |
 | arm | varchar | Xanomeline High Dose |  |
 | actarmcd | varchar | Xan_Hi |  |
 | actarm | varchar | Xanomeline High Dose |  |
 | country | varchar | USA |  |
-| dmdtc | date | 2012-12-13 |  |
 | dmdy | int | -4 |  |
+
+### Table: ds.csv
+
+| Field | Type | Most freq. value | Comment |
+| --- | --- | --- | --- |
+| studyid | varchar | CDISCPILOT01 |  |
+| domain | varchar | DS |  |
+| usubjid | varchar |  |  |
+| dsseq | real | 1 |  |
+| dsspid | int |  |  |
+| dsterm | varchar | FINAL LAB VISIT |  |
+| dsdecod | varchar | FINAL LAB VISIT |  |
+| dscat | varchar | DISPOSITION EVENT |  |
+| visitnum | real | 13 |  |
+| visit | varchar | WEEK 26 |  |
+| epoch | varchar | FOLLOW-UP |  |
+| dsdtc | varchar | 2013-06-03 |  |
+| dsstdtc | date | 2013-06-03 |  |
+| dsdy | int | 183 |  |
+| dsstdy | int | 183 |  |
 
 ### Table: ae.csv
 
@@ -99,26 +119,6 @@
 | cmdy | int | 1 |  |
 | cmstdy | int | 0 |  |
 | cmendy | int | 0 |  |
-
-### Table: ds.csv
-
-| Field | Type | Most freq. value | Comment |
-| --- | --- | --- | --- |
-| studyid | varchar | CDISCPILOT01 |  |
-| domain | varchar | DS |  |
-| usubjid | varchar |  |  |
-| dsseq | real | 1 |  |
-| dsspid | int |  |  |
-| dsterm | varchar | FINAL LAB VISIT |  |
-| dsdecod | varchar | FINAL LAB VISIT |  |
-| dscat | varchar | DISPOSITION EVENT |  |
-| visitnum | real | 13 |  |
-| visit | varchar | WEEK 26 |  |
-| epoch | varchar | FOLLOW-UP |  |
-| dsdtc | varchar | 2013-06-03 |  |
-| dsstdtc | date | 2013-06-03 |  |
-| dsdy | int | 183 |  |
-| dsstdy | int | 183 |  |
 
 ### Table: ex.csv
 
