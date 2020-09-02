@@ -4,11 +4,63 @@
 
 ## Contents
 
+### Standardized Metadata
+
+[cdm_source]()
+
+[metadata]()
+
+### Standardized Clinical Data Tables
+
 [person](person.md)
 
-[observation](observation.md)
+[observation_period](observation_period.md)
 
 [visit_occurrence](visit_occurrence.md)
 
-[source_appendix](source_appendix.md)
+[condition_occurrence]()
 
+[death]()
+
+[drug_exposure]()
+
+[procedure_occurrence]()
+
+[device_exposure]()
+
+[measurement]()
+
+[note]()
+
+[observation](observation.md)
+
+[specimen]()
+
+[fact_relationship]()
+
+### Standardized Health System Data Tables
+
+[location]()
+
+[care_site]()
+
+[provider]()
+
+### Standardized Derived Elements
+
+[drug_era]()
+
+[dose_era]()
+
+[condition_era]()
+
+### Results Schema
+
+[cohort]()
+
+[cohort_definition]()
+
+[cohort_attribute]()
+
+### Appendix
+[source_appendix](source_appendix.md)
