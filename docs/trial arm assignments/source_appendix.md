@@ -321,9 +321,7 @@
 | usubjid | VARCHAR |  |  |
 | dmdtc | DATE | 2012-12-13 |  |
 | arm | VARCHAR | Xanomeline High Dose |  |
-| armcd | VARCHAR | Xan_Hi |  |
 | actarm | VARCHAR | Xanomeline High Dose |  |
-| actarmcd | VARCHAR | Xan_Hi |  |
 | subjid | INT |  |  |
 | rfstdtc | DATE |  |  |
 | rfendtc | DATE |  |  |
@@ -339,6 +337,8 @@
 | sex | VARCHAR | F |  |
 | race | VARCHAR | WHITE |  |
 | ethnic | VARCHAR | NOT HISPANIC OR LATINO |  |
+| armcd | VARCHAR | Xan_Hi |  |
+| actarmcd | VARCHAR | Xan_Hi |  |
 | country | VARCHAR | USA |  |
 | dmdy | INT | -4 |  |
 
