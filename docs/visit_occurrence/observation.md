@@ -1,0 +1,30 @@
+## Table name: observation
+
+### Reading from sv.csv
+
+![](md_files/image2.png)
+
+| Destination Field | Source field | Logic | Comment field |
+| --- | --- | --- | --- |
+| observation_id |  |  | auto-increment |
+| person_id | usubjid |  |  |
+| observation_concept_id |  |  | new concept ID for "unscheduled visit reason"? |
+| observation_date | svstdtc |  | svstdtc is STRING format but written as YYYY-MM-DD; convert to DATE |
+| observation_datetime | svstdtc |  | svstdtc is STRING format but written as YYYY-MM-DD; convert to DATETIME with time as 00:00:00 |
+| observation_type_concept_id |  |  | Hardcode as 32809 (Case Report Form) |
+| value_as_number |  |  |  |
+| value_as_string | svupdes |  |  |
+| value_as_concept_id |  |  |  |
+| qualifier_concept_id |  |  |  |
+| unit_concept_id |  |  |  |
+| provider_id |  |  |  |
+| visit_occurrence_id |  |  | visit_occurrence_id for visit associated with the unscheduled visit reason |
+| visit_detail_id |  |  |  |
+| observation_source_value |  |  |  |
+| observation_source_concept_id |  |  | new concept ID for "unscheduled visit reason"? |
+| unit_source_value |  |  |  |
+| qualifier_source_value |  |  |  |
+| observation_event_id |  |  |  |
+| obs_event_field_concept_id |  |  | visit_concept_id for visit associated with the unscheduled visit reason |
+| value_as_datetime |  |  |  |
+

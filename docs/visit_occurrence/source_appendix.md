@@ -207,7 +207,7 @@
 | svendtc | DATE | 2013-06-03 |  |
 | svstdy | INT | 1 | Can be used for visit ordering in future version where we accommodate representation of timeliness |
 | svendy | INT | 1 | Can be used for visit ordering in future version where we accommodate representation of timeliness |
-| svupdes | VARCHAR |  | Include in visit_source_value? |
+| svupdes | VARCHAR |  |  |
 
 ### Table: ts.csv
 
