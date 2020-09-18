@@ -15,7 +15,7 @@
 | value_as_number |  |  |  |
 | value_as_string | arm<br>actarm |  | Source table contains 2 observations: arm and actarm. use a qualifier concept to distinguish |
 | value_as_concept_id |  |  |  |
-| qualifier_concept_id |  |  | for observation records dervice from 'arm' field, hardcode 'Planned' qualifier concept id: 397943006 |
+| qualifier_concept_id |  |  | for observation records derived from 'arm' field, hardcode 'Planned' qualifier concept id: 397943006 |
 | unit_concept_id |  |  |  |
 | provider_id |  |  |  |
 | visit_occurrence_id |  |  |  |
