@@ -4,7 +4,7 @@
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
-| cohort_definition_id |  | 1 |  |
+| cohort_definition_id |  | Populate with 1 |  |
 | cohort_definition_name |  | 'Planned Arm - Placebo' |  |
 | cohort_definition_description |  | 'Planned Arm - Placebo'  |  |
 | definition_type_concept_id |  | Populate with 0 |  |
@@ -16,7 +16,7 @@
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
-| cohort_definition_id |  | 2 |  |
+| cohort_definition_id |  | Populate with 2 |  |
 | cohort_definition_name |  | 'Planned Arm - Xanomeline High Dose' |  |
 | cohort_definition_description |  | 'Planned Arm - Xanomeline High Dose'  |  |
 | definition_type_concept_id |  | Populate with 0 |  |
@@ -28,7 +28,7 @@
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
-| cohort_definition_id |  | 3 |  |
+| cohort_definition_id |  | Populate with 3 |  |
 | cohort_definition_name |  | 'Planned Arm - Xanomeline Low Dose' |  |
 | cohort_definition_description |  | 'Planned Arm - Xanomeline Low Dose'  |  |
 | definition_type_concept_id |  | Populate with 0 |  |
@@ -40,7 +40,7 @@
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
-| cohort_definition_id |  | 4 |  |
+| cohort_definition_id |  | Populate with 4 |  |
 | cohort_definition_name |  | 'Actual Arm - Placebo' |  |
 | cohort_definition_description |  | 'Actual Arm - Placebo'  |  |
 | definition_type_concept_id |  | Populate with 0 |  |
@@ -52,7 +52,7 @@
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
-| cohort_definition_id |  | 5 |  |
+| cohort_definition_id |  | Populate with 5 |  |
 | cohort_definition_name |  | 'Actual Arm - Xanomeline High Dose' |  |
 | cohort_definition_description |  | 'Actual Arm - Xanomeline High Dose'  |  |
 | definition_type_concept_id |  | Populate with 0 |  |
@@ -64,7 +64,7 @@
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
-| cohort_definition_id |  | 6 |  |
+| cohort_definition_id |  | Populate with 6 |  |
 | cohort_definition_name |  | 'Actual Arm - Xanomeline Low Dose' |  |
 | cohort_definition_description |  | 'Actual Arm - Xanomeline Low Dose'  |  |
 | definition_type_concept_id |  | Populate with 0 |  |
