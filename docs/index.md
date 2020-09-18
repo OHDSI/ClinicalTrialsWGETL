@@ -56,9 +56,9 @@
 
 ### Results Schema
 
-[cohort]()
+[cohort](cohort.md)
 
-[cohort_definition]()
+[cohort_definition](cohort_definition.md)
 
 [cohort_attribute]()
 
