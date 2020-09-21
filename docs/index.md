@@ -40,11 +40,11 @@
 
 ### Standardized Health System Data Tables
 
-[location]()
+[location](location.md)
 
-[care_site]()
+[care_site](care_site.md)
 
-[provider]()
+[provider](provider.md)
 
 ### Standardized Derived Elements
 
