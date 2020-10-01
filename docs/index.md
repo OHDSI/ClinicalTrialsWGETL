@@ -8,7 +8,7 @@
 
 [cdm_source]()
 
-[metadata]()
+[metadata](metadata.md)
 
 ### Standardized Clinical Data Tables
 
