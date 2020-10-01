@@ -9,8 +9,8 @@
 | observation_id |  |  | auto-increment |
 | person_id | usubjid |  | Indirectly mapped from usubjid, which will represent the subject's person_source_value |
 | observation_concept_id |  |  | new concept ID for "unscheduled visit reason"? |
-| observation_date | svstdtc |  | svstdtc is STRING format but written as YYYY-MM-DD; convert to DATE |
-| observation_datetime | svstdtc |  | svstdtc is STRING format but written as YYYY-MM-DD; convert to DATETIME with time as 00:00:00 |
+| observation_date | svstdtc |  | svstdtc is STRING format but written as YYYY-MM-DD; convert to DATE (NOTE: svendtc will not be represented as there is no end date in the Observation table) |
+| observation_datetime | svstdtc |  | svstdtc is STRING format but written as YYYY-MM-DD; convert to DATETIME with time as 00:00:00 (NOTE: svendtc will not be represented as there is no end date in the Observation table) |
 | observation_type_concept_id |  |  | Hardcode as 32809 (Case Report Form) |
 | value_as_number |  |  |  |
 | value_as_string | svupdes |  | text of unscheduled visit reason |
