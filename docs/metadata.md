@@ -19,7 +19,7 @@
 | --- | --- | --- | --- |
 | metadata_concept_id |  | Populate with 0 |  |
 | metadata_type_concept_id |  | Populate with 0 |  |
-| name |  | src.TI.IECAT \|\| ' criterion' |  |
+| name | src.TI.IETESTCD |  |  |
 | value_as_string | src.TI.IETEST |  |  |
 | value_as_concept_id | NULL |  |  |
 | metadata_date |  | current date |  |
