@@ -8,7 +8,7 @@
 | cohort_definition_name |  | 'Planned Arm - Placebo' |  |
 | cohort_definition_description |  | 'Planned Arm - Placebo'  |  |
 | definition_type_concept_id |  | Populate with 0 |  |
-| cohort_definition_syntax |  | SELECT person_id <br> FROM cdm.person <br> INNER JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value <br> AND dm.armcd = 'Pbo' |  |
+| cohort_definition_syntax |  | Populate with </br> "SELECT person_id <br> FROM cdm.person <br> INNER JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value <br> AND dm.armcd = 'Pbo' " |  |
 | subject_concept_id |  | Populate with 1147314 — ‘person’ |  |
 | cohort_initiation_date |  | current date |  |
 
@@ -20,7 +20,7 @@
 | cohort_definition_name |  | 'Planned Arm - Xanomeline High Dose' |  |
 | cohort_definition_description |  | 'Planned Arm - Xanomeline High Dose'  |  |
 | definition_type_concept_id |  | Populate with 0 |  |
-| cohort_definition_syntax |  | SELECT person_id <br> FROM cdm.person <br> INNER JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value <br> AND dm.armcd = 'Xan_Hi' |  |
+| cohort_definition_syntax |  | Populate with </br> "SELECT person_id <br> FROM cdm.person <br> INNER JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value <br> AND dm.armcd = 'Xan_Hi' " |  |
 | subject_concept_id |  | Populate with 1147314 — ‘person’ |  |
 | cohort_initiation_date |  | current date |  |
 
@@ -32,7 +32,7 @@
 | cohort_definition_name |  | 'Planned Arm - Xanomeline Low Dose' |  |
 | cohort_definition_description |  | 'Planned Arm - Xanomeline Low Dose'  |  |
 | definition_type_concept_id |  | Populate with 0 |  |
-| cohort_definition_syntax |  | SELECT person_id <br> FROM cdm.person <br> INNER JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value <br> AND dm.armcd = 'Xan_Lo' |  |
+| cohort_definition_syntax |  | Populate with </br> "SELECT person_id <br> FROM cdm.person <br> INNER JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value <br> AND dm.armcd = 'Xan_Lo' " |  |
 | subject_concept_id |  | Populate with 1147314 — ‘person’ |  |
 | cohort_initiation_date |  | current date |  |
 
@@ -44,7 +44,7 @@
 | cohort_definition_name |  | 'Actual Arm - Placebo' |  |
 | cohort_definition_description |  | 'Actual Arm - Placebo'  |  |
 | definition_type_concept_id |  | Populate with 0 |  |
-| cohort_definition_syntax |  | SELECT person_id <br> FROM cdm.person <br> INNER JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value <br> AND dm.actarmcd = 'Pbo' |  |
+| cohort_definition_syntax |  | Populate with </br> "SELECT person_id <br> FROM cdm.person <br> INNER JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value <br> AND dm.actarmcd = 'Pbo' " |  |
 | subject_concept_id |  | Populate with 1147314 — ‘person’ |  |
 | cohort_initiation_date |  | current date |  |
 
@@ -56,7 +56,7 @@
 | cohort_definition_name |  | 'Actual Arm - Xanomeline High Dose' |  |
 | cohort_definition_description |  | 'Actual Arm - Xanomeline High Dose'  |  |
 | definition_type_concept_id |  | Populate with 0 |  |
-| cohort_definition_syntax |  | SELECT person_id <br> FROM cdm.person <br> INNER JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value <br> AND dm.actarmcd = 'Xan_Hi' |  |
+| cohort_definition_syntax |  | Populate with </br> "SELECT person_id <br> FROM cdm.person <br> INNER JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value <br> AND dm.actarmcd = 'Xan_Hi' " |  |
 | subject_concept_id |  | Populate with 1147314 — ‘person’ |  |
 | cohort_initiation_date |  | current date |  |
 
@@ -68,6 +68,6 @@
 | cohort_definition_name |  | 'Actual Arm - Xanomeline Low Dose' |  |
 | cohort_definition_description |  | 'Actual Arm - Xanomeline Low Dose'  |  |
 | definition_type_concept_id |  | Populate with 0 |  |
-| cohort_definition_syntax |  | SELECT person_id <br>FROM   cdm.person <br>INNER JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value <br> AND  dm.actarmcd = 'Xan_Lo' |  |
+| cohort_definition_syntax |  | Populate with </br> "SELECT person_id <br>FROM   cdm.person <br>INNER JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value <br> AND  dm.actarmcd = 'Xan_Lo' " |  |
 | subject_concept_id |  | Populate with 1147314 — ‘person’ |  |
 | cohort_initiation_date |  | current date |  |
