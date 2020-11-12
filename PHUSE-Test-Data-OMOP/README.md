@@ -1,6 +1,8 @@
 # Introduction
 
-This folder contains the ETL code and the resulting OMOP CDM data from PHUSE Test Data
+This folder contains a link to the ETL code and the resulting OMOP CDM data from PHUSE Test Data
+Code: https://github.com/vojtechhuser/project/blob/master/sdtm-omop/R_code.R
+Data: https://github.com/vojtechhuser/project/tree/master/sdtm-omop/omop-output-csv2
 
 # Versions
 
