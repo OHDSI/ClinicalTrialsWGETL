@@ -6,8 +6,8 @@
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
-| measurement_id | qsseq |  | Would qsseq be an equivalent to measurement_id? |
-| person_id | usubjid |  | USUBJID is VARCHAR not INTEGER. How would usubjid map into person_id? I've seen the person table indicate "Convert to integer representation of subjid OR auto-increment the person_id", but this does not always result in a unique representation. Therefore, is the intent that the person_source_value to contain the provenance to usubjid, where person_id is the OMOP equivalent? |
+| measurement_id | qsseq |  | The qsseq may need to be recreated as the PHUSE QSCO does not have a unique sequential representation. |
+| person_id | usubjid |  | Convert to integer representation of subjid OR auto-increment the person_id. Note: The original SDTM USUBJID will reside in the person_source_value to ensure traceability to and from person_id. |
 | measurement_concept_id | qstestcd<br>qstest<br>qscat<br>qsscat |  | Concept code=273269001, Concept ID=4157231, Vocabulary ID=SNOMED  This is where qstestcd, qstest, qscat, and qsscat may be extrpolated into a corresponding SNOMED concept.  The QSCO has QSCAT=ADAS-COG where its decode is equivalent to "ALZHEIMER'S DISEASE ASSESSMENT SCALE" |
 | measurement_date | qsdtc |  | QSDTC may include a date in ISO 8601 datetime format. If both exist, then measurement_datetime, esle  measurement_date. As such, qsdtc has been mapped to both measurement_datetime and measurement_date but only one should exist. |
 | measurement_datetime | qsdtc |  | QSDTC may include a date in ISO 8601 datetime format. If both exist, then measurement_datetime, esle  measurement_date. As such, qsdtc has been mapped to both measurement_datetime and measurement_date but only one should exist. |
