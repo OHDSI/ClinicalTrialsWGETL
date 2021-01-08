@@ -2,7 +2,7 @@
 
 ### Reading from dm.csv
 
-![](md_files/image1.png)
+![](md_files/image1_ta.png)
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 ### Reading from qsco.csv
 
-![](md_files/image1.png)
+![](md_files/image1_q.png)
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
