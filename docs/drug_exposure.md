@@ -6,7 +6,7 @@
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
-| drug_exposure_id |  |  | Auto-increment |
+| drug_exposure_id |  | A unique system generated identifier | Auto-increment |
 | person_id | usubjid |  | Indirectly mapped from usubjid, which will represent the subject's person_source_value<br> |
 | drug_concept_id | extrt<br>exdosu<br>exdosfrm |  | Combine extrt, exdosu and exdosfrm. A semantic mapping should be applied for the possible combinations (e.g. mapping to Xanomeline 50 mg oral tablet). |
 | drug_exposure_start_date | exstdtc | if EXSTDTC includes timestamp, remove it for this target field |  |
@@ -29,4 +29,3 @@
 | drug_source_concept_id |  |  |  |
 | route_source_value | exroute |  |  |
 | dose_unit_source_value | exdosu |  |  |
-

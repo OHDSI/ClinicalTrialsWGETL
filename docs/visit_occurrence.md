@@ -6,7 +6,7 @@
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
-| visit_occurrence_id |  |  | Auto-increment |
+| visit_occurrence_id |  | A unique system generated identifier | Auto-increment |
 | person_id | usubjid |  | Indirectly mapped from usubjid, which will represent the subject's person_source_value |
 | visit_concept_id | epoch |  | Derived from visit_source_concept_id |
 | visit_start_date | svstdtc |  | svstdtc is STRING format but written as YYYY-MM-DD; convert to DATE |
@@ -23,4 +23,3 @@
 | discharge_to_concept_id |  |  |  |
 | discharge_to_source_value |  |  |  |
 | preceding_visit_occurrence_id |  |  | Derived in ETL |
-

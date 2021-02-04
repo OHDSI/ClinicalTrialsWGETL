@@ -8,7 +8,7 @@ According to the conventions, the observation period start date should be when a
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
-| observation_period_id |  |  | Auto-increment |
+| observation_period_id |  | A unique system generated identifier | Auto-increment |
 | person_id | cdm.person.person_id |  |  |
 | observation_period_start_date | sv.svstdtc | MIN(sv.svstdtc) <br> JOIN sv ON <br>  sv.usubjid = cdm.person.person_source_value <br> AND sv.visit = 'SCREENING' | Take the earliest date among SCREENING visits |
 | observation_period_end_date | dm.rfpendtc | DATE(dm.rfpendtc) <br> JOIN dm ON <br> dm.usubjid = cdm.person.person_source_value | Extract date from the last disposition event date/timestamp |

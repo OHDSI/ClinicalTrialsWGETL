@@ -6,7 +6,7 @@
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
-| observation_id |  |  |  |
+| observation_id |  |  A unique system generated identifier | Auto-increment |
 | person_id | usubjid |  | usubjid actually stored as person value and mapped to auto incremented person id<br> |
 | observation_concept_id |  |  | set all records to concept_id = 37208111 (clinical trial arm) |
 | observation_date | dmdtc |  |  |
@@ -37,7 +37,7 @@ Trial outcomes
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
-| observation_id |  |  | Auto-increment |
+| observation_id |  | A unique system generated identifier | Auto-increment |
 | person_id | usubjid |  |  |
 | observation_concept_id | dsdecod | COMPLETED - 4042840 (completed trial)  SCREEN FAILURE - xxxxx (Not eligible to participate)  WITHDRAWAL BY SUBJECT - 4163733 (withdrawn from trial)  STUDY TERMINATED BY SPONSOR - 4163733 (withdrawn from trial)  DEATH - 4163733 (withdrawn from trial)    FINAL LAB VISIT - do not capture here  FINAL RETRIEVAL VISIT - do not capture here  PROTOCOL DEVIATION - do not capture here  ADVERSE EVENT - do not capture here | There are other values possible in the dsdecod field that still have to be covered in the logic<br> |
 | observation_source_value | dsdecod |  |  |
