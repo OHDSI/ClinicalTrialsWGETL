@@ -18,7 +18,7 @@
 | device_exposure |  | not covered |  |
 | [measurement](measurement.md) | qsco |  | Questionnaire |
 | [observation](observation.md) | dm</br> ds</br> sv</br>  |  | Trial/Arm assignment </br> Study withdrawal </br> Reason for visit |
-| death |  | not covered |  |
+| death | dm | not covered |  |
 | note |  | not covered |  |
 | specimen |  | not covered |  |
 | fact_relationship |  | not covered |  |
@@ -38,12 +38,12 @@
 
 ### Missing specification for
 
-- ae
-- cm
-- lbch
-- lbhe
-- lbur
-- mh
+- ae <- Adverse Events: for convention on severity and causality
+- cm <- 
+- lbch <- Lab: pick one of the lab tables as an example
+- lbhe <-
+- lbur <-
+- mh <- Medical History: for convention on historic events
 - qsda
 - qsgi
 - qshi
@@ -61,4 +61,12 @@
 - ta
 - te
 - tv
-- vs
+- vs <- Vital Signs: low-hanging fruit
+
+### Tasks
+- [ ] Philip: ae <- Adverse Events: for convention on severity and causality
+- [ ] Philip: cm <- (only structural mapping)
+- [ ] Chris: lbch, lbhe, lbur <- Lab: pick one of the lab tables as an example
+- [ ] Maxim: mh <- Medical History: for convention on historic events
+- [ ] Katy: vs <- Vital Signs: low-hanging fruit
+- [ ] Sonia: dm to death
