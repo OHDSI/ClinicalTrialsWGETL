@@ -5,19 +5,19 @@
 | CDM Table | Source Tables | Status | CT Topic |
 | --- | :-: | :-: | --- |
 | **Standardized Health System Data Tables** |  |  |  |
-| [location](location.md) |  | --- |  |  |
-| [care_site](care_site.md) |  |  --- |  |
-| [provider](provider.md) |  | --- |  |
+| [location](location.md) |  | done |  |  |
+| [care_site](care_site.md) |  |  done |  |
+| [provider](provider.md) |  | done |  |
 | **Clinical Data Tables** |  |  |  |
-| [person](person.md) | dm |  |  |
+| [person](person.md) | dm | done |  |
 | [observation_period](observation_period.md) | dm</br> sv |  |  |
 | [visit_occurrence](visit_occurrence.md) | sv |  |  |
-| condition_occurrence |  | not covered |  |
-| [drug_exposure](drug_exposure.md) | ex |  |  |
+| [condition_occurrence](condition_occurrence.md) | ae | done |  |
+| [drug_exposure](drug_exposure.md) | cm</br>ex |  |  |
 | procedure_occurrence |  | not covered |  |
 | device_exposure |  | not covered |  |
 | [measurement](measurement.md) | qsco |  | Questionnaire |
-| [observation](observation.md) | dm</br> ds</br> sv</br>  |  | Trial/Arm assignment </br> Study withdrawal </br> Reason for visit |
+| [observation](observation.md) | ae</br> dm</br> ds</br> sv</br>  |  | Seriousness, Severity </br> Trial/Arm assignment </br> Study withdrawal </br> Reason for visit |
 | death |  | not covered |  |
 | note |  | not covered |  |
 | specimen |  | not covered |  |

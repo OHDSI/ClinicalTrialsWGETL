@@ -1,0 +1,12 @@
+dose_frequency,cnt,daily_dose
+QD,5475,1
+PRN,1729,0
+BID,561,2
+TID,163,3
+QID,140,4
+QM,43,1
+QOD,42,0.5
+,26,0
+Q6H,12,4
+Q4H,7,6
+Q3H,2,8

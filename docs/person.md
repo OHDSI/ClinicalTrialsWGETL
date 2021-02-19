@@ -20,7 +20,7 @@ Remove any rows with an empty usubjid
 | race_source_value | race |  |  |
 | ethnicity_concept_id | msc.target_concept_id | `COALESCE(msc.target_concept_id, 0)` </br> `LEFT JOIN mapped_source_codes msc` </br> `ON msc.source_code = dm.ethnic` </br> `AND msc.source_vocabulary_id = 'PHUSE_DM_ETHNIC_maps_to'` |  |
 | ethnicity_source_value | ethnic |  |  |
-| location_id | cdm.location.location_id | `JOIN cdm.location` </br> `ON cdm.location_source_value = dm.siteid` |  |
+| location_id | NULL |  |  |
 | provider_id | NULL |  |  |
 | care_site_id | NULL |  |  |
 | gender_source_concept_id |  | Populate with 0 |  |
