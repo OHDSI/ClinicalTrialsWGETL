@@ -1,0 +1,40 @@
+vocabulary_id	vocabulary_name	vocabulary_reference	vocabulary_version	vocabulary_concept_id
+Plan Stop Reason	Plan Stop Reason - Reason for termination of the Health Plan	OMOP generated		32474
+Death Type	OMOP Death Type	OMOP generated		44819135
+US Census	United States Census Bureau	https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html	US Census 2017 Release	32570
+None	OMOP Standardized Vocabularies	OMOP generated	v5.0 22-DEC-20	44819096
+Obs Period Type	OMOP Observation Period Type	OMOP generated		44819149
+UCUM	Unified Code for Units of Measure (Regenstrief Institute)	http://aurora.regenstrief.org/~ucum/ucum.html#section-Alphabetic-Index	Version 1.8.2	44819107
+Condition Type	OMOP Condition Occurrence Type	OMOP generated		44819127
+Visit Type	OMOP Visit Type	OMOP generated		44819150
+Cohort Type	OMOP Cohort Type	OMOP generated		44819234
+Device Type	OMOP Device Type	OMOP generated		44819151
+Observation Type	OMOP Observation Type	OMOP generated		44819129
+Metadata	Metadata	OMOP generated		32675
+Cost	OMOP Cost	OMOP generated		581457
+UB04 Point of Origin	UB04 Claim Source Inpatient Admission Code (CMS)	https://www.resdac.org/cms-data/variables/Claim-Source-Inpatient-Admission-Code		32045
+Meas Type	OMOP Measurement Type	OMOP generated		44819152
+Visit	OMOP Visit	OMOP generated		44819119
+Vocabulary	OMOP Vocabulary	OMOP generated		44819232
+Episode	OMOP Episode	OMOP generated	Episode 20201014	32523
+Ethnicity	OMOP Ethnicity	OMOP generated		44819134
+PHDSC	Source of Payment Typology (PHDSC)	http://www.phdsc.org/standards/payer-typology-source.asp	Version 3.0	32473
+UB04 Typ bill	UB04 Type of Bill - Institutional (USHIK)	https://ushik.ahrq.gov/ViewItemDetails?&system=apcd&itemKey=196987000		32044
+Procedure Type	OMOP Procedure Occurrence Type	OMOP generated		44819128
+Plan	Health Plan - contract to administer healthcare transactions by the payer, facilitated by the sponsor	OMOP generated		32471
+Type Concept	OMOP Type Concept	OMOP generated		32808
+Note Type	OMOP Note Type	OMOP generated		44819146
+Condition Status	OMOP Condition Status	OMOP generated		32887
+Cost Type	OMOP Cost Type	OMOP generated		5029
+Domain	OMOP Domain	OMOP generated		44819147
+Concept Class	OMOP Concept Class	OMOP generated		44819233
+UB04 Pt dis status	UB04 Patient Discharge Status Code (CMS)	https://www.resdac.org/cms-data/variables/patient-discharge-status-code		32047
+OSM	OpenStreetMap	https://www.openstreetmap.org/copyright/en, https://wambachers-osm.website/boundaries/	OSM Release 2019-02-21	32541
+Sponsor	Sponsor - institution or individual financing healthcare transactions	OMOP generated		32472
+Race	Race and Ethnicity Code Set (USBC)	http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf	Version 1.0	44819109
+UB04 Pri Typ of Adm	UB04 Claim Inpatient Admission Type Code (CMS)	https://www.resdac.org/cms-data/variables/Claim-Inpatient-Admission-Type-Code		32046
+CDM	OMOP Common DataModel	https://github.com/OHDSI/CommonDataModel	CDM v6.0.2	32485
+Drug Type	OMOP Drug Exposure Type	OMOP generated		44819126
+Relationship	OMOP Relationship	OMOP generated		44819235
+Korean Revenue Code	Korean Revenue Code	OMOP generated		32724
+Gender	OMOP Gender	OMOP generated		44819108
