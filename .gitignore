@@ -90,3 +90,4 @@ Backup of *.doc*
 
 # ----- standardized vocabs -----
 vocab/standardized/*.csv
+vocab/omop/*.csv
