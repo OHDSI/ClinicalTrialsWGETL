@@ -17,7 +17,7 @@
 | procedure_occurrence |  | not covered |  |
 | device_exposure |  | not covered |  |
 | [measurement](measurement.md) | qsco |  | Questionnaire |
-| [observation](observation.md) | dm</br> ds</br> sv</br>  |  | Trial/Arm assignment </br> Study withdrawal </br> Reason for visit |
+| [observation](observation.md)</br>[mh_to_observation](mh_to_observation.md) | dm</br> ds</br> sv</br> mh  |  | Trial/Arm assignment </br> Study withdrawal </br> Reason for visit </br> Severity |
 | death | dm | not covered |  |
 | note |  | not covered |  |
 | specimen |  | not covered |  |
