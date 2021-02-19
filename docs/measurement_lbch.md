@@ -2,7 +2,7 @@
 
 ### Reading from lbch.csv
 
-![](md_files/image1.png)
+![](md_files/image1_lbch.png)
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
