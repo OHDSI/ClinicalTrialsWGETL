@@ -1,0 +1,4 @@
+source_code,source_concept_id,source_vocabulary_id,source_code_description,target_concept_id,target_vocabulary_id,valid_start_date,valid_end_date,invalid_reason
+BLACK OR AFRICAN AMERICAN,0,PHUSE_DM_RACE_maps_to,BLACK OR AFRICAN AMERICAN,8516,Race,1970-01-01,2099-12-31,
+AMERICAN INDIAN OR ALASKA NATIVE,0,PHUSE_DM_RACE_maps_to,AMERICAN INDIAN OR ALASKA NATIVE,8657,Race,1970-01-01,2099-12-31,
+WHITE,0,PHUSE_DM_RACE_maps_to,WHITE,8527,Race,1970-01-01,2099-12-31,
