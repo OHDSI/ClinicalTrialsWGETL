@@ -52,7 +52,7 @@
 | route_concept_id | msc.target_concept_id | `COALESCE(msc.target_concept_id, 0)`</br>`LEFT JOIN mapped_source_codes msc`</br>`ON msc.source_code = src.cm.cmroute`</br>`AND msc.source_vocabulary_id = 'PHUSE_CM_CMROUTE'`  |  |
 | lot_number | NULL |  |  |
 | provider_id | NULL |  |  |
-| visit_occurrence_id | cdm.visit_occurrence.</br>visit_occurrence_id | `LEFT JOIN cdm.visit_occurrence vo`</br><code>ON vo.visit_source_value = src.cm.usubjid &#124;&#124; '&#124;' &#124;&#124; src.cm.visit &#124;&#124; '&#124;' &#124;&#124; src.cm.epoch</code></br> |  |
+| visit_occurrence_id | NULL |  |  |
 | visit_detail_id | NULL |  |  |
 | drug_source_value |  | `src.cm.cmtrt`</br> <code>&#124;&#124; '&#124;'</code></br> <code>&#124;&#124; src.cm.dose</code></br> <code>&#124;&#124; '&#124;'</code></br> <code>&#124;&#124; COALESCE(src.cm.cmdosu, '')</code></br> <code>&#124;&#124; '&#124;'</code></br> <code>&#124;&#124; COALESCE(src.cm.cmroute, '')</code> |  |
 | drug_source_concept_id |  | Populate with 0 |  |
