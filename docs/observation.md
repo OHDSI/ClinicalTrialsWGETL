@@ -321,7 +321,7 @@ Each medical history record produces two observations:
 | --- | --- | --- | --- |
 | observation_id |  |  | Auto-increment |
 | person_id | usubjid |  |  |
-| observation_concept_id | mhcat | SIGNIFICANT PRE-EXISTING CONDITION - History of clinical finding in subject https://athena.ohdsi.org/search-terms/terms/4214956</br>HISTORICAL DIAGNOSIS - History of clinical finding in subject https://athena.ohdsi.org/search-terms/terms/4214956</br>PRIMARY DIAGNOSIS - ? | What is the clinical difference between these?<br> |
+| observation_concept_id | | [History of clinical finding in subjec](https://athena.ohdsi.org/search-terms/terms/4214956)|  |
 | observation_date | mhdtc |  |  |
 | observation_datetime | mhdtc |  |  |
 | observation_type_concept_id |  |  | 32809 - Case Report Form |
@@ -333,7 +333,7 @@ Each medical history record produces two observations:
 | provider_id |  |  |  |
 | visit_occurrence_id | visit | Lookup visit_occurrence_id |  |
 | visit_detail_id |  |  |  |
-| observation_source_value |  |  |  |
+| observation_source_value | mhcat | SIGNIFICANT PRE-EXISTING CONDITION or HISTORICAL DIAGNOSIS or PRIMARY DIAGNOSIS |  |
 | observation_source_concept_id |  |  |  |
 | unit_source_value |  |  |  |
 | qualifier_source_value |  |  |  |
@@ -341,6 +341,7 @@ Each medical history record produces two observations:
 | obs_event_field_concept_id |  |  |  |
 | value_as_datetime |  |  |  |
 
+Note: we do loose information on the timeliness of the medical history, captured in the `mhstdtc` field as an approximate date. To capture this information, we can use the newly proposed history of concepts _within x years_: https://forums.ohdsi.org/t/history-of-condition-with-age/11470/18
 
 ### Reading from mh.csv
 
