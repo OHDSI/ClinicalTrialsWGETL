@@ -91,3 +91,21 @@ Backup of *.doc*
 # ----- standardized vocabs -----
 vocab/standardized/*.csv
 vocab/omop/*.csv
+
+# ----- Spark stuff -----
+.cache
+.local
+derby.log
+metastore_db
+data/spark-warehouse
+
+
+# ----- Python -----
+# Byte-compiled / optimized / DLL files
+src/__pycache__/
+*.py[cod]
+*$py.class
+
+.ipynb_checkpoints
+.ipython
+.jupyter

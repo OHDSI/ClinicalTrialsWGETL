@@ -9,6 +9,20 @@ For more information about the Clinical trials conventions, please visit our [wi
 
 About the group - see [here](https://www.ohdsi.org/web/wiki/doku.php?id=projects:workgroups:clinicalstudy).
 
+## Run ETL
+
+The only thing you need to run the conversion locally is [Docker](https://www.docker.com). Instructions on how to install Docker on your system can be found at [the official site](https://www.docker.com/products/docker-desktop).
+After getting it installed follow these steps:
+- Clone the repository into a folder on your machine.
+~~~
+$ git clone https://github.com/OHDSI/ClinicalTrialsWGETL.git
+~~~
+- Then go inside the repository folder and run the following command
+~~~
+$ docker-compose run --rm --service-ports phuse_etl
+~~~
+
+
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.

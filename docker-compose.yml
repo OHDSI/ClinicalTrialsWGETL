@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    phuse_etl:
+        image: jupyter/pyspark-notebook:703d8b2dcb88
+        container_name: phuse_etl
+        volumes:
+            - .:/home/jovyan
+        ports:
+            - '8888:8888'
+            - '4040:4040'
+        command: spark-submit src/run_etl.py
