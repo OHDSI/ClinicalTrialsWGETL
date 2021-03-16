@@ -11,17 +11,19 @@ About the group - see [here](https://www.ohdsi.org/web/wiki/doku.php?id=projects
 
 ## Run ETL
 
-The only thing you need to run the conversion locally is [Docker](https://www.docker.com). Instructions on how to install Docker on your system can be found at [the official site](https://www.docker.com/products/docker-desktop).
-After getting it installed, follow these steps:
-- Clone the repository into a folder on your machine.
+The ETL process is based on [Apache Spark&trade;](https://spark.apache.org) analytics engine running in a docker container. So the only thing you need is [Docker](https://www.docker.com). You can find instructions on how to install Docker on your system at [the official site](https://www.docker.com/products/docker-desktop).
+After getting Docker installed, run the conversion in easy three steps:
+1. Clone the repository into a folder on your machine:
 ~~~
 $ git clone https://github.com/OHDSI/ClinicalTrialsWGETL.git
 ~~~
-- Then, go inside the repository folder and run the following command:
+2. Download all the [necessary vocabularies](vocab/omop/README.md) from the Athena and put them into vocab/omop folder
+3. And finally, from the root repository folder, run the following command:
 ~~~
-$ docker-compose run --rm --service-ports phuse_etl
+$ docker-compose run --rm --service-ports phuse_etl  
 ~~~
 
+After the conversion is done, resultant CDM files (in csv format) are in the data/cdm folder.
 
 ## License
 
