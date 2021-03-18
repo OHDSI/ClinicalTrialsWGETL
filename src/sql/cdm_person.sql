@@ -9,7 +9,7 @@ TRUNCATE TABLE cdm.person;
 INSERT INTO cdm.person
 SELECT Row_number()
          OVER (
-           ORDER BY src.row_id)               AS person_id,  -- order by row_id
+           ORDER BY src.row_id)               AS person_id,
        CASE src.sex
          WHEN 'M' THEN 8507
          WHEN 'F' THEN 8532
@@ -41,7 +41,4 @@ FROM   src.dm src
 WHERE  src.age IS NOT NULL
        AND src.dmdtc IS NOT NULL
        AND src.usubjid IS NOT NULL
---     src.rwn = 1
 ;
-
--- add dedup

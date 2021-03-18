@@ -23,7 +23,7 @@ $ git clone https://github.com/OHDSI/ClinicalTrialsWGETL.git
 $ docker-compose run --rm --service-ports phuse_etl  
 ~~~
 
-After the conversion is done, resultant CDM files (in csv format) are in the data/cdm folder.
+After the conversion is done, resultant CDM tables (in csv format) are in the data/cdm folder.
 
 ## License
 
