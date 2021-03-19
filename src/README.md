@@ -1,1 +1,3 @@
-Code for the conversion lives here
+# High level ETL data flow
+
+![image](../docs/md_files/data_flow.png)
