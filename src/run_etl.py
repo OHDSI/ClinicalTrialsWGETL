@@ -87,6 +87,10 @@ run_script(spark, 'src/sql/cdm_person.sql')
 # populate cdm.observation_period table
 # run_script(spark, 'src/sql/cdm_observation_period.sql')
 
+# create the clinical_events lokkup table
+run_script(spark, 'src/sql/clinical_events.sql')
+
+
 # export cdm.location (empty)
 df = spark.sql('select * from cdm.location')
 df.toPandas().to_csv('data/cdm/location.csv', index=False)
@@ -106,6 +110,10 @@ df.toPandas().to_csv('data/cdm/person.csv', index=False)
 # export cdm.observation_period
 # df = spark.sql('select * from cdm.observation_period')
 # df.toPandas().to_csv('data/cdm/observation_period.csv', index=False)
+
+# export the clinical_events lookup for testing purposes
+df = spark.sql('select * from temp.clinical_events')
+df.toPandas().to_csv('data/cdm/clinical_events_lk.csv', index=False)
 
 # run tests
 run_script(spark, 'qa/integration_tests.sql')
