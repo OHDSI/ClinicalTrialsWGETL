@@ -90,6 +90,9 @@ run_script(spark, 'src/sql/cdm_person.sql')
 # create the clinical_events lokkup table
 run_script(spark, 'src/sql/clinical_events.sql')
 
+# create the clinical_events lokkup table
+run_script(spark, 'src/sql/clinical_events_cleaned.sql')
+
 
 # export cdm.location (empty)
 df = spark.sql('select * from cdm.location')
@@ -114,6 +117,10 @@ df.toPandas().to_csv('data/cdm/person.csv', index=False)
 # export the clinical_events lookup for testing purposes
 df = spark.sql('select * from temp.clinical_events')
 df.toPandas().to_csv('data/cdm/clinical_events_lk.csv', index=False)
+
+# export the clinical_events lookup for testing purposes
+df = spark.sql('select * from temp.clinical_events_cleaned')
+df.toPandas().to_csv('data/cdm/clinical_events_cleaned_lk.csv', index=False)
 
 # run tests
 run_script(spark, 'qa/integration_tests.sql')

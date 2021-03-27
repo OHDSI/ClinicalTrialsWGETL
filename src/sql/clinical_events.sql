@@ -70,7 +70,7 @@ SELECT src.usubjid                    AS person_source_value,
        NULL                           AS route_source_value,
        'PHUSE_MedDRA'                 AS source_vocabulary_id,
        NULL                           AS value_source_vocabulary_id,
-       'Observation'                  AS default_domain_id,
+       'Condition'                  AS default_domain_id,
        32809                          AS event_type_concept_id,  -- Case Report Form
        'AE.1.AELLT'                   AS rule_id,
        'AE'                           AS src_tbl,
