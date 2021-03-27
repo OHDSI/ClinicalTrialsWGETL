@@ -32,10 +32,10 @@ SELECT Row_number()
        src.ethnic                              AS ethnicity_source_value,
        0                                       AS ethnicity_source_concept_id
 FROM   src.dm src
-       LEFT JOIN temp.mapped_source_codes msc_race
+       LEFT JOIN temp.source_codes_mapped msc_race
               ON msc_race.source_code = src.race
                  AND msc_race.source_vocabulary_id = 'PHUSE_DM_RACE_maps_to'
-       LEFT JOIN temp.mapped_source_codes msc_eth
+       LEFT JOIN temp.source_codes_mapped msc_eth
               ON msc_eth.source_code = src.ethnic
                  AND msc_eth.source_vocabulary_id = 'PHUSE_DM_ETHNIC_maps_to'
 WHERE  src.age IS NOT NULL

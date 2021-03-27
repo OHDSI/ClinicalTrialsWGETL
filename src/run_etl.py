@@ -75,11 +75,11 @@ spark.sql("DROP DATABASE IF EXISTS temp CASCADE")
 spark.sql("CREATE DATABASE temp")
 spark.sql("USE temp")
 
-# populate raw_source_codes
-run_script(spark, 'src/sql/raw_source_codes.sql')
+# populate source_codes_raw
+run_script(spark, 'src/sql/source_codes_raw.sql')
 
-# populate mapped_source_codes
-run_script(spark, 'src/sql/mapped_source_codes.sql')
+# populate source_codes_mapped
+run_script(spark, 'src/sql/source_codes_mapped.sql')
 
 # populate cdm.person table
 run_script(spark, 'src/sql/cdm_person.sql')
