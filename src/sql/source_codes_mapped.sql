@@ -22,11 +22,9 @@ CREATE TABLE temp.source_codes_mapped
      invalid_reason          STRING
   ) using parquet;
 
-
 -------------------------------------------------------------------
 -- Load Table: From source_to_concept_map table
 -------------------------------------------------------------------
-
 INSERT INTO temp.source_codes_mapped
 SELECT DISTINCT rsrc.source_code                                          AS
                 source_code,
@@ -77,7 +75,6 @@ WHERE  NOT EXISTS (SELECT 1
 -------------------------------------------------------------------
 -- Load Table: Unmapped codes
 -------------------------------------------------------------------
-
 INSERT INTO temp.source_codes_mapped
 SELECT DISTINCT rsrc.source_code                              AS source_code,
                 rsrc.concept_code                             AS concept_code,
