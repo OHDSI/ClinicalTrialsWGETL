@@ -100,6 +100,10 @@ run_script(spark, 'src/sql/duplicates.sql')
 run_script(spark, 'src/sql/cdm_condition_occurrence.sql')
 
 
+# populate cdm.observation
+run_script(spark, 'src/sql/cdm_observation.sql')
+
+
 # ------------------- export results --------------------
 
 # export cdm.location (empty)
@@ -133,6 +137,10 @@ df.toPandas().to_csv('data/cdm/clinical_events_cleaned_lk.csv', index=False)
 # export cdm.condition_occurrence as csv
 df = spark.sql('select * from cdm.condition_occurrence')
 df.toPandas().to_csv('data/cdm/condition_occurrence.csv', index=False)
+
+# export cdm.observation as csv
+df = spark.sql('select * from cdm.observation')
+df.toPandas().to_csv('data/cdm/observation.csv', index=False)
 
 # run tests
 run_script(spark, 'qa/integration_tests.sql')

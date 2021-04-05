@@ -78,12 +78,12 @@ SELECT src.usubjid                    AS person_source_value,
        src.row_id                     AS src_row
 FROM   src.ae src
 LEFT JOIN (SELECT usubjid,
-                         Row_number()
-                           OVER(
-                             partition BY usubjid
-                             ORDER BY dsstdy DESC) AS num,
-                         Cast(dsstdtc AS DATE)     AS end_date
-                  FROM   src.ds) imp
+                  Row_number()
+                    OVER(
+                      partition BY usubjid
+                      ORDER BY dsstdy DESC) AS num,
+                  Cast(dsstdtc AS DATE)     AS end_date
+            FROM   src.ds) imp
               ON imp.usubjid = src.usubjid
                  AND imp.num = 1;
 

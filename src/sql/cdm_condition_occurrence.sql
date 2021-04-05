@@ -98,5 +98,3 @@ FROM   temp.condition_occurrence tmp
                ON dup.domain_id = 'Condition'
                   AND dup.prededup_id = tmp.condition_occurrence_id
 WHERE  tmp.condition_occurrence_id = dup.postdedup_id;
-
-DROP TABLE temp.condition_occurrence PURGE;
