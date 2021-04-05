@@ -75,17 +75,36 @@ spark.sql("DROP DATABASE IF EXISTS temp CASCADE")
 spark.sql("CREATE DATABASE temp")
 spark.sql("USE temp")
 
-# populate raw_source_codes
-run_script(spark, 'src/sql/raw_source_codes.sql')
+# populate source_codes_raw
+run_script(spark, 'src/sql/source_codes_raw.sql')
 
-# populate mapped_source_codes
-run_script(spark, 'src/sql/mapped_source_codes.sql')
+# populate source_codes_mapped
+run_script(spark, 'src/sql/source_codes_mapped.sql')
 
 # populate cdm.person table
 run_script(spark, 'src/sql/cdm_person.sql')
 
 # populate cdm.observation_period table
 # run_script(spark, 'src/sql/cdm_observation_period.sql')
+
+# create the clinical_events lokkup table
+run_script(spark, 'src/sql/clinical_events.sql')
+
+# create the clinical_events lookup table
+run_script(spark, 'src/sql/clinical_events_cleaned.sql')
+
+# create a table for storing duplicates ids
+run_script(spark, 'src/sql/duplicates.sql')
+
+# populate cdm.condition_occurrence
+run_script(spark, 'src/sql/cdm_condition_occurrence.sql')
+
+
+# populate cdm.observation
+run_script(spark, 'src/sql/cdm_observation.sql')
+
+
+# ------------------- export results --------------------
 
 # export cdm.location (empty)
 df = spark.sql('select * from cdm.location')
@@ -106,6 +125,22 @@ df.toPandas().to_csv('data/cdm/person.csv', index=False)
 # export cdm.observation_period
 # df = spark.sql('select * from cdm.observation_period')
 # df.toPandas().to_csv('data/cdm/observation_period.csv', index=False)
+
+# export the clinical_events lookup for testing purposes
+df = spark.sql('select * from temp.clinical_events')
+df.toPandas().to_csv('data/cdm/clinical_events_lk.csv', index=False)
+
+# export the clinical_events lookup for testing purposes
+df = spark.sql('select * from temp.clinical_events_cleaned')
+df.toPandas().to_csv('data/cdm/clinical_events_cleaned_lk.csv', index=False)
+
+# export cdm.condition_occurrence as csv
+df = spark.sql('select * from cdm.condition_occurrence')
+df.toPandas().to_csv('data/cdm/condition_occurrence.csv', index=False)
+
+# export cdm.observation as csv
+df = spark.sql('select * from cdm.observation')
+df.toPandas().to_csv('data/cdm/observation.csv', index=False)
 
 # run tests
 run_script(spark, 'qa/integration_tests.sql')

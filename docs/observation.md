@@ -272,7 +272,7 @@ Trial outcomes
 
 </br>
 
-### Mapping from Adverse Events: Occurred with Overdose(src.AE.AESOD)
+### Mapping from Adverse Events: Occurred with Overdose (src.AE.AESOD)
 
 </br>
 
@@ -299,7 +299,7 @@ Trial outcomes
 | observation_event_id | cdm.condition_occurrence.</br>condition_occurrence_id,</br>cdm.observation.observation_id | `JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.7.AESOD'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.7.AESOD'`</br>`AND obs.src_row = cdm.observation.src_row`| [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
 | obs_event_field_concept_id |  | `IF co.condition_occurrence_id IS NOT NULL`</br>`THEN populate with 1147127 - condition_occurrence.`</br>`condition_occurrence_id`</br></br>`IF obs.observation_id IS NOT NULL`</br>`THEN populate with 1147165 - observation.observation_id`</br></br>`ELSE populate with 0 (or drop record)`</br></br>`JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.7.AESOD'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.7.AESOD'`</br>`AND obs.src_row = cdm.observation.src_row` | [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
 | value_as_datetime | NULL |  | CDM v6.0 field</br> should be excluded |
-| rule_id |  | Populate with 'AE.7.AESOD' | Temp field for ETL |
+| rule_id |  | Populate with 'AE.6.AESOD' | Temp field for ETL |
 | src |  | Populate with 'AE' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 

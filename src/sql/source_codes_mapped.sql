@@ -2,13 +2,11 @@
 -- Observational Health Data Sciences and Informatics
 -- Clinical Trials Workgroup
 -------------------------------------------------------------------
+DROP TABLE IF EXISTS temp.source_codes_mapped PURGE;
 
-DROP TABLE IF EXISTS temp.mapped_source_codes PURGE;
-
-CREATE TABLE temp.mapped_source_codes
+CREATE TABLE temp.source_codes_mapped
   (
      source_code             STRING,
-     concept_code            STRING,
      source_concept_id       INT,
      source_vocabulary_id    STRING,
      source_code_description STRING,
@@ -22,16 +20,12 @@ CREATE TABLE temp.mapped_source_codes
      invalid_reason          STRING
   ) using parquet;
 
-
 -------------------------------------------------------------------
 -- Load Table: From source_to_concept_map table
 -------------------------------------------------------------------
-
-INSERT INTO temp.mapped_source_codes
+INSERT INTO temp.source_codes_mapped
 SELECT DISTINCT rsrc.source_code                                          AS
                 source_code,
-                rsrc.concept_code                                         AS
-                concept_code,
                 stcm.source_concept_id                                    AS
                 source_concept_id,
                 rsrc.vocabulary_id                                        AS
@@ -54,9 +48,9 @@ SELECT DISTINCT rsrc.source_code                                          AS
                 valid_end_date,
                 NULL                                                      AS
                 invalid_reason
-FROM   temp.raw_source_codes rsrc
+FROM   temp.source_codes_raw rsrc
        INNER JOIN vocab.source_to_concept_map stcm
-               ON stcm.source_code = rsrc.concept_code
+               ON stcm.source_code = rsrc.source_code
                   AND stcm.source_vocabulary_id = rsrc.vocabulary_id
                   AND stcm.invalid_reason IS NULL
        LEFT JOIN vocab.concept cs
@@ -71,16 +65,14 @@ FROM   temp.raw_source_codes rsrc
                  AND vstcm.invalid_reason IS NULL
 WHERE  NOT EXISTS (SELECT 1
                    FROM   vocab.concept
-                   WHERE  concept_code = rsrc.concept_code
+                   WHERE  concept_code = rsrc.source_code
                           AND vocabulary_id = rsrc.vocabulary_id);
 
 -------------------------------------------------------------------
 -- Load Table: Unmapped codes
 -------------------------------------------------------------------
-
-INSERT INTO temp.mapped_source_codes
+INSERT INTO temp.source_codes_mapped
 SELECT DISTINCT rsrc.source_code                              AS source_code,
-                rsrc.concept_code                             AS concept_code,
                 0                                             AS
                 source_concept_id,
                 rsrc.vocabulary_id                            AS
@@ -101,12 +93,12 @@ SELECT DISTINCT rsrc.source_code                              AS source_code,
                 valid_start_date,
                 To_date('2099-12-31')                         AS valid_end_date,
                 NULL                                          AS invalid_reason
-FROM   temp.raw_source_codes rsrc
+FROM   temp.source_codes_raw rsrc
 WHERE  NOT EXISTS (SELECT 1
                    FROM   vocab.concept
-                   WHERE  concept_code = rsrc.concept_code
+                   WHERE  concept_code = rsrc.source_code
                           AND vocabulary_id = rsrc.vocabulary_id)
        AND NOT EXISTS (SELECT 1
                        FROM   vocab.source_to_concept_map
-                       WHERE  source_code = rsrc.concept_code
+                       WHERE  source_code = rsrc.source_code
                               AND source_vocabulary_id = rsrc.vocabulary_id);

@@ -3,14 +3,14 @@
 -- Clinical Trials Workgroup
 -- Based on official OHDSI DDL script for CDM v.5.3.1
 -- available at https://github.com/OHDSI/CommonDataModel
--- with additional fields in the measurement and observation tables
--- specific to Clinical Trials
+-- with two additional fields in the measurement and observation tables
+-- specific to Clinical Trials and three extra fields in each cdm table
+-- (except for vocabs and metadata tables) for testing
 -------------------------------------------------------------------
 
 -------------------------------------------------------------------
 -- Standardized vocabulary
 -------------------------------------------------------------------
-
 DROP DATABASE IF EXISTS vocab CASCADE;
 
 CREATE DATABASE vocab;
@@ -120,7 +120,6 @@ CREATE TABLE vocab.drug_strength
 -------------------------------------------------------------------
 --
 -------------------------------------------------------------------
-
 CREATE TABLE vocab.cohort_definition
   (
      cohort_definition_id          INT,
@@ -178,7 +177,6 @@ CREATE TABLE cdm.metadata
 -------------------------------------------------------------------
 -- Standardized clinical data
 -------------------------------------------------------------------
-
 CREATE TABLE cdm.person
   (
      person_id                   INT,
@@ -198,7 +196,10 @@ CREATE TABLE cdm.person
      race_source_value           STRING,
      race_source_concept_id      INT,
      ethnicity_source_value      STRING,
-     ethnicity_source_concept_id INT
+     ethnicity_source_concept_id INT,
+     rule_id                     STRING,
+     src_tbl                     STRING,
+     src_row                     INT
   ) using parquet;
 
 CREATE TABLE cdm.observation_period
@@ -207,7 +208,10 @@ CREATE TABLE cdm.observation_period
      person_id                     INT,
      observation_period_start_date TIMESTAMP,
      observation_period_end_date   TIMESTAMP,
-     period_type_concept_id        INT
+     period_type_concept_id        INT,
+     rule_id                       STRING,
+     src_tbl                       STRING,
+     src_row                       INT
   ) using parquet;
 
 CREATE TABLE cdm.specimen
@@ -226,7 +230,10 @@ CREATE TABLE cdm.specimen
      specimen_source_value       STRING,
      unit_source_value           STRING,
      anatomic_site_source_value  STRING,
-     disease_status_source_value STRING
+     disease_status_source_value STRING,
+     rule_id                     STRING,
+     src_tbl                     STRING,
+     src_row                     INT
   ) using parquet;
 
 CREATE TABLE cdm.death
@@ -237,7 +244,10 @@ CREATE TABLE cdm.death
      death_type_concept_id   INT,
      cause_concept_id        INT,
      cause_source_value      STRING,
-     cause_source_concept_id INT
+     cause_source_concept_id INT,
+     rule_id                 STRING,
+     src_tbl                 STRING,
+     src_row                 INT
   ) using parquet;
 
 CREATE TABLE cdm.visit_occurrence
@@ -258,7 +268,10 @@ CREATE TABLE cdm.visit_occurrence
      admitting_source_value        STRING,
      discharge_to_concept_id       INT,
      discharge_to_source_value     STRING,
-     preceding_visit_occurrence_id INT
+     preceding_visit_occurrence_id INT,
+     rule_id                       STRING,
+     src_tbl                       STRING,
+     src_row                       INT
   ) using parquet;
 
 CREATE TABLE cdm.visit_detail
@@ -281,7 +294,10 @@ CREATE TABLE cdm.visit_detail
      admitting_source_value         STRING,
      discharge_to_source_value      STRING,
      visit_detail_parent_id         INT,
-     visit_occurrence_id            INT
+     visit_occurrence_id            INT,
+     rule_id                        STRING,
+     src_tbl                        STRING,
+     src_row                        INT
   ) using parquet;
 
 CREATE TABLE cdm.procedure_occurrence
@@ -299,7 +315,10 @@ CREATE TABLE cdm.procedure_occurrence
      visit_detail_id             INT,
      procedure_source_value      STRING,
      procedure_source_concept_id INT,
-     modifier_source_value       STRING
+     modifier_source_value       STRING,
+     rule_id                     STRING,
+     src_tbl                     STRING,
+     src_row                     INT
   ) using parquet;
 
 CREATE TABLE cdm.drug_exposure
@@ -326,7 +345,10 @@ CREATE TABLE cdm.drug_exposure
      drug_source_value            STRING,
      drug_source_concept_id       INT,
      route_source_value           STRING,
-     dose_unit_source_value       STRING
+     dose_unit_source_value       STRING,
+     rule_id                      STRING,
+     src_tbl                      STRING,
+     src_row                      INT
   ) using parquet;
 
 CREATE TABLE cdm.device_exposure
@@ -345,7 +367,10 @@ CREATE TABLE cdm.device_exposure
      visit_occurrence_id            INT,
      visit_detail_id                INT,
      device_source_value            STRING,
-     device_source_concept_id       INT
+     device_source_concept_id       INT,
+     rule_id                        STRING,
+     src_tbl                        STRING,
+     src_row                        INT
   ) using parquet;
 
 CREATE TABLE cdm.condition_occurrence
@@ -365,7 +390,10 @@ CREATE TABLE cdm.condition_occurrence
      condition_source_value        STRING,
      condition_source_concept_id   INT,
      condition_status_source_value STRING,
-     condition_status_concept_id   INT
+     condition_status_concept_id   INT,
+     rule_id                       STRING,
+     src_tbl                       STRING,
+     src_row                       INT
   ) using parquet;
 
 CREATE TABLE cdm.measurement
@@ -391,7 +419,10 @@ CREATE TABLE cdm.measurement
      unit_source_value             STRING,
      value_source_value            STRING,
      modifier_of_event_id          INT,
-     modifier_of_field_concept_id  INT
+     modifier_of_field_concept_id  INT,
+     rule_id                       STRING,
+     src_tbl                       STRING,
+     src_row                       INT
   ) using parquet;
 
 CREATE TABLE cdm.note
@@ -409,7 +440,10 @@ CREATE TABLE cdm.note
      provider_id           INT,
      visit_occurrence_id   INT,
      visit_detail_id       INT,
-     note_source_value     STRING
+     note_source_value     STRING,
+     rule_id               STRING,
+     src_tbl               STRING,
+     src_row               INT
   ) using parquet;
 
 CREATE TABLE cdm.note_nlp
@@ -427,7 +461,10 @@ CREATE TABLE cdm.note_nlp
      nlp_datetime               TIMESTAMP,
      term_exists                STRING,
      term_temporal              STRING,
-     term_modifiers             STRING
+     term_modifiers             STRING,
+     rule_id                    STRING,
+     src_tbl                    STRING,
+     src_row                    INT
   ) using parquet;
 
 CREATE TABLE cdm.observation
@@ -451,7 +488,10 @@ CREATE TABLE cdm.observation
      unit_source_value             STRING,
      qualifier_source_value        STRING,
      observation_event_id          INT,
-     obs_event_field_concept_id    INT
+     obs_event_field_concept_id    INT,
+     rule_id                       STRING,
+     src_tbl                       STRING,
+     src_row                       INT
   ) using parquet;
 
 CREATE TABLE cdm.fact_relationship
@@ -460,14 +500,16 @@ CREATE TABLE cdm.fact_relationship
      fact_id_1               INT,
      domain_concept_id_2     INT,
      fact_id_2               INT,
-     relationship_concept_id INT
+     relationship_concept_id INT,
+     rule_id                 STRING,
+     src_tbl                 STRING,
+     src_row                 INT
   ) using parquet;
 
 
 -------------------------------------------------------------------
 -- Standardized health system data
 -------------------------------------------------------------------
-
 CREATE TABLE cdm.location
   (
      location_id           INT,
@@ -477,7 +519,10 @@ CREATE TABLE cdm.location
      state                 STRING,
      zip                   STRING,
      county                STRING,
-     location_source_value STRING
+     location_source_value STRING,
+     rule_id               STRING,
+     src_tbl               STRING,
+     src_row               INT
   ) using parquet;
 
 CREATE TABLE cdm.care_site
@@ -487,7 +532,10 @@ CREATE TABLE cdm.care_site
      place_of_service_concept_id   INT,
      location_id                   INT,
      care_site_source_value        STRING,
-     place_of_service_source_value STRING
+     place_of_service_source_value STRING,
+     rule_id                       STRING,
+     src_tbl                       STRING,
+     src_row                       INT
   ) using parquet;
 
 CREATE TABLE cdm.provider
@@ -504,14 +552,16 @@ CREATE TABLE cdm.provider
      specialty_source_value      STRING,
      specialty_source_concept_id INT,
      gender_source_value         STRING,
-     gender_source_concept_id    INT
+     gender_source_concept_id    INT,
+     rule_id                     STRING,
+     src_tbl                     STRING,
+     src_row                     INT
   ) using parquet;
 
 
 -------------------------------------------------------------------
 -- Standardized health economics
 -------------------------------------------------------------------
-
 CREATE TABLE cdm.payer_plan_period
   (
      payer_plan_period_id          INT,
@@ -530,7 +580,10 @@ CREATE TABLE cdm.payer_plan_period
      family_source_value           STRING,
      stop_reason_concept_id        INT,
      stop_reason_source_value      STRING,
-     stop_reason_source_concept_id INT
+     stop_reason_source_concept_id INT,
+     rule_id                       STRING,
+     src_tbl                       STRING,
+     src_row                       INT
   ) using parquet;
 
 CREATE TABLE cdm.cost
@@ -556,13 +609,15 @@ CREATE TABLE cdm.cost
      revenue_code_concept_id   INT,
      revenue_code_source_value STRING,
      drg_concept_id            INT,
-     drg_source_value          STRING
+     drg_source_value          STRING,
+     rule_id                   STRING,
+     src_tbl                   STRING,
+     src_row                   INT
   ) using parquet;
 
 -------------------------------------------------------------------
 -- Standardized derived elements
 -------------------------------------------------------------------
-
 CREATE TABLE cdm.cohort
   (
      cohort_definition_id INT,

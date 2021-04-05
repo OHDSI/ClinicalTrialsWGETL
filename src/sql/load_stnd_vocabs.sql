@@ -2,7 +2,6 @@
 -- Observational Health Data Sciences and Informatics
 -- Clinical Trials Workgroup
 -------------------------------------------------------------------
-
 TRUNCATE TABLE vocab.concept_ancestor;
 
 INSERT INTO vocab.concept_ancestor
