@@ -30,7 +30,10 @@ SELECT Row_number()
        src.race                                AS race_source_value,
        0                                       AS race_source_concept_id,
        src.ethnic                              AS ethnicity_source_value,
-       0                                       AS ethnicity_source_concept_id
+       0                                       AS ethnicity_source_concept_id,
+       'person'                                AS rule_id,
+       'dm'                                    AS src_tbl,
+       src.row_id                              AS src_row
 FROM   src.dm src
        LEFT JOIN temp.source_codes_mapped msc_race
               ON msc_race.source_code = src.race

@@ -8,7 +8,6 @@ DROP TABLE IF EXISTS temp.source_codes_mapped PURGE;
 CREATE TABLE temp.source_codes_mapped
   (
      source_code             STRING,
-     concept_code            STRING,
      source_concept_id       INT,
      source_vocabulary_id    STRING,
      source_code_description STRING,
@@ -28,8 +27,6 @@ CREATE TABLE temp.source_codes_mapped
 INSERT INTO temp.source_codes_mapped
 SELECT DISTINCT rsrc.source_code                                          AS
                 source_code,
-                rsrc.concept_code                                         AS
-                concept_code,
                 stcm.source_concept_id                                    AS
                 source_concept_id,
                 rsrc.vocabulary_id                                        AS
@@ -54,7 +51,7 @@ SELECT DISTINCT rsrc.source_code                                          AS
                 invalid_reason
 FROM   temp.source_codes_raw rsrc
        INNER JOIN vocab.source_to_concept_map stcm
-               ON stcm.source_code = rsrc.concept_code
+               ON stcm.source_code = rsrc.source_code
                   AND stcm.source_vocabulary_id = rsrc.vocabulary_id
                   AND stcm.invalid_reason IS NULL
        LEFT JOIN vocab.concept cs
@@ -69,7 +66,7 @@ FROM   temp.source_codes_raw rsrc
                  AND vstcm.invalid_reason IS NULL
 WHERE  NOT EXISTS (SELECT 1
                    FROM   vocab.concept
-                   WHERE  concept_code = rsrc.concept_code
+                   WHERE  concept_code = rsrc.source_code
                           AND vocabulary_id = rsrc.vocabulary_id);
 
 -------------------------------------------------------------------
@@ -77,7 +74,6 @@ WHERE  NOT EXISTS (SELECT 1
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_mapped
 SELECT DISTINCT rsrc.source_code                              AS source_code,
-                rsrc.concept_code                             AS concept_code,
                 0                                             AS
                 source_concept_id,
                 rsrc.vocabulary_id                            AS
@@ -101,9 +97,9 @@ SELECT DISTINCT rsrc.source_code                              AS source_code,
 FROM   temp.source_codes_raw rsrc
 WHERE  NOT EXISTS (SELECT 1
                    FROM   vocab.concept
-                   WHERE  concept_code = rsrc.concept_code
+                   WHERE  concept_code = rsrc.source_code
                           AND vocabulary_id = rsrc.vocabulary_id)
        AND NOT EXISTS (SELECT 1
                        FROM   vocab.source_to_concept_map
-                       WHERE  source_code = rsrc.concept_code
+                       WHERE  source_code = rsrc.source_code
                               AND source_vocabulary_id = rsrc.vocabulary_id);

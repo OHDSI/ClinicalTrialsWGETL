@@ -7,12 +7,12 @@ DROP TABLE IF EXISTS temp.clinical_events_cleaned PURGE;
 
 CREATE TABLE temp.clinical_events_cleaned
   (
-     person_id                  BIGINT,
+     person_id                  INT,
      event_start_date           TIMESTAMP,
      event_start_datetime       TIMESTAMP,
      event_end_date             TIMESTAMP,
      event_end_datetime         TIMESTAMP,
-     visit_occurrence_id        BIGINT,
+     visit_occurrence_id        INT,
      operator_source_value      STRING,
      event_source_value         STRING,
      value_source_value         STRING,
@@ -129,3 +129,6 @@ WHERE  src.event_source_value IS NOT NULL
                               AND Coalesce(src.event_end_date,
                                   src.event_start_date) >
                                   Date_add(dth.death_date, 60));
+
+
+DROP TABLE temp.tmp_cleaned_clinical_events PURGE;

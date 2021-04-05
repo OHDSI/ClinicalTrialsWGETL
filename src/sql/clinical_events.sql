@@ -72,8 +72,8 @@ SELECT src.usubjid                    AS person_source_value,
        NULL                           AS value_source_vocabulary_id,
        'Condition'                  AS default_domain_id,
        32809                          AS event_type_concept_id,  -- Case Report Form
-       'AE.1.AELLT'                   AS rule_id,
-       'AE'                           AS src_tbl,
+       'ae.1.aellt'                   AS rule_id,
+       'ae'                           AS src_tbl,
        src.row_id                     AS src_row
 FROM   src.ae src
 LEFT JOIN (SELECT usubjid,
@@ -116,8 +116,8 @@ SELECT src.usubjid                    AS person_source_value,
        NULL                           AS value_source_vocabulary_id,
        'Observation'                  AS default_domain_id,
        32809                          AS event_type_concept_id,  -- Case Report Form
-       'AE.2.AESEV'                   AS rule_id,
-       'AE'                           AS src_tbl,
+       'ae.2.aesev'                   AS rule_id,
+       'ae'                           AS src_tbl,
        src.row_id                     AS src_row
 FROM   src.ae src;
 
@@ -151,8 +151,8 @@ SELECT src.usubjid                    AS person_source_value,
        NULL                           AS value_source_vocabulary_id,
        'Observation'                  AS default_domain_id,
        32809                          AS event_type_concept_id,  -- Case Report Form
-       'AE.3.AESER'                   AS rule_id,
-       'AE'                           AS src_tbl,
+       'ae.3.aeser'                   AS rule_id,
+       'ae'                           AS src_tbl,
        src.row_id                     AS src_row
 FROM   src.ae src;
 
@@ -186,8 +186,8 @@ SELECT src.usubjid                    AS person_source_value,
        NULL                           AS value_source_vocabulary_id,
        'Observation'                  AS default_domain_id,
        32809                          AS event_type_concept_id,  -- Case Report Form
-       'AE.4.AEREL'                   AS rule_id,
-       'AE'                           AS src_tbl,
+       'ae.4.aerel'                   AS rule_id,
+       'ae'                           AS src_tbl,
        src.row_id                     AS src_row
 FROM   src.ae src;
 
@@ -221,8 +221,8 @@ SELECT src.usubjid                    AS person_source_value,
        NULL                           AS value_source_vocabulary_id,
        'Observation'                  AS default_domain_id,
        32809                          AS event_type_concept_id,  -- Case Report Form
-       'AE.5.AEOUT'                   AS rule_id,
-       'AE'                           AS src_tbl,
+       'ae.5.aeout'                   AS rule_id,
+       'ae'                           AS src_tbl,
        src.row_id                     AS src_row
 FROM   src.ae src;
 
@@ -256,7 +256,7 @@ SELECT src.usubjid                    AS person_source_value,
        NULL                           AS value_source_vocabulary_id,
        'Observation'                  AS default_domain_id,
        32809                          AS event_type_concept_id,  -- Case Report Form
-       'AE.6.AESOD'                   AS rule_id,
-       'AE'                           AS src_tbl,
+       'ae.6.aesod'                   AS rule_id,
+       'ae'                           AS src_tbl,
        src.row_id                     AS src_row
 FROM   src.ae src;
