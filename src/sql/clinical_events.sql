@@ -2,7 +2,6 @@
 -- Observational Health Data Sciences and Informatics
 -- Clinical Trials Workgroup
 -------------------------------------------------------------------
-
 DROP TABLE IF EXISTS temp.clinical_events PURGE;
 
 CREATE TABLE temp.clinical_events

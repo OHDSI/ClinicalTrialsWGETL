@@ -2,7 +2,6 @@
 -- Observational Health Data Sciences and Informatics
 -- Clinical Trials Workgroup
 -------------------------------------------------------------------
-
 DROP TABLE IF EXISTS temp.source_codes_mapped PURGE;
 
 CREATE TABLE temp.source_codes_mapped

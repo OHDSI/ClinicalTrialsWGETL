@@ -2,9 +2,7 @@
 -- Observational Health Data Sciences and Informatics
 -- Clinical Trials Workgroup
 -------------------------------------------------------------------
-
 TRUNCATE TABLE cdm.person;
-
 
 INSERT INTO cdm.person
 SELECT Row_number()

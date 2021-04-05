@@ -11,7 +11,6 @@
 -------------------------------------------------------------------
 -- Standardized vocabulary
 -------------------------------------------------------------------
-
 DROP DATABASE IF EXISTS vocab CASCADE;
 
 CREATE DATABASE vocab;
@@ -121,7 +120,6 @@ CREATE TABLE vocab.drug_strength
 -------------------------------------------------------------------
 --
 -------------------------------------------------------------------
-
 CREATE TABLE vocab.cohort_definition
   (
      cohort_definition_id          INT,
@@ -179,7 +177,6 @@ CREATE TABLE cdm.metadata
 -------------------------------------------------------------------
 -- Standardized clinical data
 -------------------------------------------------------------------
-
 CREATE TABLE cdm.person
   (
      person_id                   INT,
@@ -513,7 +510,6 @@ CREATE TABLE cdm.fact_relationship
 -------------------------------------------------------------------
 -- Standardized health system data
 -------------------------------------------------------------------
-
 CREATE TABLE cdm.location
   (
      location_id           INT,
@@ -566,7 +562,6 @@ CREATE TABLE cdm.provider
 -------------------------------------------------------------------
 -- Standardized health economics
 -------------------------------------------------------------------
-
 CREATE TABLE cdm.payer_plan_period
   (
      payer_plan_period_id          INT,
@@ -623,7 +618,6 @@ CREATE TABLE cdm.cost
 -------------------------------------------------------------------
 -- Standardized derived elements
 -------------------------------------------------------------------
-
 CREATE TABLE cdm.cohort
   (
      cohort_definition_id INT,
