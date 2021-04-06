@@ -266,3 +266,40 @@ SELECT src.usubjid                    AS person_source_value,
        'ae'                           AS src_tbl,
        src.row_id                     AS src_row
 FROM   src.ae src;
+
+-------------------------------------------------------------------
+-- AE: Persistant or Significant Disability/Incapacity
+-------------------------------------------------------------------
+INSERT INTO temp.clinical_events
+SELECT src.usubjid                 AS person_source_value,
+       Cast(src.aestdtc AS date)   AS event_start_date,
+       NULL                        AS event_start_datetime,
+       NULL                        AS event_end_date,
+       NULL                        AS event_end_datetime,
+       NULL                        AS operator_source_value,
+       NULL                        AS visit_source_value,
+       'Persist or Signif Disability/Incapacity'
+       || '|'
+       || src.aesdisab             AS event_source_value,
+       NULL                        AS value_source_value,
+       NULL                        AS value_as_number,
+       NULL                        AS value_as_string,
+       NULL                        AS range_low,
+       NULL                        AS range_high,
+       NULL                        AS unit_source_value,
+       NULL                        AS frequency,
+       NULL                        AS quantity,
+       NULL                        AS days_supply,
+       NULL                        AS sig,
+       NULL                        AS stop_reason,
+       NULL                        AS route_source_value,
+       'PHUSE_AE_AESDISAB'         AS source_vocabulary_id,
+       'PHUSE_Unknown_AE_AESDISAB' AS default_vocabulary_id,
+       NULL                        AS value_source_vocabulary_id,
+       'Observation'               AS default_domain_id,
+       32809                       AS event_type_concept_id,-- Case Report Form
+       'ae.7.aesdisab'             AS rule_id,
+       'ae'                        AS src_tbl,
+       src.row_id                  AS src_row
+FROM   src.ae src
+WHERE  src.aesdisab = 'Y'; 

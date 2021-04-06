@@ -137,3 +137,23 @@ SELECT DISTINCT 'Observation'            AS domain_id,
                    end                   AS concept_name
 FROM   src.ae src
 WHERE  src.aesod IS NOT NULL;
+
+-------------------------------------------------------------------
+-- AE: Persistant or Significant Disability/Incapacity
+-------------------------------------------------------------------
+INSERT INTO temp.source_codes_raw
+SELECT DISTINCT 'Condition'                 AS domain_id,
+                'PHUSE_AE_AESDISAB'         AS vocabulary_id,
+                'PHUSE_Unknown_AE_AESDISAB' AS default_vocabulary_id,
+                'Persist or Signif Disability/Incapacity'
+                || '|'
+                || src.aesdisab             AS source_code,
+                'Occurred with Overdose'
+                || '|'
+                || CASE
+                     WHEN src.aesdisab = 'Y' THEN 'Yes'
+                     WHEN src.aesdisab = 'N' THEN 'No'
+                     ELSE ''
+                   end                      AS concept_name
+FROM   src.ae src
+WHERE  src.aesdisab IS NOT NULL; 
