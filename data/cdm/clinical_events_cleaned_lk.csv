@@ -5761,3 +5761,4 @@ person_id,event_start_date,event_start_datetime,event_end_date,event_end_datetim
 306,2013-01-16,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,959
 306,2013-01-21,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,960
 306,2013-02-04,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,961
+172,2013-04-14,,,,,,Persist or Signif Disability/Incapacity|Y,,,,,,,,,,,,,PHUSE_AE_AESDISAB,PHUSE_Unknown_AE_AESDISAB,,Observation,32809,ae.7.aesdisab,ae,525

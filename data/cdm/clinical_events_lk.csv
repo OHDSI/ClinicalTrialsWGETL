@@ -5999,3 +5999,4 @@ person_source_value,event_start_date,event_start_datetime,event_end_date,event_e
 ,2013-02-04,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,998
 ,2013-02-04,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,999
 ,2013-02-04,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,1000
+01-709-1285,2013-04-14,,,,,,Persist or Signif Disability/Incapacity|Y,,,,,,,,,,,,,PHUSE_AE_AESDISAB,PHUSE_Unknown_AE_AESDISAB,,Observation,32809,ae.7.aesdisab,ae,525
