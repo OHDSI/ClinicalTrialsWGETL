@@ -22,15 +22,15 @@
 | provider_id |  |  |  |
 | visit_occurrence_id |  |  |  |
 | visit_detail_id |  |  |  |
-| observation_source_value |  |  |  |
+| observation_source_value |  | ??? |  |
 | observation_source_concept_id |  |  |  |
 | unit_source_value |  |  |  |
 | qualifier_source_value |  |  |  |
 | observation_event_id |  |  |  |
 | obs_event_field_concept_id |  |  |  |
 | value_as_datetime |  |  |  |
-| rule_id |  | Populate with 'DM.????' | Temp field for ETL |
-| src |  | Populate with 'DM' | Temp field for ETL |
+| rule_id |  | Populate with 'dm.1.arm'? | Temp field for ETL |
+| src |  | Populate with 'dm' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 
 </br></br>
@@ -66,8 +66,8 @@ Trial outcomes
 | observation_event_id |  |  |  |
 | obs_event_field_concept_id |  |  |  |
 | value_as_datetime |  |  |  |
-| rule_id |  | Populate with 'DS.????' | Temp field for ETL |
-| src |  | Populate with 'DS' | Temp field for ETL |
+| rule_id |  | Populate with 'ds.1.dsdecod' | Temp field for ETL |
+| src |  | Populate with 'ds' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 
 </br></br>
@@ -94,15 +94,15 @@ Trial outcomes
 | provider_id |  |  |  |
 | visit_occurrence_id |  |  | visit_occurrence_id for visit associated with the unscheduled visit reason |
 | visit_detail_id |  |  |  |
-| observation_source_value |  |  |  |
+| observation_source_value |  | ??? |  |
 | observation_source_concept_id |  |  | new concept ID for "unscheduled visit reason"? |
 | unit_source_value |  |  |  |
 | qualifier_source_value |  |  |  |
 | observation_event_id |  |  |  |
 | obs_event_field_concept_id |  |  | visit_concept_id for visit associated with the unscheduled visit reason |
 | value_as_datetime |  |  |  |
-| rule_id |  | Populate with 'SV.????' | Temp field for ETL |
-| src |  | Populate with 'SV' | Temp field for ETL |
+| rule_id |  | Populate with 'sv.1.'?? | Temp field for ETL |
+| src |  | Populate with 'sv' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 
 </br></br>
@@ -115,13 +115,13 @@ Trial outcomes
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
 | person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = src.ae.usubjid` |  |
-| observation_concept_id | msc.target_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN mapped_source_codes msc`</br> `ON msc.source_code = src.ae.aellt`</br> `AND msc.source_vocabulary_id = 'PHUSE_MedDRA'` |  |
+| observation_concept_id | msc.target_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = src.ae.aellt`</br> `AND msc.source_vocabulary_id = 'PHUSE_MedDRA'` |  |
 | observation_date | src.ae.aestdtc |  |  |
 | observation_datetime | NULL |  |  |
 | observation_type_concept_id |  | Populate with 32809 | Case Report Form |
 | value_as_number | NULL |  |  |
 | value_as_string | NULL |  |  |
-| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN mapped_source_codes msc`</br> `ON msc.source_code = src.ae.aellt`</br> `AND msc.source_vocabulary_id = 'PHUSE_MedDRA'` |  |
+| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = src.ae.aellt`</br> `AND msc.source_vocabulary_id = 'PHUSE_MedDRA'` |  |
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  | [THEMIS #11](https://github.com/OHDSI/Themis/issues/11) |
 | provider_id | NULL |  |  |
@@ -134,8 +134,8 @@ Trial outcomes
 | observation_event_id | NULL |  |  |
 | obs_event_field_concept_id |  | Populate with 0 |  |
 | value_as_datetime | NULL |  | CDM v6.0 field</br> should be excluded |
-| rule_id |  | Populate with 'AE.1.AELLT' | Temp field for ETL |
-| src |  | Populate with 'AE' | Temp field for ETL |
+| rule_id |  | Populate with 'ae.1.aellt' | Temp field for ETL |
+| src |  | Populate with 'ae' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 
 </br></br>
@@ -148,13 +148,13 @@ Trial outcomes
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
 | person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = src.ae.usubjid` |  |
-| observation_concept_id | msc.target_concept_id | `LEFT JOIN mapped_source_codes msc`</br> <code>ON msc.source_code = 'Severity/Intensity'</code></br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124;src.ae.aesev</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESEV'` |  |
+| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br> <code>ON msc.source_code = 'Severity/Intensity'</code></br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124;src.ae.aesev</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESEV'` |  |
 | observation_date | src.ae.aestdtc |  |  |
 | observation_datetime | NULL |  |  |
 | observation_type_concept_id |  | Populate with 32809 | Case Report Form |
 | value_as_number | NULL |  |  |
 | value_as_string | src.ae.aesev |  |  |
-| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN mapped_source_codes msc`</br> <code>ON msc.source_code = 'Severity/Intensity'</code></br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124;src.ae.aesev</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESEV'` |  |
+| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> <code>ON msc.source_code = 'Severity/Intensity'</code></br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124;src.ae.aesev</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESEV'` |  |
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  | [THEMIS #11](https://github.com/OHDSI/Themis/issues/11) |
 | provider_id | NULL |  |  |
@@ -164,11 +164,11 @@ Trial outcomes
 | observation_source_concept_id |  | Populate with 0 |  |
 | unit_source_value | NULL |  |  |
 | qualifier_source_value | NULL |  |  |
-| observation_event_id | cdm.condition_occurrence.</br>condition_occurrence_id,</br>cdm.observation.observation_id | `JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.2.AESEV'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.2.AESEV'`</br>`AND obs.src_row = cdm.observation.src_row`| [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
-| obs_event_field_concept_id |  | `IF co.condition_occurrence_id IS NOT NULL`</br>`THEN populate with 1147127 - condition_occurrence.`</br>`condition_occurrence_id`</br></br>`IF obs.observation_id IS NOT NULL`</br>`THEN populate with 1147165 - observation.observation_id`</br></br>`ELSE populate with 0 (or drop record)`</br></br>`JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.2.AESEV'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.2.AESEV'`</br>`AND obs.src_row = cdm.observation.src_row` | [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
+| observation_event_id | cdm.condition_occurrence.</br>condition_occurrence_id,</br>cdm.observation.observation_id | `JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.2.aesev'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.2.aesev'`</br>`AND obs.src_row = cdm.observation.src_row`| [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
+| obs_event_field_concept_id |  | `IF co.condition_occurrence_id IS NOT NULL`</br>`THEN populate with 1147127 - condition_occurrence.`</br>`condition_occurrence_id`</br></br>`IF obs.observation_id IS NOT NULL`</br>`THEN populate with 1147165 - observation.observation_id`</br></br>`ELSE populate with 0 (or drop record)`</br></br>`JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.2.aesev'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.2.aesev'`</br>`AND obs.src_row = cdm.observation.src_row` | [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
 | value_as_datetime | NULL |  | CDM v6.0 field</br> should be excluded |
-| rule_id |  | Populate with 'AE.2.AESEV' | Temp field for ETL |
-| src |  | Populate with 'AE' | Temp field for ETL |
+| rule_id |  | Populate with 'ae.2.aesev' | Temp field for ETL |
+| src |  | Populate with 'ae' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 
 </br>
@@ -181,13 +181,13 @@ Trial outcomes
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
 | person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = src.ae.usubjid` |  |
-| observation_concept_id | msc.target_concept_id | `LEFT JOIN mapped_source_codes msc`</br>`ON msc.source_code = 'Serious Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeser</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESER'` |  |
+| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br>`ON msc.source_code = 'Serious Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeser</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESER'` |  |
 | observation_date | src.ae.aestdtc |  |  |
 | observation_datetime | NULL |  |  |
 | observation_type_concept_id |  | Populate with 32809 | Case Report Form |
 | value_as_number | NULL |  |  |
 | value_as_string | NULL |  |  |
-| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN mapped_source_codes msc`</br> `ON msc.source_code = 'Serious Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeser</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESER'` |  |
+| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = 'Serious Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeser</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESER'` |  |
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  | [THEMIS #11](https://github.com/OHDSI/Themis/issues/11) |
 | provider_id | NULL |  |  |
@@ -197,11 +197,11 @@ Trial outcomes
 | observation_source_concept_id |  | Populate with 0 |  |
 | unit_source_value | NULL |  |  |
 | qualifier_source_value | NULL |  |  |
-| observation_event_id | cdm.condition_occurrence.</br>condition_occurrence_id,</br>cdm.observation.observation_id | `JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.3.AESER'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.3.AESER'`</br>`AND obs.src_row = cdm.observation.src_row`| [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
-| obs_event_field_concept_id |  | `IF co.condition_occurrence_id IS NOT NULL`</br>`THEN populate with 1147127 - condition_occurrence.`</br>`condition_occurrence_id`</br></br>`IF obs.observation_id IS NOT NULL`</br>`THEN populate with 1147165 - observation.observation_id`</br></br>`ELSE populate with 0 (or drop record)`</br></br>`JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.3.AESER'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.3.AESER'`</br>`AND obs.src_row = cdm.observation.src_row` | [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
+| observation_event_id | cdm.condition_occurrence.</br>condition_occurrence_id,</br>cdm.observation.observation_id | `JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.3.aeser'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.3.aeser'`</br>`AND obs.src_row = cdm.observation.src_row`| [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
+| obs_event_field_concept_id |  | `IF co.condition_occurrence_id IS NOT NULL`</br>`THEN populate with 1147127 - condition_occurrence.`</br>`condition_occurrence_id`</br></br>`IF obs.observation_id IS NOT NULL`</br>`THEN populate with 1147165 - observation.observation_id`</br></br>`ELSE populate with 0 (or drop record)`</br></br>`JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.3.aeser'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.3.aeser'`</br>`AND obs.src_row = cdm.observation.src_row` | [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
 | value_as_datetime | NULL |  | CDM v6.0 field</br> should be excluded |
-| rule_id |  | Populate with 'AE.3.AESER' | Temp field for ETL |
-| src |  | Populate with 'AE' | Temp field for ETL |
+| rule_id |  | Populate with 'ae.3.aeser' | Temp field for ETL |
+| src |  | Populate with 'ae' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 
 </br>
@@ -214,13 +214,13 @@ Trial outcomes
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
 | person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = src.ae.usubjid` |  |
-| observation_concept_id | msc.target_concept_id | `LEFT JOIN mapped_source_codes msc`</br>`ON msc.source_code = 'Relationship to Study Drug (Causality)'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aerel</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEREL'` |  |
+| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br>`ON msc.source_code = 'Relationship to Study Drug (Causality)'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aerel</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEREL'` |  |
 | observation_date | src.ae.aestdtc |  |  |
 | observation_datetime | NULL |  |  |
 | observation_type_concept_id |  | Populate with 32809 | Case Report Form |
 | value_as_number | NULL |  |  |
 | value_as_string | NULL |  |  |
-| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN mapped_source_codes msc`</br> `ON msc.source_code = 'Relationship to Study Drug (Causality)'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aerel</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEREL'` |  |
+| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = 'Relationship to Study Drug (Causality)'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aerel</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEREL'` |  |
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  | [THEMIS #11](https://github.com/OHDSI/Themis/issues/11) |
 | provider_id | NULL |  |  |
@@ -230,11 +230,11 @@ Trial outcomes
 | observation_source_concept_id |  | Populate with 0 |  |
 | unit_source_value | NULL |  |  |
 | qualifier_source_value | NULL |  |  |
-| observation_event_id | cdm.condition_occurrence.</br>condition_occurrence_id,</br>cdm.observation.observation_id | `JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.4.AEREL'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.4.AEREL'`</br>`AND obs.src_row = cdm.observation.src_row`| [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
-| obs_event_field_concept_id |  | `IF co.condition_occurrence_id IS NOT NULL`</br>`THEN populate with 1147127 - condition_occurrence.`</br>`condition_occurrence_id`</br></br>`IF obs.observation_id IS NOT NULL`</br>`THEN populate with 1147165 - observation.observation_id`</br></br>`ELSE populate with 0 (or drop record)`</br></br>`JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.4.AEREL'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.4.AEREL'`</br>`AND obs.src_row = cdm.observation.src_row` | [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
+| observation_event_id | cdm.condition_occurrence.</br>condition_occurrence_id,</br>cdm.observation.observation_id | `JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.4.aerel'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.4.aerel'`</br>`AND obs.src_row = cdm.observation.src_row`| [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
+| obs_event_field_concept_id |  | `IF co.condition_occurrence_id IS NOT NULL`</br>`THEN populate with 1147127 - condition_occurrence.`</br>`condition_occurrence_id`</br></br>`IF obs.observation_id IS NOT NULL`</br>`THEN populate with 1147165 - observation.observation_id`</br></br>`ELSE populate with 0 (or drop record)`</br></br>`JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.4.aerel'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.4.aerel'`</br>`AND obs.src_row = cdm.observation.src_row` | [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
 | value_as_datetime | NULL |  | CDM v6.0 field</br> should be excluded |
-| rule_id |  | Populate with 'AE.4.AEREL' | Temp field for ETL |
-| src |  | Populate with 'AE' | Temp field for ETL |
+| rule_id |  | Populate with 'ae.4.aerel' | Temp field for ETL |
+| src |  | Populate with 'ae' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 
 </br>
@@ -247,13 +247,13 @@ Trial outcomes
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
 | person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = src.ae.usubjid` |  |
-| observation_concept_id | msc.target_concept_id | `LEFT JOIN mapped_source_codes msc`</br>`ON msc.source_code = 'Outcome of Adverse Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeout</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEOUT'` |  |
+| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br>`ON msc.source_code = 'Outcome of Adverse Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeout</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEOUT'` |  |
 | observation_date | src.ae.aestdtc |  |  |
 | observation_datetime | NULL |  |  |
 | observation_type_concept_id |  | Populate with 32809 | Case Report Form |
 | value_as_number | NULL |  |  |
 | value_as_string | NULL |  |  |
-| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN mapped_source_codes msc`</br> `ON msc.source_code = 'Outcome of Adverse Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeout</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEOUT'` |  |
+| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = 'Outcome of Adverse Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeout</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEOUT'` |  |
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  | [THEMIS #11](https://github.com/OHDSI/Themis/issues/11) |
 | provider_id | NULL |  |  |
@@ -263,11 +263,11 @@ Trial outcomes
 | observation_source_concept_id |  | Populate with 0 |  |
 | unit_source_value | NULL |  |  |
 | qualifier_source_value | NULL |  |  |
-| observation_event_id | cdm.condition_occurrence.</br>condition_occurrence_id,</br>cdm.observation.observation_id | `JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.5.AEOUT'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.5.AEOUT'`</br>`AND obs.src_row = cdm.observation.src_row`| [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
-| obs_event_field_concept_id |  | `IF co.condition_occurrence_id IS NOT NULL`</br>`THEN populate with 1147127 - condition_occurrence.`</br>`condition_occurrence_id`</br></br>`IF obs.observation_id IS NOT NULL`</br>`THEN populate with 1147165 - observation.observation_id`</br></br>`ELSE populate with 0 (or drop record)`</br></br>`JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.5.AEOUT'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.5.AEOUT'`</br>`AND obs.src_row = cdm.observation.src_row` | [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
+| observation_event_id | cdm.condition_occurrence.</br>condition_occurrence_id,</br>cdm.observation.observation_id | `JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.5.aeout'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.5.aeout'`</br>`AND obs.src_row = cdm.observation.src_row`| [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
+| obs_event_field_concept_id |  | `IF co.condition_occurrence_id IS NOT NULL`</br>`THEN populate with 1147127 - condition_occurrence.`</br>`condition_occurrence_id`</br></br>`IF obs.observation_id IS NOT NULL`</br>`THEN populate with 1147165 - observation.observation_id`</br></br>`ELSE populate with 0 (or drop record)`</br></br>`JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.5.aeout'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.5.aeout'`</br>`AND obs.src_row = cdm.observation.src_row` | [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
 | value_as_datetime | NULL |  | CDM v6.0 field</br> should be excluded |
-| rule_id |  | Populate with 'AE.5.AEOUT' | Temp field for ETL |
-| src |  | Populate with 'AE' | Temp field for ETL |
+| rule_id |  | Populate with 'ae.5.aeout' | Temp field for ETL |
+| src |  | Populate with 'ae' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 
 </br>
@@ -280,13 +280,13 @@ Trial outcomes
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
 | person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = src.ae.usubjid` |  |
-| observation_concept_id | msc.target_concept_id | `LEFT JOIN mapped_source_codes msc`</br>`ON msc.source_code = 'Occurred with Overdose'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aesod</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESOD'` |  |
+| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br>`ON msc.source_code = 'Occurred with Overdose'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aesod</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESOD'` |  |
 | observation_date | src.ae.aestdtc |  |  |
 | observation_datetime | NULL |  |  |
 | observation_type_concept_id |  | Populate with 32809 | Case Report Form |
 | value_as_number | NULL |  |  |
 | value_as_string | NULL |  |  |
-| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN mapped_source_codes msc`</br> `ON msc.source_code = 'Occurred with Overdose'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aesod</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESOD'` |  |
+| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = 'Occurred with Overdose'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aesod</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESOD'` |  |
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  | [THEMIS #11](https://github.com/OHDSI/Themis/issues/11) |
 | provider_id | NULL |  |  |
@@ -296,11 +296,11 @@ Trial outcomes
 | observation_source_concept_id |  | Populate with 0 |  |
 | unit_source_value | NULL |  |  |
 | qualifier_source_value | NULL |  |  |
-| observation_event_id | cdm.condition_occurrence.</br>condition_occurrence_id,</br>cdm.observation.observation_id | `JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.7.AESOD'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.7.AESOD'`</br>`AND obs.src_row = cdm.observation.src_row`| [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
-| obs_event_field_concept_id |  | `IF co.condition_occurrence_id IS NOT NULL`</br>`THEN populate with 1147127 - condition_occurrence.`</br>`condition_occurrence_id`</br></br>`IF obs.observation_id IS NOT NULL`</br>`THEN populate with 1147165 - observation.observation_id`</br></br>`ELSE populate with 0 (or drop record)`</br></br>`JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.7.AESOD'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'AE.1.AELLT'`</br>`AND cdm.observation.rule_id = 'AE.7.AESOD'`</br>`AND obs.src_row = cdm.observation.src_row` | [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
+| observation_event_id | cdm.condition_occurrence.</br>condition_occurrence_id,</br>cdm.observation.observation_id | `JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.6.aesod'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.6.aesod'`</br>`AND obs.src_row = cdm.observation.src_row`| [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
+| obs_event_field_concept_id |  | `IF co.condition_occurrence_id IS NOT NULL`</br>`THEN populate with 1147127 - condition_occurrence.`</br>`condition_occurrence_id`</br></br>`IF obs.observation_id IS NOT NULL`</br>`THEN populate with 1147165 - observation.observation_id`</br></br>`ELSE populate with 0 (or drop record)`</br></br>`JOIN cdm.condition_occurrence co`</br>`ON co.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.6.aesod'`</br>`AND co.src_row = cdm.observation.src_row`</br></br>`JOIN cdm.observation obs`</br>`ON obs.rule_id = 'ae.1.aellt'`</br>`AND cdm.observation.rule_id = 'ae.6.aesod'`</br>`AND obs.src_row = cdm.observation.src_row` | [see Topic 3](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki/Topic-3:-Seriousness,-Severity-and-Causality) |
 | value_as_datetime | NULL |  | CDM v6.0 field</br> should be excluded |
-| rule_id |  | Populate with 'AE.6.AESOD' | Temp field for ETL |
-| src |  | Populate with 'AE' | Temp field for ETL |
+| rule_id |  | Populate with 'ae.6.aesod' | Temp field for ETL |
+| src |  | Populate with 'ae' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 
 </br>
@@ -340,6 +340,9 @@ Each medical history record produces two observations:
 | observation_event_id |  |  |  |
 | obs_event_field_concept_id |  |  |  |
 | value_as_datetime |  |  |  |
+| rule_id |  | Populate with 'mh.1.mhcat' | Temp field for ETL |
+| src |  | Populate with 'mh' | Temp field for ETL |
+| src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 
 Note: we do loose information on the timeliness of the medical history, captured in the `mhstdtc` field as an approximate date. To capture this information, we can use the newly proposed history of concepts _within x years_: https://forums.ohdsi.org/t/history-of-condition-with-age/11470/18
 
@@ -370,3 +373,6 @@ Note: we do loose information on the timeliness of the medical history, captured
 | observation_event_id | usubjid<br>mhseq | Use subjid and mhseq to lookup observation_id of history of observation to which this severity belongs.<br> |  |
 | obs_event_field_concept_id |  |  | 1147762 - observation.observation_id (v6.0) |
 | value_as_datetime |  |  |  |
+| rule_id |  | Populate with 'mh.2.???' | Temp field for ETL |
+| src |  | Populate with 'mh' | Temp field for ETL |
+| src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
