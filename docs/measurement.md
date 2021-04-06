@@ -27,3 +27,34 @@
 | unit_source_value | qsorresu |  | UCUM concept correlation can be made to UCUM ID=8555 has Code=s with Name=second. In SDTM, the qsorresu and qsstresu have the controlled terminology of "sec". For mapping, either the original (qsorresu) or standard (qsstresu) must be selected. This should also be done consistently throughout the mapping process. In this example, the original (qsorresu) was mapped. |
 | value_source_value | qsorres |  | In SDTM, qsorres can be up to VARCHAR(200), which needs to be factored in. For mapping, either the original (qsorres) or standard (qsstresc/qsstresn) must be selected. This should also be done consistently throughout the mapping process. In this example, the original (qsorres) was mapped. |
 
+</br></br>
+
+### Reading from lbch.csv
+
+</br></br>
+
+![](md_files/image1_lbch.png)
+
+| Destination Field | Source field | Logic | Comment field |
+| --- | --- | --- | --- |
+| measurement_id | lbseq |  |  |
+| person_id | usubjid |  |  |
+| measurement_concept_id | lbtestcd<br>lbcat<br>lbtest |  |  |
+| measurement_date | lbdtc |  |  |
+| measurement_datetime | lbdtc |  |  |
+| measurement_time |  |  |  |
+| measurement_type_concept_id |  |  |  |
+| operator_concept_id |  |  |  |
+| value_as_number | lborres |  |  |
+| value_as_concept_id |  |  |  |
+| unit_concept_id | lborresu<br>lbstresu |  |  |
+| range_low |  |  |  |
+| range_high |  |  |  |
+| provider_id |  |  |  |
+| visit_occurrence_id | usubjid<br>visitnum<br>visit |  |  |
+| visit_detail_id |  |  |  |
+| measurement_source_value |  |  |  |
+| measurement_source_concept_id |  |  |  |
+| unit_source_value |  |  |  |
+| value_source_value | lborres |  |  |
+

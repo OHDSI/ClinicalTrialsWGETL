@@ -8,3 +8,10 @@ The flat file might be easier to search. Use "|ALB|",  http://evs.nci.nih.gov/ft
 From there, the CDISC code can be mapped to a UMLS CUI and on to a SNOMED term here: https://ncimeta.nci.nih.gov/ncimbrowser/
 
 For example, the first maps ALB to C64431. The second maps that to CUI C0201838, where SNOMED 26758005 can be found under the synonyms tab.
+
+
+### BioPortal for CDISC lookups: no guarantess, but may be useful
+https://bioportal.bioontology.org/search?utf8=%E2%9C%93&query=albumin&button=
+
+### PHOEBE for ODHSI network term occurence may also be useful
+https://data.ohdsi.org/PHOEBE/ 
