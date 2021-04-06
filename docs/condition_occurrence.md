@@ -23,7 +23,7 @@
 | condition_status_source_value | NULL |  |  |
 | condition_status_concept_id |  | Populate with 0 |  |
 | rule_id |  | Populate with 'ae.1.aellt' | Temp field for ETL |
-| src |  | Populate with 'AE' | Temp field for ETL |
+| src |  | Populate with 'ae' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 
 </br>
@@ -55,5 +55,5 @@ Such events can be linked to the Adverse events (rule_id = 'AE.1.AELLT') via cdm
 | condition_status_source_value | NULL |  |  |
 | condition_status_concept_id |  | Populate with 0 |  |
 | rule_id |  | Populate with 'ae.7.aesdisab' | Temp field for ETL |
-| src |  | Populate with 'AE' | Temp field for ETL |
+| src |  | Populate with 'ae' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
