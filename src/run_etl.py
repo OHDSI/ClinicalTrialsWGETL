@@ -146,7 +146,7 @@ df.toPandas().to_csv('data/cdm/observation.csv', index=False)
 run_script(spark, 'qa/integration_tests.sql')
 
 # export test report
-df = spark.sql('select * from temp.test_report order by test_id desc')
+df = spark.sql('select * from temp.test_report order by test_id')
 df.toPandas().to_csv('data/cdm/test_report.csv', index=False)
 
 
