@@ -87,10 +87,13 @@ run_script(spark, 'src/sql/cdm_person.sql')
 # populate cdm.observation_period table
 run_script(spark, 'src/sql/cdm_observation_period.sql')
 
-# create the clinical_events lokkup table
+# create the clinical_events lookup table
 run_script(spark, 'src/sql/clinical_events.sql')
 
-# create the clinical_events lookup table
+# populate cdm.death table
+run_script(spark, 'src/sql/cdm_death.sql')
+
+# create the clinical_events_cleaned lookup table
 run_script(spark, 'src/sql/clinical_events_cleaned.sql')
 
 # create a table for storing duplicates ids
