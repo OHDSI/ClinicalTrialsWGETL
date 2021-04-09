@@ -114,20 +114,20 @@ Trial outcomes
 | Destination Field | Source field | Logic | Comment |
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
-| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = src.ae.usubjid` |  |
-| observation_concept_id | msc.target_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = src.ae.aellt`</br> `AND msc.source_vocabulary_id = 'PHUSE_MedDRA'` |  |
-| observation_date | src.ae.aestdtc |  |  |
+| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = ae.usubjid` |  |
+| observation_concept_id | msc.target_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = ae.aellt`</br> `AND msc.source_vocabulary_id = 'PHUSE_MedDRA'` |  |
+| observation_date | ae.aestdtc |  |  |
 | observation_datetime | NULL |  |  |
 | observation_type_concept_id |  | Populate with 32809 | Case Report Form |
 | value_as_number | NULL |  |  |
 | value_as_string | NULL |  |  |
-| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = src.ae.aellt`</br> `AND msc.source_vocabulary_id = 'PHUSE_MedDRA'` |  |
+| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = ae.aellt`</br> `AND msc.source_vocabulary_id = 'PHUSE_MedDRA'` |  |
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  | [THEMIS #11](https://github.com/OHDSI/Themis/issues/11) |
 | provider_id | NULL |  |  |
 | visit_occurrence_id | NULL |  |  |
 | visit_detail_id | NULL |  |  |
-| observation_source_value | src.ae.aellt |  |  |
+| observation_source_value | ae.aellt |  |  |
 | observation_source_concept_id |  | Populate with 0 |  |
 | unit_source_value | NULL |  |  |
 | qualifier_source_value | NULL |  |  |
@@ -147,20 +147,20 @@ Trial outcomes
 | Destination Field | Source field | Logic | Comment |
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
-| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = src.ae.usubjid` |  |
-| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br> <code>ON msc.source_code = 'Severity/Intensity'</code></br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124;src.ae.aesev</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESEV'` |  |
-| observation_date | src.ae.aestdtc |  |  |
+| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = ae.usubjid` |  |
+| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br> <code>ON msc.source_code = 'Severity/Intensity'</code></br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124;ae.aesev</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESEV'` |  |
+| observation_date | ae.aestdtc |  |  |
 | observation_datetime | NULL |  |  |
 | observation_type_concept_id |  | Populate with 32809 | Case Report Form |
 | value_as_number | NULL |  |  |
-| value_as_string | src.ae.aesev |  |  |
-| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> <code>ON msc.source_code = 'Severity/Intensity'</code></br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124;src.ae.aesev</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESEV'` |  |
+| value_as_string | ae.aesev |  |  |
+| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> <code>ON msc.source_code = 'Severity/Intensity'</code></br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124;ae.aesev</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESEV'` |  |
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  | [THEMIS #11](https://github.com/OHDSI/Themis/issues/11) |
 | provider_id | NULL |  |  |
 | visit_occurrence_id | NULL |  |  |
 | visit_detail_id | NULL |  |  |
-| observation_source_value | src.ae.aesev | <code>'Severity/Intensity'</code></br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124;src.ae.aesev</code> |  |
+| observation_source_value | ae.aesev | <code>'Severity/Intensity'</code></br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124;ae.aesev</code> |  |
 | observation_source_concept_id |  | Populate with 0 |  |
 | unit_source_value | NULL |  |  |
 | qualifier_source_value | NULL |  |  |
@@ -180,20 +180,20 @@ Trial outcomes
 | Destination Field | Source field | Logic | Comment |
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
-| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = src.ae.usubjid` |  |
-| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br>`ON msc.source_code = 'Serious Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeser</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESER'` |  |
-| observation_date | src.ae.aestdtc |  |  |
+| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = ae.usubjid` |  |
+| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br>`ON msc.source_code = 'Serious Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; ae.aeser</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESER'` |  |
+| observation_date | ae.aestdtc |  |  |
 | observation_datetime | NULL |  |  |
 | observation_type_concept_id |  | Populate with 32809 | Case Report Form |
 | value_as_number | NULL |  |  |
 | value_as_string | NULL |  |  |
-| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = 'Serious Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeser</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESER'` |  |
+| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = 'Serious Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; ae.aeser</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESER'` |  |
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  | [THEMIS #11](https://github.com/OHDSI/Themis/issues/11) |
 | provider_id | NULL |  |  |
 | visit_occurrence_id | NULL |  |  |
 | visit_detail_id | NULL |  |  |
-| observation_source_value | src.ae.aeser | `'Serious Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeser</code> |  |
+| observation_source_value | ae.aeser | `'Serious Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; ae.aeser</code> |  |
 | observation_source_concept_id |  | Populate with 0 |  |
 | unit_source_value | NULL |  |  |
 | qualifier_source_value | NULL |  |  |
@@ -213,20 +213,20 @@ Trial outcomes
 | Destination Field | Source field | Logic | Comment |
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
-| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = src.ae.usubjid` |  |
-| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br>`ON msc.source_code = 'Relationship to Study Drug (Causality)'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aerel</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEREL'` |  |
-| observation_date | src.ae.aestdtc |  |  |
+| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = ae.usubjid` |  |
+| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br>`ON msc.source_code = 'Relationship to Study Drug (Causality)'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; ae.aerel</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEREL'` |  |
+| observation_date | ae.aestdtc |  |  |
 | observation_datetime | NULL |  |  |
 | observation_type_concept_id |  | Populate with 32809 | Case Report Form |
 | value_as_number | NULL |  |  |
 | value_as_string | NULL |  |  |
-| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = 'Relationship to Study Drug (Causality)'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aerel</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEREL'` |  |
+| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = 'Relationship to Study Drug (Causality)'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; ae.aerel</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEREL'` |  |
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  | [THEMIS #11](https://github.com/OHDSI/Themis/issues/11) |
 | provider_id | NULL |  |  |
 | visit_occurrence_id | NULL |  |  |
 | visit_detail_id | NULL |  |  |
-| observation_source_value | src.ae.aerel | `'Relationship to Study Drug (Causality)'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aerel</code> |  |
+| observation_source_value | ae.aerel | `'Relationship to Study Drug (Causality)'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; ae.aerel</code> |  |
 | observation_source_concept_id |  | Populate with 0 |  |
 | unit_source_value | NULL |  |  |
 | qualifier_source_value | NULL |  |  |
@@ -246,20 +246,20 @@ Trial outcomes
 | Destination Field | Source field | Logic | Comment |
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
-| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = src.ae.usubjid` |  |
-| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br>`ON msc.source_code = 'Outcome of Adverse Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeout</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEOUT'` |  |
-| observation_date | src.ae.aestdtc |  |  |
+| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = ae.usubjid` |  |
+| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br>`ON msc.source_code = 'Outcome of Adverse Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; ae.aeout</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEOUT'` |  |
+| observation_date | ae.aestdtc |  |  |
 | observation_datetime | NULL |  |  |
 | observation_type_concept_id |  | Populate with 32809 | Case Report Form |
 | value_as_number | NULL |  |  |
 | value_as_string | NULL |  |  |
-| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = 'Outcome of Adverse Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeout</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEOUT'` |  |
+| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = 'Outcome of Adverse Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; ae.aeout</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AEOUT'` |  |
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  | [THEMIS #11](https://github.com/OHDSI/Themis/issues/11) |
 | provider_id | NULL |  |  |
 | visit_occurrence_id | NULL |  |  |
 | visit_detail_id | NULL |  |  |
-| observation_source_value | src.ae.aeout | `'Outcome of Adverse Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aeout</code> |  |
+| observation_source_value | ae.aeout | `'Outcome of Adverse Event'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; ae.aeout</code> |  |
 | observation_source_concept_id |  | Populate with 0 |  |
 | unit_source_value | NULL |  |  |
 | qualifier_source_value | NULL |  |  |
@@ -279,20 +279,20 @@ Trial outcomes
 | Destination Field | Source field | Logic | Comment |
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
-| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = src.ae.usubjid` |  |
-| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br>`ON msc.source_code = 'Occurred with Overdose'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aesod</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESOD'` |  |
-| observation_date | src.ae.aestdtc |  |  |
+| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = ae.usubjid` |  |
+| observation_concept_id | msc.target_concept_id | `LEFT JOIN source_codes_mapped msc`</br>`ON msc.source_code = 'Occurred with Overdose'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; ae.aesod</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESOD'` |  |
+| observation_date | ae.aestdtc |  |  |
 | observation_datetime | NULL |  |  |
 | observation_type_concept_id |  | Populate with 32809 | Case Report Form |
 | value_as_number | NULL |  |  |
 | value_as_string | NULL |  |  |
-| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = 'Occurred with Overdose'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aesod</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESOD'` |  |
+| value_as_concept_id | msc.value_as_concept_id | `COALESCE(msc.target_concept_id, 0)`</br></br> `LEFT JOIN source_codes_mapped msc`</br> `ON msc.source_code = 'Occurred with Overdose'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; ae.aesod</code></br> `AND msc.source_vocabulary_id = 'PHUSE_AE_AESOD'` |  |
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  | [THEMIS #11](https://github.com/OHDSI/Themis/issues/11) |
 | provider_id | NULL |  |  |
 | visit_occurrence_id | NULL |  |  |
 | visit_detail_id | NULL |  |  |
-| observation_source_value | src.ae.aesod | `'Occurred with Overdose'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; src.ae.aesod</code> |  |
+| observation_source_value | ae.aesod | `'Occurred with Overdose'`</br><code>&#124;&#124; '&#124;'</code></br><code>&#124;&#124; ae.aesod</code> |  |
 | observation_source_concept_id |  | Populate with 0 |  |
 | unit_source_value | NULL |  |  |
 | qualifier_source_value | NULL |  |  |

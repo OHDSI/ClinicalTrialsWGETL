@@ -4,7 +4,7 @@ The CARE_SITE table contains a list of uniquely identified institutional (physic
 
 ###  Mapping from src.DM
 
-A single record is created for every distinct value of src.DM.SITEID.
+A single record is created for every distinct value of dm.siteid.
 
 | Destination Field | Source field | Logic | Comment field |
 | --- | --- | --- | --- |
@@ -12,5 +12,5 @@ A single record is created for every distinct value of src.DM.SITEID.
 | care_site_name | NULL |  |  |
 | place_of_service_concept_id | NULL |  |  |
 | location_id | NULL |  |  |
-| care_site_source_value | src.DM.SITEID |  |  |
+| care_site_source_value | dm.siteid |  |  |
 | place_of_service_source_value | NULL |  |  |
