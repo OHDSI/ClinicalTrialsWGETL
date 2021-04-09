@@ -107,7 +107,7 @@ run_script(spark, 'src/sql/cdm_condition_occurrence.sql')
 run_script(spark, 'src/sql/cdm_observation.sql')
 
 
-# ------------------- export results --------------------
+# ------------------- export cdm tables --------------------
 
 # export cdm.location (empty)
 df = spark.sql('select * from cdm.location')
@@ -146,7 +146,7 @@ df = spark.sql('select * from cdm.observation')
 df.toPandas().to_csv('data/cdm/observation.csv', index=False)
 
 # run tests
-run_script(spark, 'qa/integration_tests.sql')
+run_script(spark, 'src/qa/integration_tests.sql')
 
 # export test report
 df = spark.sql('select * from temp.test_report order by test_id')
