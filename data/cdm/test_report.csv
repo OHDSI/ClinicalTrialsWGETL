@@ -1,6 +1,7 @@
 test_id,rule_id,test_description,expected_result,actual_result,passed_flg
 1,person,Count difference between the cdm and the source after filters,0,0,Passed
 2,observation_period,Check if each person has an observation period,0,0,Passed
-3,observation_period,Check if the end date is always greater or equal of the start date,0,0,Passed
+3,observation_period,Check if the end date is always greater or equal to the start date,0,0,Passed
 4,observation_period,Check if the observation_period_start_date is in a correct range,0,0,Passed
 5,observation_period,Check if the observation_period_end_date is in a correct range,0,0,Passed
+6,death,Count difference between the cdm and the source,0,0,Passed
