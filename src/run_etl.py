@@ -108,42 +108,23 @@ run_script(spark, 'src/sql/cdm_observation.sql')
 
 
 # ------------------- export cdm tables --------------------
+cdm_schema = spark.sql('show tables in cdm')
+cdm_tables = [row['tableName'] for row in cdm_schema.rdd.collect()
+              if not row['isTemporary']]
 
-# export cdm.location (empty)
-df = spark.sql('select * from cdm.location')
-df.toPandas().to_csv('data/cdm/location.csv', index=False)
+for tbl in cdm_tables:
+    export_tbl = spark.sql(f'select * from cdm.{tbl}')
+    export_tbl.toPandas().to_csv(f'data/cdm/{tbl}.csv', index=False)
 
-# export cdm.care_site (empty)
-df = spark.sql('select * from cdm.care_site')
-df.toPandas().to_csv('data/cdm/care_site.csv', index=False)
-
-# export cdm.provider (empty)
-df = spark.sql('select * from cdm.provider')
-df.toPandas().to_csv('data/cdm/provider.csv', index=False)
-
-# export cdm.person as csv
-df = spark.sql('select * from cdm.person')
-df.toPandas().to_csv('data/cdm/person.csv', index=False)
-
-# export cdm.observation_period
-df = spark.sql('select * from cdm.observation_period')
-df.toPandas().to_csv('data/cdm/observation_period.csv', index=False)
 
 # export the clinical_events lookup for testing purposes
 df = spark.sql('select * from temp.clinical_events')
 df.toPandas().to_csv('data/cdm/clinical_events_lk.csv', index=False)
 
-# export the clinical_events lookup for testing purposes
+# export the clinical_events_cleaned lookup for testing purposes
 df = spark.sql('select * from temp.clinical_events_cleaned')
 df.toPandas().to_csv('data/cdm/clinical_events_cleaned_lk.csv', index=False)
 
-# export cdm.condition_occurrence as csv
-df = spark.sql('select * from cdm.condition_occurrence')
-df.toPandas().to_csv('data/cdm/condition_occurrence.csv', index=False)
-
-# export cdm.observation as csv
-df = spark.sql('select * from cdm.observation')
-df.toPandas().to_csv('data/cdm/observation.csv', index=False)
 
 # run tests
 run_script(spark, 'src/qa/integration_tests.sql')

@@ -1,0 +1,4 @@
+person_id,death_date,death_datetime,death_type_concept_id,cause_concept_id,cause_source_value,cause_source_concept_id,rule_id,src_tbl,src_row
+191,2013-08-02,,32809,0,MYOCARDIAL INFARCT,0,death,dm,191
+25,2013-01-14,,32809,0,SUDDEN DEATH,0,death,dm,25
+96,2014-11-01,,32809,0,SUICIDE,0,death,dm,96
