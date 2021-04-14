@@ -120,17 +120,6 @@ CREATE TABLE vocab.drug_strength
 -------------------------------------------------------------------
 --
 -------------------------------------------------------------------
-CREATE TABLE vocab.cohort_definition
-  (
-     cohort_definition_id          INT,
-     cohort_definition_name        STRING,
-     cohort_definition_description STRING,
-     definition_type_concept_id    INT,
-     cohort_definition_syntax      STRING,
-     subject_concept_id            INT,
-     cohort_initiation_date        TIMESTAMP
-  ) using parquet;
-
 CREATE TABLE vocab.attribute_definition
   (
      attribute_definition_id   INT,
@@ -618,6 +607,17 @@ CREATE TABLE cdm.cost
 -------------------------------------------------------------------
 -- Standardized derived elements
 -------------------------------------------------------------------
+CREATE TABLE cdm.cohort_definition
+  (
+     cohort_definition_id          INT,
+     cohort_definition_name        STRING,
+     cohort_definition_description STRING,
+     definition_type_concept_id    INT,
+     cohort_definition_syntax      STRING,
+     subject_concept_id            INT,
+     cohort_initiation_date        TIMESTAMP
+  ) using parquet;
+
 CREATE TABLE cdm.cohort
   (
      cohort_definition_id INT,
