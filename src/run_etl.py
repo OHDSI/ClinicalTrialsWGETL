@@ -107,6 +107,18 @@ run_script(spark, 'src/sql/cdm_condition_occurrence.sql')
 run_script(spark, 'src/sql/cdm_observation.sql')
 
 
+# populate cdm.cohort_definition
+run_script(spark, 'src/sql/cdm_cohort_definition.sql')
+
+# populate cdm.cohort
+run_script(spark, 'src/sql/cdm_cohort.sql')
+
+# populate cdm.metadata
+run_script(spark, 'src/sql/cdm_metadata.sql')
+
+# populate cdm.cdm_source
+run_script(spark, 'src/sql/cdm_source.sql')
+
 # ------------------- export cdm tables --------------------
 cdm_schema = spark.sql('show tables in cdm')
 cdm_tables = [row['tableName'] for row in cdm_schema.rdd.collect()

@@ -10,7 +10,7 @@
 | [provider](provider.md) |  | done |  |
 | **Clinical Data Tables** |  |  |  |
 | [person](person.md) | dm | done |  |
-| [observation_period](observation_period.md) | dm</br> sv |  |  |
+| [observation_period](observation_period.md) | dm</br> sv | done |  |
 | [visit_occurrence](visit_occurrence.md) | sv |  |  |
 | [condition_occurrence](condition_occurrence.md) | ae | done |  |
 | [drug_exposure](drug_exposure.md) | cm</br>ex |  |  |
