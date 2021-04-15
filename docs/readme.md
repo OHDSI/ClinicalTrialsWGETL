@@ -22,15 +22,15 @@
 | note |  | not covered |  |
 | specimen |  | not covered |  |
 | fact_relationship |  | not covered |  |
-| [cohort](cohort.md) | dm |  | Trial/Arm definition |
-| [cohort_definition](cohort_definition.md) | --- |  | Trial/Arm definition |
+| [cohort](cohort.md) | dm | done | Trial/Arm definition |
+| [cohort_definition](cohort_definition.md) | --- | done | Trial/Arm definition |
 | **Standardized Derived Elements** |  |  |  |
 | drug_era |  | not covered |  |
 | dose_era |  | not covered |  |
 | condition_era |  | not covered |  |
 | **Metadata tables** |  |  |  |
-| [metadata](metadata.md) |  |  | Trial summary </br> Trial inclusion/exclusion criteria |
-| cdm_source |  | not covered |
+| [metadata](metadata.md) |  | done | Trial summary </br> Trial inclusion/exclusion criteria |
+| [cdm_source](cdm_source.md) |  | done |  |
 
 
 ## Source
@@ -39,7 +39,7 @@
 ### Missing specification for
 
 - ae <- Adverse Events: for convention on severity and causality
-- cm <- 
+- cm <-
 - lbch <- Lab: pick one of the lab tables as an example
 - lbhe <-
 - lbur <-
