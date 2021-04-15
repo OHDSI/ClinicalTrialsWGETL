@@ -7,9 +7,9 @@
 | --- | --- | --- | --- |
 | metadata_concept_id |  | Populate with 0 |  |
 | metadata_type_concept_id |  | Populate with 0 |  |
-| name | TS.TSPARM |  |  |
-| value_as_string | TS.TSVAL |  |  |
-| value_as_concept_id | cdm.concept.concept_id | JOIN cdm.concept ON </br> cdm.concept.concept_code = TS.TSVALCD </br> AND cdm.concept.vocabulary_id = TS.TSVCDREF |  |
+| name | ts.tsparm |  |  |
+| value_as_string | ts.tsval |  |  |
+| value_as_concept_id |  | Populate with 0 |  |
 | metadata_date |  | current date  |  |
 | metadata_datetime | NULL |  |  |
 
@@ -20,8 +20,8 @@
 | --- | --- | --- | --- |
 | metadata_concept_id |  | Populate with 0 |  |
 | metadata_type_concept_id |  | Populate with 0 |  |
-| name | TI.IETESTCD |  |  |
-| value_as_string | TI.IETEST |  |  |
-| value_as_concept_id | NULL |  |  |
+| name | ti.ietestcd |  |  |
+| value_as_string | ti.ietest |  |  |
+| value_as_concept_id |  | Populate with 0 |  |
 | metadata_date |  | current date |  |
 | metadata_datetime | NULL |  |  |

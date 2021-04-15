@@ -116,14 +116,13 @@ WHERE  src.event_source_value IS NOT NULL
        AND src.event_start_date BETWEEN Cast(Concat(src.year_of_birth, '-01-01')
                                         AS
                                         date)
-                                        AND CURRENT_DATE()
+                                        AND CAST('2015-03-31' AS date)  -- Interim Analysis Data Cutoff Date
        AND ( src.event_end_date IS NULL
               OR ( src.event_end_date BETWEEN Cast(Concat(src.year_of_birth,
                                               '-01-01')
                                               AS
                                               date)
-                                              AND
-                                                    CURRENT_DATE()
+                                              AND CAST('2015-03-31' AS date)  -- Interim Analysis Data Cutoff Date
                    AND src.event_end_date >= src.event_start_date ) )
        AND NOT EXISTS (SELECT 1
                        FROM   cdm.death dth
