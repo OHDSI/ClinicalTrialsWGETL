@@ -44,7 +44,9 @@ FROM   (SELECT ( (SELECT Count(*)
                                                                     - age
                                                                     AS INT),
                                                         '-01-01') AS DATE) <=
-                                                   CURRENT_DATE()) ) AS result)
+                                                   Cast(
+                                                   '2015-03-31' AS DATE)) ) AS  -- Interim Analysis Data Cutoff Date
+               result)
        tbl;
 
 
@@ -118,7 +120,8 @@ FROM   (SELECT Count(*) AS result
         WHERE  op.observation_period_start_date <
                Cast(Concat(per.year_of_birth, '-01-01') AS
                        date)
-                OR ( op.observation_period_start_date > CURRENT_DATE() )
+                OR ( op.observation_period_start_date >
+                     Cast('2015-03-31' AS date) )  -- Interim Analysis Data Cutoff Date
                 OR ( dth.death_date IS NOT NULL
                      AND Date_add(dth.death_date, 60) <
                          op.observation_period_start_date )) tbl;
@@ -150,7 +153,8 @@ FROM   (SELECT Count(*) AS result
                Cast(Concat(per.year_of_birth, '-01-01'
                ) AS
                        date)
-                OR ( op.observation_period_end_date > CURRENT_DATE() )
+                OR ( op.observation_period_end_date > Cast('2015-03-31' AS date)  -- Interim Analysis Data Cutoff Date
+                   )
                 OR ( dth.death_date IS NOT NULL
                      AND Date_add(dth.death_date, 60) <
                          op.observation_period_end_date
