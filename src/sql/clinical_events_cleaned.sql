@@ -59,7 +59,11 @@ CREATE TABLE temp.clinical_events_cleaned
              ce.range_high                 AS range_high,
              ce.unit_source_value          AS unit_source_value,
              ce.frequency                  AS frequency,
-             ce.quantity                   AS quantity,
+             IF(
+                 ce.rule_id = 'cm.1.cmtrt',
+                 NULLIF(ce.frequency * ce.days_supply, 0),  -- should be improved after custom mapping
+                 ce.quantity
+             )                             AS quantity,
              ce.days_supply                AS days_supply,
              ce.sig                        AS sig,
              ce.stop_reason                AS stop_reason,

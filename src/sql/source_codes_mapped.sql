@@ -75,7 +75,7 @@ INSERT INTO temp.source_codes_mapped
 SELECT DISTINCT rsrc.source_code                              AS source_code,
                 0                                             AS
                 source_concept_id,
-                rsrc.vocabulary_id                            AS
+                rsrc.default_vocabulary_id                    AS
                 source_vocabulary_id,
                 Coalesce(rsrc.concept_name, rsrc.source_code) AS
                 source_code_description,

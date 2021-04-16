@@ -156,4 +156,40 @@ SELECT DISTINCT 'Condition'                 AS domain_id,
                      ELSE ''
                    end                      AS concept_name
 FROM   src.ae src
-WHERE  src.aesdisab IS NOT NULL; 
+WHERE  src.aesdisab IS NOT NULL;
+
+-------------------------------------------------------------------
+-- CM: Concomitant Medications
+-------------------------------------------------------------------
+INSERT INTO temp.source_codes_raw
+SELECT DISTINCT 'Drug'                       AS domain_id,
+                'PHUSE_CM'                   AS vocabulary_id,
+                'PHUSE_Unknown_CM'           AS default_vocabulary_id,
+                src.cmtrt
+                || '|'
+                || src.cmdose
+                || '|'
+                || Coalesce(src.cmdosu, '')
+                || '|'
+                || Coalesce(src.cmroute, '') AS source_code,
+                src.cmtrt
+                || '|'
+                || src.cmdose
+                || '|'
+                || Coalesce(src.cmdosu, '')
+                || '|'
+                || Coalesce(src.cmroute, '') AS concept_name
+FROM   src.cm src
+WHERE  src.cmtrt IS NOT NULL;
+
+-------------------------------------------------------------------
+-- CM: Concomitant Medications, Route
+-------------------------------------------------------------------
+INSERT INTO temp.source_codes_raw
+SELECT DISTINCT 'Route'                      AS domain_id,
+                'PHUSE_CM_ROUTE'             AS vocabulary_id,
+                'PHUSE_Unknown_CM_ROUTE'     AS default_vocabulary_id,
+                src.cmroute                  AS source_code,
+                src.cmroute                  AS concept_name
+FROM   src.cm src
+WHERE  src.cmroute IS NOT NULL;

@@ -29,17 +29,35 @@ window = Window.orderBy(lit(1))
 for key, df in src_dfs.items():
     src_dfs[key] = df.withColumn("row_id", row_number().over(window))
 
-# change current database to src
 spark.sql("DROP DATABASE IF EXISTS src CASCADE")
 spark.sql("CREATE DATABASE src")
-spark.sql("USE src")
 
 # save source dataframes as managed tables in the src database (schema)
 for key, df in src_dfs.items():
     df.write.format("parquet")\
         .mode("overwrite")\
         .option("compression", "snappy")\
-        .saveAsTable(key)
+        .saveAsTable(f'src.{key}')
+
+# load supplementary tables, like dose frequencies mapping
+resources_path = 'resources'
+resources_file_names = get_fnames(resources_path)
+
+resources_dfs = {}
+for path, name in resources_file_names:
+    df_name = name.replace('.csv', '')
+    resources_dfs[df_name] = spark\
+        .read\
+        .csv(path, header=True, inferSchema=True, sep=',')
+
+spark.sql("DROP DATABASE IF EXISTS temp CASCADE")
+spark.sql("CREATE DATABASE temp")
+
+for key, df in resources_dfs.items():
+    df.write.format("parquet")\
+        .mode("overwrite")\
+        .option("compression", "snappy")\
+        .saveAsTable(f'temp.{key}')
 
 # create empty cdm tables
 run_script(spark, 'src/sql/cdm_ddl.sql')
@@ -48,7 +66,6 @@ run_script(spark, 'src/sql/cdm_ddl.sql')
 vocab_std_path = 'vocab/omop'
 vocab_std_file_names = get_fnames(vocab_std_path)
 
-# create a python dictionary of dataframes
 std_vocab_dfs = {}
 for path, name in vocab_std_file_names:
     df_name = name.replace('.csv', '')
@@ -70,10 +87,6 @@ custom_vocab_df.createOrReplaceTempView('src_source_to_concept_map')
 
 # populate vocab.* tables from temp views
 run_script(spark, 'src/sql/load_stnd_vocabs.sql')
-
-spark.sql("DROP DATABASE IF EXISTS temp CASCADE")
-spark.sql("CREATE DATABASE temp")
-spark.sql("USE temp")
 
 # populate source_codes_raw
 run_script(spark, 'src/sql/source_codes_raw.sql')
