@@ -297,9 +297,75 @@ SELECT src.usubjid                 AS person_source_value,
        'PHUSE_Unknown_AE_AESDISAB' AS default_vocabulary_id,
        NULL                        AS value_source_vocabulary_id,
        'Observation'               AS default_domain_id,
-       32809                       AS event_type_concept_id,-- Case Report Form
+       32809                       AS event_type_concept_id,  -- Case Report Form
        'ae.7.aesdisab'             AS rule_id,
        'ae'                        AS src_tbl,
        src.row_id                  AS src_row
 FROM   src.ae src
-WHERE  src.aesdisab = 'Y'; 
+WHERE  src.aesdisab = 'Y';
+
+-------------------------------------------------------------------
+-- CM: Concomitant Medications
+-------------------------------------------------------------------
+INSERT INTO temp.clinical_events
+SELECT src.usubjid                   AS person_source_value,
+       Cast(src.cmstdtc AS date)     AS event_start_date,
+       NULL                          AS event_start_datetime,
+       IFNULL(
+           Cast(src.cmendtc AS date),
+           IF(date_add(
+               Cast(src.cmstdtc AS date),
+               29) > CAST('2015-03-31' AS date),
+           CAST('2015-03-31' AS date),
+           date_add(
+               Cast(src.cmstdtc AS date),
+               29)))                 AS event_end_date, -- impute according to the THEMIS #57
+       NULL                          AS event_end_datetime,
+       NULL                          AS operator_source_value,
+       NULL                          AS visit_source_value,
+       src.cmtrt
+       || '|'
+       || src.cmdose
+       || '|'
+       || Coalesce(src.cmdosu, '')
+       || '|'
+       || Coalesce(src.cmroute, '')  AS event_source_value,
+       NULL                          AS value_source_value,
+       NULL                          AS value_as_number,
+       NULL                          AS value_as_string,
+       NULL                          AS range_low,
+       NULL                          AS range_high,
+       src.cmdosu                    AS unit_source_value,  -- dose_unit_source_value for drugs
+       lk_frq.daily_dose             AS frequency,
+       NULL                          AS quantity,  -- will be defined later
+       Datediff(
+           IFNULL(
+               Cast(src.cmendtc AS date),
+               IF(date_add(
+                   Cast(src.cmstdtc AS date),
+                   29) > CAST('2015-03-31' AS date),
+                  CAST('2015-03-31' AS date),
+                  date_add(
+                      Cast(src.cmstdtc AS date),
+                      29))),
+           Cast(src.cmstdtc AS date)) + 1
+                                     AS days_supply,
+       Coalesce(src.cmdose, '')
+       || '|'
+       || Coalesce(src.cmdosu, '')
+       || '|'
+       || Coalesce(src.cmdosfrq, '') AS sig,
+       NULL                          AS stop_reason,
+       src.cmroute                   AS route_source_value,
+       'PHUSE_CM'                    AS source_vocabulary_id,
+       'PHUSE_Unknown_CM'            AS default_vocabulary_id,
+       NULL                          AS value_source_vocabulary_id,
+       'Drug'                        AS default_domain_id,
+       32809                         AS event_type_concept_id,  -- Case Report Form
+       'cm.1.cmtrt'                  AS rule_id,
+       'cm'                          AS src_tbl,
+       src.row_id                    AS src_row
+FROM   src.cm src
+       LEFT JOIN temp.lk_dose_frq lk_frq
+              ON lk_frq.dose_frequency = src.cmdosfrq
+                 AND src.cmdosfrq IS NOT NULL;
