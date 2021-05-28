@@ -193,3 +193,36 @@ SELECT DISTINCT 'Route'                      AS domain_id,
                 src.cmroute                  AS concept_name
 FROM   src.cm src
 WHERE  src.cmroute IS NOT NULL;
+
+-------------------------------------------------------------------
+-- DM: Patient consented to clinical trial
+-------------------------------------------------------------------
+INSERT INTO temp.source_codes_raw
+SELECT 'Observation'                                   AS domain_id,
+       'PHUSE_DM'                                      AS vocabulary_id,
+       'PHUSE_Unknown_DM'                              AS default_vocabulary_id,
+       'Patient consented to clinical trial'           AS source_code,
+       'Patient consented to clinical trial (finding)' AS concept_name;
+
+-------------------------------------------------------------------
+-- DM: Trial arm
+-------------------------------------------------------------------
+INSERT INTO temp.source_codes_raw
+SELECT 'Observation'                     AS domain_id,
+       'PHUSE_DM'                        AS vocabulary_id,
+       'PHUSE_Unknown_DM'                AS default_vocabulary_id,
+       'Clinical trial arm'              AS source_code,
+       'Clinical trial arm'              AS concept_name;
+
+-------------------------------------------------------------------
+-- DS: Trial Outcome
+-------------------------------------------------------------------
+INSERT INTO temp.source_codes_raw
+SELECT DISTINCT 'Observation'            AS domain_id,
+                'PHUSE_DS_DECOD'         AS vocabulary_id,
+                'PHUSE_Unknown_DS_DECOD' AS default_vocabulary_id,
+                src.dsdecod              AS source_code,
+                src.dsdecod              AS concept_name
+FROM   src.ds src
+WHERE  src.dscat != 'OTHER EVENT'
+       AND src.dsdecod IS NOT NULL;
