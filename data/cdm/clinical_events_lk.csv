@@ -13599,4 +13599,1110 @@ person_source_value,event_start_date,event_start_datetime,event_end_date,event_e
 ,2013-02-04,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,998
 ,2013-02-04,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,999
 ,2013-02-04,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,1000
+01-701-1015,2014-01-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,1
+01-701-1023,2012-08-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,2
+01-701-1028,2013-07-19,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,3
+01-701-1033,2014-03-18,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,4
+01-701-1034,2014-07-01,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,5
+01-701-1047,2013-02-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,6
+01-701-1057,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,7
+01-701-1097,2014-01-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,8
+01-701-1111,2012-09-07,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,9
+01-701-1115,2012-11-30,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,10
+01-701-1118,2014-03-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,11
+01-701-1130,2014-02-15,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,12
+01-701-1133,2012-10-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,13
+01-701-1145,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,14
+01-701-1146,2013-05-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,15
+01-701-1148,2013-08-23,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,16
+01-701-1153,2013-09-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,17
+01-701-1162,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,18
+01-701-1176,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,19
+01-701-1180,2013-02-12,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,20
+01-701-1181,2013-12-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,21
+01-701-1188,2013-02-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,22
+01-701-1192,2012-07-22,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,23
+01-701-1203,2013-02-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,24
+01-701-1211,2012-11-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,25
+01-701-1234,2013-03-30,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,26
+01-701-1239,2014-01-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,27
+01-701-1240,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,28
+01-701-1275,2014-02-07,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,29
+01-701-1287,2014-01-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,30
+01-701-1294,2013-03-24,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,31
+01-701-1302,2013-08-29,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,32
+01-701-1307,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,33
+01-701-1317,2014-05-22,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,34
+01-701-1324,2012-10-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,35
+01-701-1341,2013-01-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,36
+01-701-1345,2013-10-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,37
+01-701-1356,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,38
+01-701-1360,2013-07-31,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,39
+01-701-1363,2013-05-30,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,40
+01-701-1369,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,41
+01-701-1383,2013-02-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,42
+01-701-1386,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,43
+01-701-1387,2014-03-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,44
+01-701-1392,2012-10-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,45
+01-701-1411,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,46
+01-701-1415,2013-09-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,47
+01-701-1429,2013-03-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,48
+01-701-1440,2013-08-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,49
+01-701-1442,2013-10-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,50
+01-701-1444,2013-01-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,51
+01-702-1082,2013-07-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,52
+01-703-1042,2013-03-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,53
+01-703-1076,2013-10-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,54
+01-703-1086,2012-09-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,55
+01-703-1096,2013-01-25,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,56
+01-703-1100,2013-03-13,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,57
+01-703-1119,2013-02-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,58
+01-703-1175,2013-12-20,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,59
+01-703-1182,2013-10-17,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,60
+01-703-1197,2013-06-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,61
+01-703-1210,2013-03-16,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,62
+01-703-1258,2012-07-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,63
+01-703-1279,2013-05-13,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,64
+01-703-1295,2013-11-21,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,65
+01-703-1299,2012-09-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,66
+01-703-1335,2014-03-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,67
+01-703-1379,2013-09-22,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,68
+01-703-1396,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,69
+01-703-1403,2012-12-12,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,70
+01-703-1439,2014-03-12,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,71
+01-704-1008,2013-01-13,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,72
+01-704-1009,2013-08-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,73
+01-704-1010,2014-02-21,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,74
+01-704-1017,2013-10-06,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,75
+01-704-1025,2013-09-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,76
+01-704-1065,2013-10-24,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,77
+01-704-1074,2014-01-22,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,78
+01-704-1093,2013-03-15,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,79
+01-704-1114,2013-01-23,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,80
+01-704-1120,2013-12-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,81
+01-704-1127,2013-10-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,82
+01-704-1135,2013-10-31,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,83
+01-704-1164,2012-09-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,84
+01-704-1218,2012-11-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,85
+01-704-1233,2013-03-21,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,86
+01-704-1241,2013-08-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,87
+01-704-1260,2012-08-30,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,88
+01-704-1266,2013-10-13,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,89
+01-704-1323,2013-07-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,90
+01-704-1325,2014-04-23,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,91
+01-704-1332,2013-12-09,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,92
+01-704-1351,2013-10-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,93
+01-704-1388,2012-12-07,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,94
+01-704-1435,2012-11-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,95
+01-704-1445,2014-05-11,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,96
+01-705-1011,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,97
+01-705-1018,2013-07-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,98
+01-705-1031,2013-11-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,99
+01-705-1058,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,100
+01-705-1059,2013-08-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,101
+01-705-1112,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,102
+01-705-1186,2014-01-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,103
+01-705-1199,2013-09-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,104
+01-705-1243,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,105
+01-705-1280,2014-01-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,106
+01-705-1281,2013-11-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,107
+01-705-1282,2012-12-26,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,108
+01-705-1292,2013-10-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,109
+01-705-1303,2013-12-16,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,110
+01-705-1310,2013-11-02,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,111
+01-705-1349,2013-03-10,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,112
+01-705-1377,2014-01-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,113
+01-705-1382,2013-05-13,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,114
+01-705-1393,2012-09-07,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,115
+01-705-1421,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,116
+01-705-1431,2013-06-23,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,117
+01-706-1041,2013-12-31,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,118
+01-706-1049,2013-05-14,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,119
+01-706-1384,2012-09-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,120
+01-707-1037,2013-12-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,121
+01-707-1206,2013-10-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,122
+01-707-1276,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,123
+01-707-1430,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,124
+01-707-1434,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,125
+01-708-1013,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,126
+01-708-1019,2013-12-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,127
+01-708-1032,2013-02-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,128
+01-708-1054,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,129
+01-708-1067,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,130
+01-708-1084,2013-05-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,131
+01-708-1087,2012-10-22,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,132
+01-708-1104,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,133
+01-708-1158,2014-02-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,134
+01-708-1171,2012-12-06,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,135
+01-708-1178,2013-12-29,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,136
+01-708-1184,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,137
+01-708-1213,2013-02-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,138
+01-708-1216,2012-10-24,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,139
+01-708-1236,2013-09-21,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,140
+01-708-1242,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,141
+01-708-1253,2013-05-07,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,142
+01-708-1272,2013-02-06,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,143
+01-708-1286,2013-09-10,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,144
+01-708-1296,2013-06-14,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,145
+01-708-1297,2013-01-25,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,146
+01-708-1316,2013-08-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,147
+01-708-1336,2012-12-07,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,148
+01-708-1342,2012-12-29,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,149
+01-708-1347,2013-04-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,150
+01-708-1348,2013-08-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,151
+01-708-1352,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,152
+01-708-1353,2013-07-04,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,153
+01-708-1372,2013-04-12,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,154
+01-708-1378,2013-09-03,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,155
+01-708-1406,2013-12-26,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,156
+01-708-1428,2013-11-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,157
+01-709-1001,2013-10-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,158
+01-709-1007,2012-07-31,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,159
+01-709-1020,2012-12-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,160
+01-709-1029,2012-12-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,161
+01-709-1081,2014-01-18,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,162
+01-709-1088,2014-04-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,163
+01-709-1099,2013-10-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,164
+01-709-1102,2013-01-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,165
+01-709-1168,2013-08-02,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,166
+01-709-1217,2013-03-04,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,167
+01-709-1224,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,168
+01-709-1237,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,169
+01-709-1238,2013-05-15,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,170
+01-709-1259,2013-01-26,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,171
+01-709-1285,2013-03-24,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,172
+01-709-1301,2013-07-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,173
+01-709-1306,2014-02-03,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,174
+01-709-1309,2013-06-19,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,175
+01-709-1312,2014-04-20,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,176
+01-709-1326,2013-04-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,177
+01-709-1329,2013-08-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,178
+01-709-1339,2012-12-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,179
+01-709-1424,2013-03-03,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,180
+01-710-1002,2014-01-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,181
+01-710-1006,2013-02-10,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,182
+01-710-1021,2013-09-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,183
+01-710-1027,2014-02-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,184
+01-710-1045,2013-06-03,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,185
+01-710-1053,2012-12-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,186
+01-710-1060,2013-01-01,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,187
+01-710-1070,2012-09-08,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,188
+01-710-1077,2013-11-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,189
+01-710-1078,2013-09-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,190
+01-710-1083,2013-07-22,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,191
+01-710-1129,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,192
+01-710-1137,2013-10-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,193
+01-710-1142,2012-10-02,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,194
+01-710-1149,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,195
+01-710-1154,2014-03-29,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,196
+01-710-1166,2012-11-30,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,197
+01-710-1183,2013-11-16,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,198
+01-710-1187,2012-11-10,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,199
+01-710-1235,2012-09-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,200
+01-710-1249,2013-12-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,201
+01-710-1257,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,202
+01-710-1264,2013-06-13,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,203
+01-710-1270,2014-02-12,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,204
+01-710-1271,2012-09-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,205
+01-710-1278,2012-12-24,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,206
+01-710-1300,2012-12-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,207
+01-710-1314,2013-04-24,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,208
+01-710-1315,2013-02-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,209
+01-710-1337,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,210
+01-710-1354,2012-11-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,211
+01-710-1358,2012-09-17,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,212
+01-710-1368,2013-10-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,213
+01-710-1376,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,214
+01-710-1380,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,215
+01-710-1385,2012-10-29,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,216
+01-710-1408,2013-01-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,217
+01-710-1443,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,218
+01-711-1012,2013-04-03,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,219
+01-711-1022,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,220
+01-711-1036,2012-07-29,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,221
+01-711-1143,2013-04-03,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,222
+01-711-1163,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,223
+01-711-1173,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,224
+01-711-1226,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,225
+01-711-1251,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,226
+01-711-1283,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,227
+01-711-1284,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,228
+01-711-1290,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,229
+01-711-1433,2013-01-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,230
+01-713-1043,2013-09-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,231
+01-713-1073,2014-03-30,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,232
+01-713-1106,2012-10-31,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,233
+01-713-1141,2013-05-31,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,234
+01-713-1179,2013-08-09,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,235
+01-713-1209,2013-05-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,236
+01-713-1256,2012-09-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,237
+01-713-1269,2014-01-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,238
+01-713-1448,2014-01-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,239
+01-714-1035,2014-04-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,240
+01-714-1068,2013-08-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,241
+01-714-1195,2013-04-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,242
+01-714-1288,2013-12-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,243
+01-714-1375,2013-02-26,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,244
+01-714-1425,2013-08-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,245
+01-715-1085,2013-02-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,246
+01-715-1107,2013-02-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,247
+01-715-1134,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,248
+01-715-1155,2013-12-13,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,249
+01-715-1207,2012-11-18,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,250
+01-715-1225,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,251
+01-715-1319,2013-02-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,252
+01-715-1321,2014-02-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,253
+01-715-1333,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,254
+01-715-1397,2013-04-03,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,255
+01-715-1405,2013-07-06,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,256
+01-715-1407,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,257
+01-716-1003,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,258
+01-716-1024,2012-07-09,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,259
+01-716-1026,2014-04-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,260
+01-716-1030,2013-12-28,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,261
+01-716-1044,2013-04-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,262
+01-716-1061,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,263
+01-716-1063,2013-05-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,264
+01-716-1071,2013-06-08,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,265
+01-716-1094,2012-12-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,266
+01-716-1103,2014-03-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,267
+01-716-1108,2013-02-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,268
+01-716-1151,2013-02-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,269
+01-716-1157,2013-10-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,270
+01-716-1160,2013-04-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,271
+01-716-1167,2012-10-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,272
+01-716-1177,2014-09-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,273
+01-716-1189,2012-10-09,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,274
+01-716-1229,2013-02-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,275
+01-716-1244,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,276
+01-716-1298,2013-04-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,277
+01-716-1305,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,278
+01-716-1308,2013-08-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,279
+01-716-1311,2014-05-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,280
+01-716-1331,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,281
+01-716-1364,2013-07-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,282
+01-716-1373,2012-12-14,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,283
+01-716-1418,2013-05-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,284
+01-716-1441,2014-01-22,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,285
+01-716-1447,2013-12-16,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,286
+01-717-1004,2014-01-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,287
+01-717-1109,2014-01-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,288
+01-717-1174,2013-01-22,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,289
+01-717-1201,2013-12-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,290
+01-717-1344,2014-01-11,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,291
+01-717-1357,2013-05-01,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,292
+01-717-1446,2013-09-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,293
+01-718-1066,2013-07-07,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,294
+01-718-1079,2012-09-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,295
+01-718-1101,2013-02-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,296
+01-718-1139,2013-05-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,297
+01-718-1150,2013-01-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,298
+01-718-1170,2013-09-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,299
+01-718-1172,2013-09-21,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,300
+01-718-1250,2013-09-21,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,301
+01-718-1254,2013-07-10,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,302
+01-718-1328,2013-02-01,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,303
+01-718-1355,2013-02-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,304
+01-718-1371,2013-04-26,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,305
+01-718-1427,2012-12-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,306
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,307
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,308
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,309
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,310
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,311
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,312
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,313
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,314
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,315
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,316
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,317
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,318
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,319
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,320
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,321
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,322
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,323
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,324
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,325
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,326
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,327
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,328
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,329
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,330
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,331
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,332
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,333
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,334
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,335
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,336
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,337
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,338
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,339
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,340
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,341
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,342
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,343
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,344
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,345
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,346
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,347
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,348
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,349
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,350
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,351
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,352
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,353
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,354
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,355
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,356
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,357
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,358
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,359
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,360
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,361
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,362
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,363
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,364
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,365
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,366
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,367
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,368
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,369
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,370
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,371
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,372
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,373
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,374
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,375
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,376
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,377
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,378
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,379
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,380
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,381
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,382
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,383
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,384
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,385
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,386
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,387
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,388
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,389
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,390
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,391
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,392
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,393
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,394
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,395
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,396
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,397
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,398
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,399
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,400
+01-701-1015,2014-01-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,1
+01-701-1023,2012-08-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,2
+01-701-1028,2013-07-19,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,3
+01-701-1033,2014-03-18,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,4
+01-701-1034,2014-07-01,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,5
+01-701-1047,2013-02-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,6
+01-701-1057,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,7
+01-701-1097,2014-01-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,8
+01-701-1111,2012-09-07,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,9
+01-701-1115,2012-11-30,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,10
+01-701-1118,2014-03-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,11
+01-701-1130,2014-02-15,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,12
+01-701-1133,2012-10-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,13
+01-701-1145,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,14
+01-701-1146,2013-05-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,15
+01-701-1148,2013-08-23,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,16
+01-701-1153,2013-09-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,17
+01-701-1162,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,18
+01-701-1176,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,19
+01-701-1180,2013-02-12,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,20
+01-701-1181,2013-12-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,21
+01-701-1188,2013-02-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,22
+01-701-1192,2012-07-22,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,23
+01-701-1203,2013-02-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,24
+01-701-1211,2012-11-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,25
+01-701-1234,2013-03-30,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,26
+01-701-1239,2014-01-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,27
+01-701-1240,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,28
+01-701-1275,2014-02-07,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,29
+01-701-1287,2014-01-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,30
+01-701-1294,2013-03-24,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,31
+01-701-1302,2013-08-29,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,32
+01-701-1307,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,33
+01-701-1317,2014-05-22,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,34
+01-701-1324,2012-10-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,35
+01-701-1341,2013-01-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,36
+01-701-1345,2013-10-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,37
+01-701-1356,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,38
+01-701-1360,2013-07-31,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,39
+01-701-1363,2013-05-30,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,40
+01-701-1369,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,41
+01-701-1383,2013-02-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,42
+01-701-1386,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,43
+01-701-1387,2014-03-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,44
+01-701-1392,2012-10-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,45
+01-701-1411,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,46
+01-701-1415,2013-09-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,47
+01-701-1429,2013-03-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,48
+01-701-1440,2013-08-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,49
+01-701-1442,2013-10-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,50
+01-701-1444,2013-01-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,51
+01-702-1082,2013-07-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,52
+01-703-1042,2013-03-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,53
+01-703-1076,2013-10-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,54
+01-703-1086,2012-09-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,55
+01-703-1096,2013-01-25,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,56
+01-703-1100,2013-03-13,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,57
+01-703-1119,2013-02-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,58
+01-703-1175,2013-12-20,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,59
+01-703-1182,2013-10-17,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,60
+01-703-1197,2013-06-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,61
+01-703-1210,2013-03-16,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,62
+01-703-1258,2012-07-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,63
+01-703-1279,2013-05-13,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,64
+01-703-1295,2013-11-21,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,65
+01-703-1299,2012-09-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,66
+01-703-1335,2014-03-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,67
+01-703-1379,2013-09-22,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,68
+01-703-1396,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,69
+01-703-1403,2012-12-12,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,70
+01-703-1439,2014-03-12,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,71
+01-704-1008,2013-01-13,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,72
+01-704-1009,2013-08-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,73
+01-704-1010,2014-02-21,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,74
+01-704-1017,2013-10-06,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,75
+01-704-1025,2013-09-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,76
+01-704-1065,2013-10-24,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,77
+01-704-1074,2014-01-22,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,78
+01-704-1093,2013-03-15,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,79
+01-704-1114,2013-01-23,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,80
+01-704-1120,2013-12-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,81
+01-704-1127,2013-10-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,82
+01-704-1135,2013-10-31,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,83
+01-704-1164,2012-09-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,84
+01-704-1218,2012-11-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,85
+01-704-1233,2013-03-21,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,86
+01-704-1241,2013-08-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,87
+01-704-1260,2012-08-30,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,88
+01-704-1266,2013-10-13,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,89
+01-704-1323,2013-07-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,90
+01-704-1325,2014-04-23,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,91
+01-704-1332,2013-12-09,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,92
+01-704-1351,2013-10-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,93
+01-704-1388,2012-12-07,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,94
+01-704-1435,2012-11-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,95
+01-704-1445,2014-05-11,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,96
+01-705-1011,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,97
+01-705-1018,2013-07-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,98
+01-705-1031,2013-11-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,99
+01-705-1058,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,100
+01-705-1059,2013-08-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,101
+01-705-1112,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,102
+01-705-1186,2014-01-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,103
+01-705-1199,2013-09-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,104
+01-705-1243,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,105
+01-705-1280,2014-01-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,106
+01-705-1281,2013-11-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,107
+01-705-1282,2012-12-26,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,108
+01-705-1292,2013-10-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,109
+01-705-1303,2013-12-16,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,110
+01-705-1310,2013-11-02,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,111
+01-705-1349,2013-03-10,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,112
+01-705-1377,2014-01-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,113
+01-705-1382,2013-05-13,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,114
+01-705-1393,2012-09-07,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,115
+01-705-1421,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,116
+01-705-1431,2013-06-23,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,117
+01-706-1041,2013-12-31,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,118
+01-706-1049,2013-05-14,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,119
+01-706-1384,2012-09-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,120
+01-707-1037,2013-12-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,121
+01-707-1206,2013-10-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,122
+01-707-1276,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,123
+01-707-1430,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,124
+01-707-1434,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,125
+01-708-1013,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,126
+01-708-1019,2013-12-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,127
+01-708-1032,2013-02-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,128
+01-708-1054,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,129
+01-708-1067,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,130
+01-708-1084,2013-05-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,131
+01-708-1087,2012-10-22,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,132
+01-708-1104,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,133
+01-708-1158,2014-02-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,134
+01-708-1171,2012-12-06,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,135
+01-708-1178,2013-12-29,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,136
+01-708-1184,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,137
+01-708-1213,2013-02-09,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,138
+01-708-1216,2012-10-24,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,139
+01-708-1236,2013-09-21,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,140
+01-708-1242,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,141
+01-708-1253,2013-05-07,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,142
+01-708-1272,2013-02-06,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,143
+01-708-1286,2013-09-10,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,144
+01-708-1296,2013-06-14,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,145
+01-708-1297,2013-01-25,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,146
+01-708-1316,2013-08-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,147
+01-708-1336,2012-12-07,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,148
+01-708-1342,2012-12-29,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,149
+01-708-1347,2013-04-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,150
+01-708-1348,2013-08-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,151
+01-708-1352,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,152
+01-708-1353,2013-07-04,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,153
+01-708-1372,2013-04-12,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,154
+01-708-1378,2013-09-03,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,155
+01-708-1406,2013-12-26,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,156
+01-708-1428,2013-11-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,157
+01-709-1001,2013-10-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,158
+01-709-1007,2012-07-31,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,159
+01-709-1020,2012-12-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,160
+01-709-1029,2012-12-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,161
+01-709-1081,2014-01-18,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,162
+01-709-1088,2014-04-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,163
+01-709-1099,2013-10-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,164
+01-709-1102,2013-01-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,165
+01-709-1168,2013-08-02,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,166
+01-709-1217,2013-03-04,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,167
+01-709-1224,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,168
+01-709-1237,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,169
+01-709-1238,2013-05-15,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,170
+01-709-1259,2013-01-26,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,171
+01-709-1285,2013-03-24,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,172
+01-709-1301,2013-07-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,173
+01-709-1306,2014-02-03,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,174
+01-709-1309,2013-06-19,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,175
+01-709-1312,2014-04-20,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,176
+01-709-1326,2013-04-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,177
+01-709-1329,2013-08-15,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,178
+01-709-1339,2012-12-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,179
+01-709-1424,2013-03-03,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,180
+01-710-1002,2014-01-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,181
+01-710-1006,2013-02-10,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,182
+01-710-1021,2013-09-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,183
+01-710-1027,2014-02-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,184
+01-710-1045,2013-06-03,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,185
+01-710-1053,2012-12-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,186
+01-710-1060,2013-01-01,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,187
+01-710-1070,2012-09-08,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,188
+01-710-1077,2013-11-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,189
+01-710-1078,2013-09-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,190
+01-710-1083,2013-07-22,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,191
+01-710-1129,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,192
+01-710-1137,2013-10-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,193
+01-710-1142,2012-10-02,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,194
+01-710-1149,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,195
+01-710-1154,2014-03-29,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,196
+01-710-1166,2012-11-30,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,197
+01-710-1183,2013-11-16,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,198
+01-710-1187,2012-11-10,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,199
+01-710-1235,2012-09-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,200
+01-710-1249,2013-12-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,201
+01-710-1257,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,202
+01-710-1264,2013-06-13,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,203
+01-710-1270,2014-02-12,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,204
+01-710-1271,2012-09-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,205
+01-710-1278,2012-12-24,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,206
+01-710-1300,2012-12-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,207
+01-710-1314,2013-04-24,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,208
+01-710-1315,2013-02-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,209
+01-710-1337,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,210
+01-710-1354,2012-11-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,211
+01-710-1358,2012-09-17,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,212
+01-710-1368,2013-10-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,213
+01-710-1376,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,214
+01-710-1380,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,215
+01-710-1385,2012-10-29,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,216
+01-710-1408,2013-01-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,217
+01-710-1443,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,218
+01-711-1012,2013-04-03,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,219
+01-711-1022,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,220
+01-711-1036,2012-07-29,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,221
+01-711-1143,2013-04-03,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,222
+01-711-1163,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,223
+01-711-1173,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,224
+01-711-1226,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,225
+01-711-1251,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,226
+01-711-1283,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,227
+01-711-1284,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,228
+01-711-1290,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,229
+01-711-1433,2013-01-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,230
+01-713-1043,2013-09-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,231
+01-713-1073,2014-03-30,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,232
+01-713-1106,2012-10-31,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,233
+01-713-1141,2013-05-31,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,234
+01-713-1179,2013-08-09,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,235
+01-713-1209,2013-05-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,236
+01-713-1256,2012-09-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,237
+01-713-1269,2014-01-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,238
+01-713-1448,2014-01-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,239
+01-714-1035,2014-04-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,240
+01-714-1068,2013-08-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,241
+01-714-1195,2013-04-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,242
+01-714-1288,2013-12-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,243
+01-714-1375,2013-02-26,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,244
+01-714-1425,2013-08-15,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,245
+01-715-1085,2013-02-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,246
+01-715-1107,2013-02-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,247
+01-715-1134,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,248
+01-715-1155,2013-12-13,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,249
+01-715-1207,2012-11-18,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,250
+01-715-1225,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,251
+01-715-1319,2013-02-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,252
+01-715-1321,2014-02-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,253
+01-715-1333,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,254
+01-715-1397,2013-04-03,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,255
+01-715-1405,2013-07-06,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,256
+01-715-1407,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,257
+01-716-1003,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,258
+01-716-1024,2012-07-09,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,259
+01-716-1026,2014-04-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,260
+01-716-1030,2013-12-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,261
+01-716-1044,2013-04-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,262
+01-716-1061,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,263
+01-716-1063,2013-05-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,264
+01-716-1071,2013-06-08,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,265
+01-716-1094,2012-12-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,266
+01-716-1103,2014-03-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,267
+01-716-1108,2013-02-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,268
+01-716-1151,2013-02-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,269
+01-716-1157,2013-10-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,270
+01-716-1160,2013-04-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,271
+01-716-1167,2012-10-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,272
+01-716-1177,2014-09-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,273
+01-716-1189,2012-10-09,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,274
+01-716-1229,2013-02-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,275
+01-716-1244,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,276
+01-716-1298,2013-04-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,277
+01-716-1305,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,278
+01-716-1308,2013-08-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,279
+01-716-1311,2014-05-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,280
+01-716-1331,,,,,,,Clinical trial arm,,,Screen Failure,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,281
+01-716-1364,2013-07-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,282
+01-716-1373,2012-12-14,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,283
+01-716-1418,2013-05-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,284
+01-716-1441,2014-01-22,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,285
+01-716-1447,2013-12-16,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,286
+01-717-1004,2014-01-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,287
+01-717-1109,2014-01-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,288
+01-717-1174,2013-01-22,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,289
+01-717-1201,2013-12-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,290
+01-717-1344,2014-01-11,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,291
+01-717-1357,2013-05-01,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,292
+01-717-1446,2013-09-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,293
+01-718-1066,2013-07-07,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,294
+01-718-1079,2012-09-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,295
+01-718-1101,2013-02-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,296
+01-718-1139,2013-05-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,297
+01-718-1150,2013-01-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,298
+01-718-1170,2013-09-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,299
+01-718-1172,2013-09-21,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,300
+01-718-1250,2013-09-21,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,301
+01-718-1254,2013-07-10,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,302
+01-718-1328,2013-02-01,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,303
+01-718-1355,2013-02-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,304
+01-718-1371,2013-04-26,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,305
+01-718-1427,2012-12-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,306
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,307
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,308
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,309
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,310
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,311
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,312
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,313
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,314
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,315
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,316
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,317
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,318
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,319
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,320
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,321
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,322
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,323
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,324
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,325
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,326
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,327
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,328
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,329
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,330
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,331
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,332
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,333
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,334
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,335
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,336
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,337
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,338
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,339
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,340
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,341
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,342
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,343
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,344
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,345
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,346
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,347
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,348
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,349
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,350
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,351
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,352
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,353
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,354
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,355
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,356
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,357
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,358
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,359
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,360
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,361
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,362
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,363
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,364
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,365
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,366
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,367
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,368
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,369
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,370
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,371
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,372
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,373
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,374
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,375
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,376
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,377
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,378
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,379
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,380
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,381
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,382
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,383
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,384
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,385
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,386
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,387
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,388
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,389
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,390
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,391
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,392
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,393
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,394
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,395
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,396
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,397
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,398
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,399
+,,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,400
+01-701-1015,2014-07-02,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,1
+01-701-1023,2012-09-02,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,3
+01-701-1028,2014-01-14,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,6
+01-701-1033,2014-04-14,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,8
+01-701-1034,2014-12-30,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,11
+01-701-1047,2013-03-29,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,13
+01-701-1057,2013-12-20,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,16
+01-701-1097,2014-07-09,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,17
+01-701-1111,2012-09-17,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,19
+01-701-1115,2013-01-23,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,22
+01-701-1118,2014-09-09,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,25
+01-701-1130,2014-08-16,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,27
+01-701-1133,2013-04-29,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,29
+01-701-1145,2013-09-05,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,31
+01-701-1146,2013-06-30,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,32
+01-701-1148,2014-02-20,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,34
+01-701-1153,2014-04-01,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,36
+01-701-1162,2013-04-18,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,38
+01-701-1176,2012-09-30,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,39
+01-701-1180,2013-03-23,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,40
+01-701-1181,2013-12-12,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,42
+01-701-1188,2013-03-25,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,45
+01-701-1192,2013-01-20,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,48
+01-701-1203,2013-08-03,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,50
+01-701-1211,2013-01-14,,,,,,DEATH,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,52
+01-701-1234,2013-09-22,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,54
+01-701-1239,2014-07-11,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,56
+01-701-1240,2013-09-22,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,58
+01-701-1275,2014-06-14,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,59
+01-701-1287,2014-07-26,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,61
+01-701-1294,2013-06-14,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,63
+01-701-1302,2013-11-05,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,66
+01-701-1307,2013-12-08,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,69
+01-701-1317,2014-11-20,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,70
+01-701-1324,2013-04-02,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,72
+01-701-1341,2013-02-07,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,74
+01-701-1345,2014-03-18,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,76
+01-701-1356,2014-04-01,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,78
+01-701-1360,2013-08-14,,,,,,PHYSICIAN DECISION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,79
+01-701-1363,2013-11-27,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,82
+01-701-1369,2013-09-18,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,84
+01-701-1383,2013-08-06,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,85
+01-701-1386,2013-12-28,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,87
+01-701-1387,2014-03-25,,,,,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,88
+01-701-1392,2013-04-28,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,91
+01-701-1411,2012-11-14,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,93
+01-701-1415,2014-03-24,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,94
+01-701-1429,2013-04-30,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,96
+01-701-1440,2014-02-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,98
+01-701-1442,2014-04-26,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,100
+01-701-1444,2013-02-13,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,102
+01-702-1082,2013-11-17,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,105
+01-703-1042,2013-08-31,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,107
+01-703-1076,2013-12-24,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,109
+01-703-1086,2012-12-24,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,111
+01-703-1096,2013-03-29,,,,,,LOST TO FOLLOW-UP,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,114
+01-703-1100,2013-09-14,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,116
+01-703-1119,2013-06-13,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,118
+01-703-1175,2013-12-31,,,,,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,121
+01-703-1182,2013-12-12,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,123
+01-703-1197,2013-07-22,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,125
+01-703-1210,2013-09-06,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,127
+01-703-1258,2013-01-21,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,129
+01-703-1279,2013-06-22,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,131
+01-703-1295,2014-05-19,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,133
+01-703-1299,2013-03-13,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,135
+01-703-1335,2014-05-24,,,,,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,137
+01-703-1379,2014-03-21,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,139
+01-703-1396,2014-02-09,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,141
+01-703-1403,2012-12-19,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,142
+01-703-1439,2014-09-11,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,144
+01-704-1008,2013-02-25,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,146
+01-704-1009,2013-10-02,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,148
+01-704-1010,2014-07-09,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,150
+01-704-1017,2013-11-24,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,152
+01-704-1025,2013-11-29,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,154
+01-704-1065,2013-12-24,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,156
+01-704-1074,2014-03-31,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,158
+01-704-1093,2013-06-20,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,160
+01-704-1114,2013-07-08,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,163
+01-704-1120,2014-02-03,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,165
+01-704-1127,2014-03-31,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,167
+01-704-1135,2014-05-16,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,169
+01-704-1164,2013-04-04,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,171
+01-704-1218,2013-05-27,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,173
+01-704-1233,2013-07-14,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,175
+01-704-1241,2013-10-31,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,177
+01-704-1260,2013-01-18,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,179
+01-704-1266,2013-12-06,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,181
+01-704-1323,2013-08-08,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,183
+01-704-1325,2014-08-06,,,,,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,185
+01-704-1332,2014-02-16,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,187
+01-704-1351,2014-04-18,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,189
+01-704-1388,2013-06-19,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,191
+01-704-1435,2013-01-12,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,193
+01-704-1445,2014-11-01,,,,,,DEATH,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,195
+01-705-1011,2013-09-01,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,197
+01-705-1018,2013-07-12,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,198
+01-705-1031,2014-05-11,,,,,,LOST TO FOLLOW-UP,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,200
+01-705-1058,2013-12-02,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,202
+01-705-1059,2013-12-05,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,203
+01-705-1112,2014-02-23,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,206
+01-705-1186,2014-02-07,,,,,,PHYSICIAN DECISION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,207
+01-705-1199,2013-09-29,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,209
+01-705-1243,2013-02-26,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,211
+01-705-1280,2014-07-25,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,212
+01-705-1281,2014-03-17,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,214
+01-705-1282,2013-06-24,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,216
+01-705-1292,2014-05-14,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,218
+01-705-1303,2014-06-02,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,220
+01-705-1310,2014-01-23,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,222
+01-705-1349,2013-09-08,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,224
+01-705-1377,2014-03-07,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,226
+01-705-1382,2013-05-13,,,,,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,228
+01-705-1393,2013-02-20,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,230
+01-705-1421,2013-01-14,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,232
+01-705-1431,2013-12-19,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,233
+01-706-1041,2014-07-29,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,235
+01-706-1049,2013-06-25,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,237
+01-706-1384,2012-09-29,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,240
+01-707-1037,2014-01-08,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,243
+01-707-1206,2014-04-27,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,245
+01-707-1276,2012-10-12,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,247
+01-707-1430,2014-02-14,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,248
+01-707-1434,2013-07-25,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,249
+01-708-1013,2012-10-13,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,250
+01-708-1019,2014-01-23,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,251
+01-708-1032,2013-03-09,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,253
+01-708-1054,2014-02-14,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,255
+01-708-1067,2013-02-07,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,256
+01-708-1084,2013-11-11,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,257
+01-708-1087,2013-04-28,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,259
+01-708-1104,2014-01-23,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,261
+01-708-1158,2014-03-22,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,262
+01-708-1171,2013-06-04,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,264
+01-708-1178,2014-04-06,,,,,,PHYSICIAN DECISION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,266
+01-708-1184,2013-01-14,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,268
+01-708-1213,2013-02-26,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,269
+01-708-1216,2012-12-06,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,271
+01-708-1236,2013-09-26,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,273
+01-708-1242,2012-08-13,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,275
+01-708-1253,2013-11-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,276
+01-708-1272,2013-04-04,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,278
+01-708-1286,2014-03-08,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,280
+01-708-1296,2013-12-12,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,282
+01-708-1297,2013-05-08,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,284
+01-708-1316,2014-03-01,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,286
+01-708-1336,2013-06-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,288
+01-708-1342,2013-06-28,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,290
+01-708-1347,2013-06-18,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,292
+01-708-1348,2014-02-13,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,294
+01-708-1352,2013-09-16,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,296
+01-708-1353,2013-09-10,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,297
+01-708-1372,2013-05-10,,,,,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,299
+01-708-1378,2014-01-28,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,301
+01-708-1406,2014-07-02,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,303
+01-708-1428,2014-01-31,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,305
+01-709-1001,2014-04-08,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,307
+01-709-1007,2012-09-01,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,309
+01-709-1020,2013-06-01,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,311
+01-709-1029,2013-06-26,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,313
+01-709-1081,2014-05-10,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,315
+01-709-1088,2014-10-09,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,317
+01-709-1099,2014-04-25,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,319
+01-709-1102,2013-03-31,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,321
+01-709-1168,2013-09-27,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,323
+01-709-1217,2013-06-25,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,325
+01-709-1224,2013-11-18,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,327
+01-709-1237,2014-01-17,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,328
+01-709-1238,2013-08-07,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,329
+01-709-1259,2013-06-13,,,,,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,331
+01-709-1285,2013-05-31,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,333
+01-709-1301,2014-01-17,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,335
+01-709-1306,2014-06-25,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,337
+01-709-1309,2013-12-19,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,339
+01-709-1312,2014-10-19,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,341
+01-709-1326,2013-10-02,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,343
+01-709-1329,2013-08-29,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,345
+01-709-1339,2013-06-24,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,347
+01-709-1424,2013-03-08,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,349
+01-710-1002,2014-01-18,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,351
+01-710-1006,2013-08-10,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,353
+01-710-1021,2013-11-12,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,355
+01-710-1027,2014-08-29,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,357
+01-710-1045,2013-08-17,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,359
+01-710-1053,2013-02-15,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,361
+01-710-1060,2013-07-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,363
+01-710-1070,2013-02-23,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,365
+01-710-1077,2014-05-18,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,367
+01-710-1078,2014-03-23,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,369
+01-710-1083,2013-08-02,,,,,,DEATH,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,371
+01-710-1129,2013-03-05,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,373
+01-710-1137,2013-11-13,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,374
+01-710-1142,2012-10-23,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,376
+01-710-1149,2013-11-16,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,378
+01-710-1154,2014-05-09,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,379
+01-710-1166,2013-03-30,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,381
+01-710-1183,2014-05-17,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,383
+01-710-1187,2013-05-12,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,385
+01-710-1235,2013-03-27,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,387
+01-710-1249,2014-06-28,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,389
+01-710-1257,2013-11-29,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,391
+01-710-1264,2013-10-12,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,392
+01-710-1270,2014-03-01,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,394
+01-710-1271,2012-12-02,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,396
+01-710-1278,2013-03-03,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,398
+01-710-1300,2013-02-19,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,400
+01-710-1314,2013-05-25,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,402
+01-710-1315,2013-07-16,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,404
+01-710-1337,2013-12-30,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,406
+01-710-1354,2013-05-01,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,407
+01-710-1358,2013-03-12,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,409
+01-710-1368,2014-04-24,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,411
+01-710-1376,2014-04-21,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,413
+01-710-1380,2013-06-02,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,414
+01-710-1385,2013-02-18,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,415
+01-710-1408,2013-07-12,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,417
+01-710-1443,2013-12-13,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,419
+01-711-1012,2013-05-02,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,420
+01-711-1022,2014-03-17,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,423
+01-711-1036,2013-02-10,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,424
+01-711-1143,2013-06-01,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,426
+01-711-1163,2012-11-08,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,429
+01-711-1173,2012-10-04,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,430
+01-711-1226,2013-10-24,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,431
+01-711-1251,2014-02-28,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,432
+01-711-1283,2014-03-27,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,433
+01-711-1284,2013-08-05,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,434
+01-711-1290,2013-12-20,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,435
+01-711-1433,2013-02-06,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,436
+01-713-1043,2014-03-24,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,438
+01-713-1073,2014-10-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,440
+01-713-1106,2013-05-06,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,442
+01-713-1141,2013-08-06,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,444
+01-713-1179,2014-02-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,446
+01-713-1209,2013-11-22,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,448
+01-713-1256,2013-03-25,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,450
+01-713-1269,2014-07-28,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,452
+01-713-1448,2014-05-17,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,454
+01-714-1035,2014-10-16,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,457
+01-714-1068,2013-10-16,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,459
+01-714-1195,2013-10-23,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,461
+01-714-1288,2014-06-17,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,463
+01-714-1375,2013-09-07,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,465
+01-714-1425,2013-08-22,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,467
+01-715-1085,2013-08-18,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,469
+01-715-1107,2013-05-13,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,471
+01-715-1134,2014-04-17,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,474
+01-715-1155,2014-04-26,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,475
+01-715-1207,2013-06-01,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,477
+01-715-1225,2013-01-22,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,479
+01-715-1319,2013-03-18,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,480
+01-715-1321,2014-04-22,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,482
+01-715-1333,2013-06-03,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,484
+01-715-1397,2013-10-03,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,485
+01-715-1405,2013-07-13,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,487
+01-715-1407,2012-10-24,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,490
+01-716-1003,2014-03-29,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,491
+01-716-1024,2013-01-20,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,492
+01-716-1026,2014-10-16,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,494
+01-716-1030,2014-01-10,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,496
+01-716-1044,2013-11-03,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,498
+01-716-1061,2014-02-14,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,500
+01-716-1063,2013-08-28,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,501
+01-716-1071,2013-08-01,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,504
+01-716-1094,2013-01-26,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,507
+01-716-1103,2014-09-20,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,510
+01-716-1108,2013-08-10,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,512
+01-716-1151,2013-06-07,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,514
+01-716-1157,2014-04-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,517
+01-716-1160,2013-10-11,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,519
+01-716-1167,2013-04-13,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,521
+01-716-1177,2015-03-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,523
+01-716-1189,2013-03-03,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,525
+01-716-1229,2013-04-02,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,528
+01-716-1244,2013-08-15,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,530
+01-716-1298,2013-07-06,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,531
+01-716-1305,2013-08-06,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,534
+01-716-1308,2013-10-07,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,535
+01-716-1311,2014-09-30,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,537
+01-716-1331,2013-11-25,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,540
+01-716-1364,2014-01-09,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,541
+01-716-1373,2013-02-28,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,543
+01-716-1418,2013-11-20,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,545
+01-716-1441,2014-07-22,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,547
+01-716-1447,2014-06-17,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,549
+01-717-1004,2014-07-16,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,551
+01-717-1109,2014-07-28,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,553
+01-717-1174,2013-07-24,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,555
+01-717-1201,2014-02-21,,,,,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,557
+01-717-1344,2014-03-14,,,,,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,559
+01-717-1357,2013-10-20,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,561
+01-717-1446,2014-03-04,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,563
+01-718-1066,2013-07-30,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,565
+01-718-1079,2012-11-06,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,567
+01-718-1101,2013-08-02,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,570
+01-718-1139,2013-11-17,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,572
+01-718-1150,2013-07-31,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,574
+01-718-1170,2013-11-03,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,576
+01-718-1172,2013-11-29,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,579
+01-718-1250,2014-02-08,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,582
+01-718-1254,2014-01-09,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,585
+01-718-1328,2013-05-01,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,587
+01-718-1355,2013-08-29,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,590
+01-718-1371,2013-08-08,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,592
+01-718-1427,2013-02-18,,,,,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,594
 01-709-1285,2013-04-14,,,,,,Persist or Signif Disability/Incapacity|Y,,,,,,,,,,,,,PHUSE_AE_AESDISAB,PHUSE_Unknown_AE_AESDISAB,,Observation,32809,ae.7.aesdisab,ae,525

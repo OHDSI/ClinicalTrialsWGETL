@@ -13250,4 +13250,818 @@ person_id,event_start_date,event_start_datetime,event_end_date,event_end_datetim
 306,2013-01-16,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,959
 306,2013-01-21,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,960
 306,2013-02-04,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,961
+1,2014-01-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,1
+2,2012-08-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,2
+3,2013-07-19,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,3
+4,2014-03-18,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,4
+5,2014-07-01,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,5
+6,2013-02-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,6
+8,2014-01-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,8
+9,2012-09-07,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,9
+10,2012-11-30,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,10
+11,2014-03-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,11
+12,2014-02-15,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,12
+13,2012-10-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,13
+15,2013-05-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,15
+16,2013-08-23,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,16
+17,2013-09-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,17
+20,2013-02-12,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,20
+21,2013-12-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,21
+22,2013-02-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,22
+23,2012-07-22,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,23
+24,2013-02-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,24
+25,2012-11-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,25
+26,2013-03-30,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,26
+27,2014-01-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,27
+29,2014-02-07,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,29
+30,2014-01-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,30
+31,2013-03-24,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,31
+32,2013-08-29,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,32
+34,2014-05-22,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,34
+35,2012-10-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,35
+36,2013-01-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,36
+37,2013-10-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,37
+39,2013-07-31,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,39
+40,2013-05-30,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,40
+42,2013-02-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,42
+44,2014-03-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,44
+45,2012-10-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,45
+47,2013-09-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,47
+48,2013-03-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,48
+49,2013-08-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,49
+50,2013-10-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,50
+51,2013-01-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,51
+52,2013-07-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,52
+53,2013-03-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,53
+54,2013-10-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,54
+55,2012-09-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,55
+56,2013-01-25,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,56
+57,2013-03-13,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,57
+58,2013-02-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,58
+59,2013-12-20,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,59
+60,2013-10-17,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,60
+61,2013-06-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,61
+62,2013-03-16,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,62
+63,2012-07-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,63
+64,2013-05-13,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,64
+65,2013-11-21,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,65
+66,2012-09-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,66
+67,2014-03-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,67
+68,2013-09-22,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,68
+70,2012-12-12,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,70
+71,2014-03-12,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,71
+72,2013-01-13,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,72
+73,2013-08-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,73
+74,2014-02-21,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,74
+75,2013-10-06,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,75
+76,2013-09-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,76
+77,2013-10-24,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,77
+78,2014-01-22,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,78
+79,2013-03-15,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,79
+80,2013-01-23,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,80
+81,2013-12-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,81
+82,2013-10-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,82
+83,2013-10-31,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,83
+84,2012-09-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,84
+85,2012-11-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,85
+86,2013-03-21,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,86
+87,2013-08-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,87
+88,2012-08-30,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,88
+89,2013-10-13,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,89
+90,2013-07-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,90
+91,2014-04-23,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,91
+92,2013-12-09,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,92
+93,2013-10-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,93
+94,2012-12-07,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,94
+95,2012-11-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,95
+96,2014-05-11,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,96
+98,2013-07-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,98
+99,2013-11-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,99
+101,2013-08-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,101
+103,2014-01-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,103
+104,2013-09-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,104
+106,2014-01-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,106
+107,2013-11-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,107
+108,2012-12-26,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,108
+109,2013-10-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,109
+110,2013-12-16,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,110
+111,2013-11-02,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,111
+112,2013-03-10,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,112
+113,2014-01-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,113
+114,2013-05-13,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,114
+115,2012-09-07,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,115
+117,2013-06-23,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,117
+118,2013-12-31,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,118
+119,2013-05-14,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,119
+120,2012-09-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,120
+121,2013-12-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,121
+122,2013-10-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,122
+127,2013-12-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,127
+128,2013-02-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,128
+131,2013-05-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,131
+132,2012-10-22,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,132
+134,2014-02-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,134
+135,2012-12-06,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,135
+136,2013-12-29,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,136
+138,2013-02-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,138
+139,2012-10-24,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,139
+140,2013-09-21,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,140
+142,2013-05-07,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,142
+143,2013-02-06,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,143
+144,2013-09-10,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,144
+145,2013-06-14,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,145
+146,2013-01-25,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,146
+147,2013-08-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,147
+148,2012-12-07,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,148
+149,2012-12-29,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,149
+150,2013-04-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,150
+151,2013-08-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,151
+153,2013-07-04,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,153
+154,2013-04-12,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,154
+155,2013-09-03,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,155
+156,2013-12-26,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,156
+157,2013-11-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,157
+158,2013-10-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,158
+159,2012-07-31,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,159
+160,2012-12-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,160
+161,2012-12-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,161
+162,2014-01-18,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,162
+163,2014-04-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,163
+164,2013-10-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,164
+165,2013-01-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,165
+166,2013-08-02,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,166
+167,2013-03-04,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,167
+170,2013-05-15,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,170
+171,2013-01-26,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,171
+172,2013-03-24,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,172
+173,2013-07-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,173
+174,2014-02-03,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,174
+175,2013-06-19,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,175
+176,2014-04-20,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,176
+177,2013-04-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,177
+178,2013-08-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,178
+179,2012-12-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,179
+180,2013-03-03,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,180
+181,2014-01-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,181
+182,2013-02-10,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,182
+183,2013-09-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,183
+184,2014-02-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,184
+185,2013-06-03,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,185
+186,2012-12-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,186
+187,2013-01-01,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,187
+188,2012-09-08,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,188
+189,2013-11-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,189
+190,2013-09-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,190
+191,2013-07-22,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,191
+193,2013-10-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,193
+194,2012-10-02,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,194
+196,2014-03-29,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,196
+197,2012-11-30,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,197
+198,2013-11-16,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,198
+199,2012-11-10,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,199
+200,2012-09-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,200
+201,2013-12-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,201
+203,2013-06-13,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,203
+204,2014-02-12,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,204
+205,2012-09-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,205
+206,2012-12-24,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,206
+207,2012-12-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,207
+208,2013-04-24,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,208
+209,2013-02-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,209
+211,2012-11-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,211
+212,2012-09-17,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,212
+213,2013-10-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,213
+216,2012-10-29,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,216
+217,2013-01-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,217
+219,2013-04-03,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,219
+221,2012-07-29,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,221
+222,2013-04-03,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,222
+230,2013-01-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,230
+231,2013-09-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,231
+232,2014-03-30,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,232
+233,2012-10-31,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,233
+234,2013-05-31,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,234
+235,2013-08-09,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,235
+236,2013-05-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,236
+237,2012-09-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,237
+238,2014-01-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,238
+239,2014-01-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,239
+240,2014-04-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,240
+241,2013-08-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,241
+242,2013-04-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,242
+243,2013-12-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,243
+244,2013-02-26,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,244
+245,2013-08-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,245
+246,2013-02-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,246
+247,2013-02-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,247
+249,2013-12-13,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,249
+250,2012-11-18,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,250
+252,2013-02-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,252
+253,2014-02-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,253
+255,2013-04-03,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,255
+256,2013-07-06,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,256
+259,2012-07-09,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,259
+260,2014-04-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,260
+261,2013-12-28,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,261
+262,2013-04-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,262
+264,2013-05-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,264
+265,2013-06-08,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,265
+266,2012-12-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,266
+267,2014-03-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,267
+268,2013-02-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,268
+269,2013-02-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,269
+270,2013-10-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,270
+271,2013-04-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,271
+272,2012-10-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,272
+273,2014-09-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,273
+274,2012-10-09,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,274
+275,2013-02-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,275
+277,2013-04-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,277
+279,2013-08-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,279
+280,2014-05-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,280
+282,2013-07-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,282
+283,2012-12-14,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,283
+284,2013-05-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,284
+285,2014-01-22,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,285
+286,2013-12-16,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,286
+287,2014-01-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,287
+288,2014-01-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,288
+289,2013-01-22,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,289
+290,2013-12-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,290
+291,2014-01-11,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,291
+292,2013-05-01,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,292
+293,2013-09-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,293
+294,2013-07-07,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,294
+295,2012-09-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,295
+296,2013-02-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,296
+297,2013-05-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,297
+298,2013-01-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,298
+299,2013-09-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,299
+300,2013-09-21,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,300
+301,2013-09-21,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,301
+302,2013-07-10,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,302
+303,2013-02-01,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,303
+304,2013-02-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,304
+305,2013-04-26,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,305
+306,2012-12-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,306
+1,2014-01-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,1
+2,2012-08-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,2
+3,2013-07-19,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,3
+4,2014-03-18,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,4
+5,2014-07-01,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,5
+6,2013-02-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,6
+8,2014-01-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,8
+9,2012-09-07,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,9
+10,2012-11-30,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,10
+11,2014-03-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,11
+12,2014-02-15,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,12
+13,2012-10-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,13
+15,2013-05-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,15
+16,2013-08-23,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,16
+17,2013-09-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,17
+20,2013-02-12,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,20
+21,2013-12-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,21
+22,2013-02-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,22
+23,2012-07-22,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,23
+24,2013-02-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,24
+25,2012-11-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,25
+26,2013-03-30,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,26
+27,2014-01-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,27
+29,2014-02-07,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,29
+30,2014-01-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,30
+31,2013-03-24,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,31
+32,2013-08-29,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,32
+34,2014-05-22,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,34
+35,2012-10-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,35
+36,2013-01-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,36
+37,2013-10-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,37
+39,2013-07-31,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,39
+40,2013-05-30,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,40
+42,2013-02-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,42
+44,2014-03-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,44
+45,2012-10-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,45
+47,2013-09-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,47
+48,2013-03-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,48
+49,2013-08-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,49
+50,2013-10-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,50
+51,2013-01-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,51
+52,2013-07-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,52
+53,2013-03-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,53
+54,2013-10-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,54
+55,2012-09-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,55
+56,2013-01-25,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,56
+57,2013-03-13,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,57
+58,2013-02-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,58
+59,2013-12-20,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,59
+60,2013-10-17,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,60
+61,2013-06-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,61
+62,2013-03-16,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,62
+63,2012-07-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,63
+64,2013-05-13,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,64
+65,2013-11-21,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,65
+66,2012-09-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,66
+67,2014-03-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,67
+68,2013-09-22,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,68
+70,2012-12-12,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,70
+71,2014-03-12,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,71
+72,2013-01-13,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,72
+73,2013-08-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,73
+74,2014-02-21,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,74
+75,2013-10-06,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,75
+76,2013-09-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,76
+77,2013-10-24,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,77
+78,2014-01-22,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,78
+79,2013-03-15,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,79
+80,2013-01-23,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,80
+81,2013-12-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,81
+82,2013-10-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,82
+83,2013-10-31,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,83
+84,2012-09-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,84
+85,2012-11-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,85
+86,2013-03-21,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,86
+87,2013-08-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,87
+88,2012-08-30,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,88
+89,2013-10-13,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,89
+90,2013-07-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,90
+91,2014-04-23,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,91
+92,2013-12-09,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,92
+93,2013-10-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,93
+94,2012-12-07,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,94
+95,2012-11-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,95
+96,2014-05-11,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,96
+98,2013-07-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,98
+99,2013-11-27,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,99
+101,2013-08-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,101
+103,2014-01-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,103
+104,2013-09-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,104
+106,2014-01-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,106
+107,2013-11-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,107
+108,2012-12-26,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,108
+109,2013-10-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,109
+110,2013-12-16,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,110
+111,2013-11-02,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,111
+112,2013-03-10,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,112
+113,2014-01-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,113
+114,2013-05-13,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,114
+115,2012-09-07,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,115
+117,2013-06-23,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,117
+118,2013-12-31,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,118
+119,2013-05-14,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,119
+120,2012-09-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,120
+121,2013-12-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,121
+122,2013-10-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,122
+127,2013-12-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,127
+128,2013-02-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,128
+131,2013-05-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,131
+132,2012-10-22,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,132
+134,2014-02-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,134
+135,2012-12-06,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,135
+136,2013-12-29,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,136
+138,2013-02-09,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,138
+139,2012-10-24,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,139
+140,2013-09-21,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,140
+142,2013-05-07,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,142
+143,2013-02-06,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,143
+144,2013-09-10,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,144
+145,2013-06-14,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,145
+146,2013-01-25,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,146
+147,2013-08-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,147
+148,2012-12-07,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,148
+149,2012-12-29,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,149
+150,2013-04-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,150
+151,2013-08-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,151
+153,2013-07-04,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,153
+154,2013-04-12,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,154
+155,2013-09-03,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,155
+156,2013-12-26,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,156
+157,2013-11-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,157
+158,2013-10-08,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,158
+159,2012-07-31,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,159
+160,2012-12-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,160
+161,2012-12-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,161
+162,2014-01-18,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,162
+163,2014-04-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,163
+164,2013-10-25,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,164
+165,2013-01-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,165
+166,2013-08-02,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,166
+167,2013-03-04,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,167
+170,2013-05-15,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,170
+171,2013-01-26,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,171
+172,2013-03-24,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,172
+173,2013-07-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,173
+174,2014-02-03,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,174
+175,2013-06-19,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,175
+176,2014-04-20,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,176
+177,2013-04-05,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,177
+178,2013-08-15,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,178
+179,2012-12-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,179
+180,2013-03-03,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,180
+181,2014-01-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,181
+182,2013-02-10,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,182
+183,2013-09-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,183
+184,2014-02-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,184
+185,2013-06-03,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,185
+186,2012-12-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,186
+187,2013-01-01,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,187
+188,2012-09-08,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,188
+189,2013-11-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,189
+190,2013-09-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,190
+191,2013-07-22,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,191
+193,2013-10-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,193
+194,2012-10-02,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,194
+196,2014-03-29,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,196
+197,2012-11-30,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,197
+198,2013-11-16,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,198
+199,2012-11-10,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,199
+200,2012-09-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,200
+201,2013-12-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,201
+203,2013-06-13,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,203
+204,2014-02-12,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,204
+205,2012-09-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,205
+206,2012-12-24,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,206
+207,2012-12-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,207
+208,2013-04-24,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,208
+209,2013-02-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,209
+211,2012-11-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,211
+212,2012-09-17,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,212
+213,2013-10-23,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,213
+216,2012-10-29,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,216
+217,2013-01-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,217
+219,2013-04-03,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,219
+221,2012-07-29,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,221
+222,2013-04-03,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,222
+230,2013-01-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,230
+231,2013-09-15,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,231
+232,2014-03-30,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,232
+233,2012-10-31,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,233
+234,2013-05-31,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,234
+235,2013-08-09,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,235
+236,2013-05-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,236
+237,2012-09-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,237
+238,2014-01-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,238
+239,2014-01-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,239
+240,2014-04-17,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,240
+241,2013-08-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,241
+242,2013-04-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,242
+243,2013-12-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,243
+244,2013-02-26,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,244
+245,2013-08-15,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,245
+246,2013-02-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,246
+247,2013-02-26,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,247
+249,2013-12-13,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,249
+250,2012-11-18,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,250
+252,2013-02-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,252
+253,2014-02-11,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,253
+255,2013-04-03,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,255
+256,2013-07-06,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,256
+259,2012-07-09,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,259
+260,2014-04-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,260
+261,2013-12-28,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,261
+262,2013-04-27,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,262
+264,2013-05-09,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,264
+265,2013-06-08,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,265
+266,2012-12-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,266
+267,2014-03-20,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,267
+268,2013-02-12,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,268
+269,2013-02-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,269
+270,2013-10-02,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,270
+271,2013-04-05,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,271
+272,2012-10-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,272
+273,2014-09-02,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,273
+274,2012-10-09,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,274
+275,2013-02-20,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,275
+277,2013-04-08,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,277
+279,2013-08-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,279
+280,2014-05-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,280
+282,2013-07-04,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,282
+283,2012-12-14,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,283
+284,2013-05-05,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,284
+285,2014-01-22,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,285
+286,2013-12-16,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,286
+287,2014-01-14,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,287
+288,2014-01-27,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,288
+289,2013-01-22,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,289
+290,2013-12-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,290
+291,2014-01-11,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,291
+292,2013-05-01,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,292
+293,2013-09-01,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,293
+294,2013-07-07,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,294
+295,2012-09-19,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,295
+296,2013-02-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,296
+297,2013-05-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,297
+298,2013-01-19,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,298
+299,2013-09-16,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,299
+300,2013-09-21,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,300
+301,2013-09-21,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,301
+302,2013-07-10,,,,,,Clinical trial arm,,,Xanomeline Low Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,302
+303,2013-02-01,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,303
+304,2013-02-28,,,,,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,304
+305,2013-04-26,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,305
+306,2012-12-17,,,,,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM,PHUSE_Unknown_DM,,Observation,32809,dm.1.arm,dm,306
+1,2014-07-02,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,1
+2,2012-09-02,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,3
+3,2014-01-14,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,6
+4,2014-04-14,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,8
+5,2014-12-30,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,11
+6,2013-03-29,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,13
+7,2013-12-20,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,16
+8,2014-07-09,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,17
+9,2012-09-17,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,19
+10,2013-01-23,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,22
+11,2014-09-09,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,25
+12,2014-08-16,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,27
+13,2013-04-29,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,29
+14,2013-09-05,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,31
+15,2013-06-30,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,32
+16,2014-02-20,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,34
+17,2014-04-01,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,36
+18,2013-04-18,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,38
+19,2012-09-30,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,39
+20,2013-03-23,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,40
+21,2013-12-12,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,42
+22,2013-03-25,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,45
+23,2013-01-20,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,48
+24,2013-08-03,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,50
+25,2013-01-14,,,,,,DEATH,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,52
+26,2013-09-22,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,54
+27,2014-07-11,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,56
+28,2013-09-22,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,58
+29,2014-06-14,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,59
+30,2014-07-26,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,61
+31,2013-06-14,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,63
+32,2013-11-05,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,66
+33,2013-12-08,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,69
+34,2014-11-20,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,70
+35,2013-04-02,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,72
+36,2013-02-07,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,74
+37,2014-03-18,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,76
+38,2014-04-01,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,78
+39,2013-08-14,,,,,,PHYSICIAN DECISION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,79
+40,2013-11-27,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,82
+41,2013-09-18,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,84
+42,2013-08-06,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,85
+43,2013-12-28,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,87
+44,2014-03-25,,,,,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,88
+45,2013-04-28,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,91
+46,2012-11-14,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,93
+47,2014-03-24,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,94
+48,2013-04-30,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,96
+49,2014-02-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,98
+50,2014-04-26,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,100
+51,2013-02-13,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,102
+52,2013-11-17,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,105
+53,2013-08-31,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,107
+54,2013-12-24,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,109
+55,2012-12-24,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,111
+56,2013-03-29,,,,,,LOST TO FOLLOW-UP,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,114
+57,2013-09-14,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,116
+58,2013-06-13,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,118
+59,2013-12-31,,,,,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,121
+60,2013-12-12,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,123
+61,2013-07-22,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,125
+62,2013-09-06,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,127
+63,2013-01-21,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,129
+64,2013-06-22,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,131
+65,2014-05-19,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,133
+66,2013-03-13,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,135
+67,2014-05-24,,,,,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,137
+68,2014-03-21,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,139
+69,2014-02-09,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,141
+70,2012-12-19,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,142
+71,2014-09-11,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,144
+72,2013-02-25,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,146
+73,2013-10-02,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,148
+74,2014-07-09,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,150
+75,2013-11-24,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,152
+76,2013-11-29,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,154
+77,2013-12-24,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,156
+78,2014-03-31,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,158
+79,2013-06-20,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,160
+80,2013-07-08,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,163
+81,2014-02-03,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,165
+82,2014-03-31,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,167
+83,2014-05-16,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,169
+84,2013-04-04,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,171
+85,2013-05-27,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,173
+86,2013-07-14,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,175
+87,2013-10-31,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,177
+88,2013-01-18,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,179
+89,2013-12-06,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,181
+90,2013-08-08,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,183
+91,2014-08-06,,,,,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,185
+92,2014-02-16,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,187
+93,2014-04-18,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,189
+94,2013-06-19,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,191
+95,2013-01-12,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,193
+96,2014-11-01,,,,,,DEATH,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,195
+97,2013-09-01,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,197
+98,2013-07-12,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,198
+99,2014-05-11,,,,,,LOST TO FOLLOW-UP,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,200
+100,2013-12-02,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,202
+101,2013-12-05,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,203
+102,2014-02-23,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,206
+103,2014-02-07,,,,,,PHYSICIAN DECISION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,207
+104,2013-09-29,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,209
+105,2013-02-26,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,211
+106,2014-07-25,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,212
+107,2014-03-17,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,214
+108,2013-06-24,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,216
+109,2014-05-14,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,218
+110,2014-06-02,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,220
+111,2014-01-23,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,222
+112,2013-09-08,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,224
+113,2014-03-07,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,226
+114,2013-05-13,,,,,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,228
+115,2013-02-20,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,230
+116,2013-01-14,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,232
+117,2013-12-19,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,233
+118,2014-07-29,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,235
+119,2013-06-25,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,237
+120,2012-09-29,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,240
+121,2014-01-08,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,243
+122,2014-04-27,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,245
+123,2012-10-12,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,247
+124,2014-02-14,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,248
+125,2013-07-25,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,249
+126,2012-10-13,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,250
+127,2014-01-23,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,251
+128,2013-03-09,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,253
+129,2014-02-14,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,255
+130,2013-02-07,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,256
+131,2013-11-11,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,257
+132,2013-04-28,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,259
+133,2014-01-23,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,261
+134,2014-03-22,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,262
+135,2013-06-04,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,264
+136,2014-04-06,,,,,,PHYSICIAN DECISION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,266
+137,2013-01-14,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,268
+138,2013-02-26,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,269
+139,2012-12-06,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,271
+140,2013-09-26,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,273
+141,2012-08-13,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,275
+142,2013-11-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,276
+143,2013-04-04,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,278
+144,2014-03-08,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,280
+145,2013-12-12,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,282
+146,2013-05-08,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,284
+147,2014-03-01,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,286
+148,2013-06-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,288
+149,2013-06-28,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,290
+150,2013-06-18,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,292
+151,2014-02-13,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,294
+152,2013-09-16,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,296
+153,2013-09-10,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,297
+154,2013-05-10,,,,,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,299
+155,2014-01-28,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,301
+156,2014-07-02,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,303
+157,2014-01-31,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,305
+158,2014-04-08,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,307
+159,2012-09-01,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,309
+160,2013-06-01,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,311
+161,2013-06-26,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,313
+162,2014-05-10,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,315
+163,2014-10-09,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,317
+164,2014-04-25,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,319
+165,2013-03-31,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,321
+166,2013-09-27,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,323
+167,2013-06-25,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,325
+168,2013-11-18,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,327
+169,2014-01-17,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,328
+170,2013-08-07,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,329
+171,2013-06-13,,,,,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,331
+172,2013-05-31,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,333
+173,2014-01-17,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,335
+174,2014-06-25,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,337
+175,2013-12-19,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,339
+176,2014-10-19,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,341
+177,2013-10-02,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,343
+178,2013-08-29,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,345
+179,2013-06-24,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,347
+180,2013-03-08,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,349
+181,2014-01-18,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,351
+182,2013-08-10,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,353
+183,2013-11-12,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,355
+184,2014-08-29,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,357
+185,2013-08-17,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,359
+186,2013-02-15,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,361
+187,2013-07-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,363
+188,2013-02-23,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,365
+189,2014-05-18,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,367
+190,2014-03-23,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,369
+191,2013-08-02,,,,,,DEATH,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,371
+192,2013-03-05,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,373
+193,2013-11-13,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,374
+194,2012-10-23,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,376
+195,2013-11-16,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,378
+196,2014-05-09,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,379
+197,2013-03-30,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,381
+198,2014-05-17,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,383
+199,2013-05-12,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,385
+200,2013-03-27,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,387
+201,2014-06-28,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,389
+202,2013-11-29,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,391
+203,2013-10-12,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,392
+204,2014-03-01,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,394
+205,2012-12-02,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,396
+206,2013-03-03,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,398
+207,2013-02-19,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,400
+208,2013-05-25,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,402
+209,2013-07-16,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,404
+210,2013-12-30,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,406
+211,2013-05-01,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,407
+212,2013-03-12,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,409
+213,2014-04-24,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,411
+214,2014-04-21,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,413
+215,2013-06-02,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,414
+216,2013-02-18,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,415
+217,2013-07-12,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,417
+218,2013-12-13,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,419
+219,2013-05-02,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,420
+220,2014-03-17,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,423
+221,2013-02-10,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,424
+222,2013-06-01,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,426
+223,2012-11-08,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,429
+224,2012-10-04,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,430
+225,2013-10-24,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,431
+226,2014-02-28,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,432
+227,2014-03-27,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,433
+228,2013-08-05,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,434
+229,2013-12-20,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,435
+230,2013-02-06,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,436
+231,2014-03-24,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,438
+232,2014-10-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,440
+233,2013-05-06,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,442
+234,2013-08-06,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,444
+235,2014-02-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,446
+236,2013-11-22,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,448
+237,2013-03-25,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,450
+238,2014-07-28,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,452
+239,2014-05-17,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,454
+240,2014-10-16,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,457
+241,2013-10-16,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,459
+242,2013-10-23,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,461
+243,2014-06-17,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,463
+244,2013-09-07,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,465
+245,2013-08-22,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,467
+246,2013-08-18,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,469
+247,2013-05-13,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,471
+248,2014-04-17,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,474
+249,2014-04-26,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,475
+250,2013-06-01,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,477
+251,2013-01-22,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,479
+252,2013-03-18,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,480
+253,2014-04-22,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,482
+254,2013-06-03,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,484
+255,2013-10-03,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,485
+256,2013-07-13,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,487
+257,2012-10-24,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,490
+258,2014-03-29,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,491
+259,2013-01-20,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,492
+260,2014-10-16,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,494
+261,2014-01-10,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,496
+262,2013-11-03,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,498
+263,2014-02-14,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,500
+264,2013-08-28,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,501
+265,2013-08-01,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,504
+266,2013-01-26,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,507
+267,2014-09-20,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,510
+268,2013-08-10,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,512
+269,2013-06-07,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,514
+270,2014-04-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,517
+271,2013-10-11,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,519
+272,2013-04-13,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,521
+273,2015-03-05,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,523
+274,2013-03-03,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,525
+275,2013-04-02,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,528
+276,2013-08-15,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,530
+277,2013-07-06,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,531
+278,2013-08-06,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,534
+279,2013-10-07,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,535
+280,2014-09-30,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,537
+281,2013-11-25,,,,,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,540
+282,2014-01-09,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,541
+283,2013-02-28,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,543
+284,2013-11-20,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,545
+285,2014-07-22,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,547
+286,2014-06-17,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,549
+287,2014-07-16,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,551
+288,2014-07-28,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,553
+289,2013-07-24,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,555
+290,2014-02-21,,,,,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,557
+291,2014-03-14,,,,,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,559
+292,2013-10-20,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,561
+293,2014-03-04,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,563
+294,2013-07-30,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,565
+295,2012-11-06,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,567
+296,2013-08-02,,,,,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,570
+297,2013-11-17,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,572
+298,2013-07-31,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,574
+299,2013-11-03,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,576
+300,2013-11-29,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,579
+301,2014-02-08,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,582
+302,2014-01-09,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,585
+303,2013-05-01,,,,,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,587
+304,2013-08-29,,,,,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,590
+305,2013-08-08,,,,,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,592
+306,2013-02-18,,,,,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DECOD,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,594
 172,2013-04-14,,,,,,Persist or Signif Disability/Incapacity|Y,,,,,,,,,,,,,PHUSE_AE_AESDISAB,PHUSE_Unknown_AE_AESDISAB,,Observation,32809,ae.7.aesdisab,ae,525
