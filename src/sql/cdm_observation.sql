@@ -28,7 +28,10 @@ SELECT Row_number()
            mscv.target_concept_id,
            msc.value_as_concept_id
         )                                     AS value_as_concept_id,
-       0                                      AS qualifier_concept_id,
+       CASE
+         WHEN src.rule_id = 'dm.1.arm' THEN 4161676  -- Planned
+         ELSE 0
+       END                                    AS qualifier_concept_id,
        mscu.target_concept_id                 AS unit_concept_id,
        NULL                                   AS provider_id,
        src.visit_occurrence_id                AS visit_occurrence_id,

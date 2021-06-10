@@ -1,0 +1,11 @@
+source_code,source_description,cnt
+ADVERSE EVENT,Reason for withdrawing: ADVERSE EVENT,92
+COMPLETED,Reason for withdrawing: COMPLETED,110
+DEATH,Reason for withdrawing: DEATH,3
+LACK OF EFFICACY,Reason for withdrawing: LACK OF EFFICACY,4
+LOST TO FOLLOW-UP,Reason for withdrawing: LOST TO FOLLOW-UP,2
+PHYSICIAN DECISION,Reason for withdrawing: PHYSICIAN DECISION,3
+PROTOCOL DEVIATION,Reason for withdrawing: PROTOCOL DEVIATION,6
+SCREEN FAILURE,Reason for withdrawing: SCREEN FAILURE,52
+STUDY TERMINATED BY SPONSOR,Reason for withdrawing: STUDY TERMINATED BY SPONSOR,7
+WITHDRAWAL BY SUBJECT,Reason for withdrawing: WITHDRAWAL BY SUBJECT,27
