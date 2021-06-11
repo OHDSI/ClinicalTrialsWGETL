@@ -79,8 +79,8 @@ CREATE TABLE temp.clinical_events_cleaned
   FROM       temp.clinical_events ce
   INNER JOIN cdm.person per
   ON         per.person_source_value = ce.person_source_value
-  LEFT JOIN  cdm.visit_occurrence vo
-  ON         vo.visit_source_value = ce.visit_source_value;
+  LEFT JOIN  temp.visit_occurrence vo
+  ON         vo.unique_visit_source = ce.unique_visit_source;
 
 -------------------------------------------------------------------
 -- Cleaning according to the OMOP restrictions

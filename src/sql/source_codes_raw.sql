@@ -226,3 +226,21 @@ SELECT DISTINCT 'Observation'            AS domain_id,
 FROM   src.ds src
 WHERE  src.dscat != 'OTHER EVENT'
        AND src.dsdecod IS NOT NULL;
+
+-------------------------------------------------------------------
+-- SV: visit concepts (topic 2)
+-------------------------------------------------------------------
+INSERT INTO temp.source_codes_raw
+SELECT DISTINCT 'Visit'                  AS domain_id,
+                'PHUSE_SV_VISIT'         AS vocabulary_id,
+                'PHUSE_Unknown_SV_VISIT' AS default_vocabulary_id,
+                src.epoch
+                || ':'
+                || src.visit             AS source_code,
+                src.epoch
+                || ':'
+                || src.visit             AS concept_name
+FROM   src.sv src
+WHERE  src.epoch
+       || ':'
+       || src.visit IS NOT NULL;
