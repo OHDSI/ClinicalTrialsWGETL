@@ -23,7 +23,7 @@
 | discharge_to_concept_id |  | Populate with 0 |  |
 | discharge_to_source_value | NULL |  |  |
 | preceding_visit_occurrence_id |  |  | Derived in ETL |
-| unique_visit_source |  | `sv.usubjid`</br> <code>&#124;&#124; '&#124'</code></br><code> &#124;&#124; sv.visitnum</code> | Temp field for ETL</br> Used for assigning visits to clinical events |
+| unique_visit_source |  | `sv.usubjid`</br> <code>&#124;&#124; '&#124;'</code></br><code> &#124;&#124; sv.visitnum</code> | Temp field for ETL</br> Used for assigning visits to clinical events |
 | rule_id |  | Populate with 'sv.1.visitnum' | Temp field for ETL |
 | src |  | Populate with 'sv' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from | Temp field for ETL |
