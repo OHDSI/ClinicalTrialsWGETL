@@ -383,7 +383,7 @@ SELECT src.usubjid                 AS person_source_value,
        src.usubjid
        || '|'
        ||
-       src.visitnum                AS unique_visit_source,  -- Must be updated after visits
+       src.visitnum                AS unique_visit_source,
        src.dsdecod                 AS event_source_value,
        NULL                        AS value_source_value,
        NULL                        AS value_as_number,
@@ -419,7 +419,7 @@ SELECT src.usubjid                 AS person_source_value,
        NULL                        AS event_end_datetime,
        NULL                        AS operator_source_value,
        src.usubjid
-       || '|1.0'                   AS unique_visit_source,  -- Must be updated after visits
+       || '|1.0'                   AS unique_visit_source,
        'Clinical trial arm'        AS event_source_value,
        NULL                        AS value_source_value,
        NULL                        AS value_as_number,
@@ -455,7 +455,7 @@ SELECT src.usubjid                 AS person_source_value,
        NULL                        AS event_end_datetime,
        NULL                        AS operator_source_value,
        src.usubjid
-       || '|1.0'                   AS unique_visit_source,  -- Must be updated after visits
+       || '|1.0'                   AS unique_visit_source,
        'Clinical trial arm'        AS event_source_value,
        NULL                        AS value_source_value,
        NULL                        AS value_as_number,

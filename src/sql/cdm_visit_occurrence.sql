@@ -19,7 +19,7 @@ CREATE TABLE temp.visit_occurrence
    provider_id                   INT,
    care_site_id                  INT,
    visit_source_value            STRING,
-   unique_visit_source           STRING,  -- field to store unique visit IDs
+   unique_visit_source           STRING,  -- a field to store unique visit IDs
    visit_source_concept_id       INT,
    admitting_source_concept_id   INT,
    admitting_source_value        STRING,
@@ -58,7 +58,7 @@ SELECT DISTINCT Row_number()
                 NULL                               AS admitting_source_value,
                 0                                  AS discharge_to_concept_id,
                 NULL                               AS discharge_to_source_value,
-                NULL                               AS preceding_visit_occurrence_id, 
+                NULL                               AS preceding_visit_occurrence_id,
                 'sv.1.visitnum'                    AS rule_id,
                 'sv'                               AS src_tbl,
                 src.row_id                         AS src_row

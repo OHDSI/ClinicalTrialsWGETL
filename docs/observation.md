@@ -1,6 +1,6 @@
 ## Table name: observation
 
-### Reading from dm.csv
+### Mapping from Demographics: Trial Arm Assignment
 
 </br>
 
@@ -9,33 +9,33 @@
 | Destination Field | Source field | Logic | Comment |
 | --- | --- | --- | --- |
 | observation_id |  |  A unique system generated identifier | Auto-increment |
-| person_id | usubjid |  | usubjid actually stored as person value and mapped to auto incremented person id<br> |
-| observation_concept_id |  |  | set all records to concept_id = 37208111 (clinical trial arm) |
-| observation_date | dmdtc |  |  |
-| observation_datetime | dmdtc |  |  |
-| observation_type_concept_id |  |  | use "Case Report Form" observation type: 32809 |
-| value_as_number |  |  |  |
-| value_as_string | arm<br>actarm |  | Source table contains 2 observations: arm and actarm. use a qualifier concept to distinguish |
-| value_as_concept_id |  |  |  |
-| qualifier_concept_id |  |  | for observation records derived from 'arm' field, hardcode 'Planned' qualifier concept id: 397943006 |
-| unit_concept_id |  |  |  |
-| provider_id |  |  |  |
-| visit_occurrence_id |  |  |  |
-| visit_detail_id |  |  |  |
-| observation_source_value |  | ??? |  |
-| observation_source_concept_id |  |  |  |
-| unit_source_value |  |  |  |
-| qualifier_source_value |  |  |  |
-| observation_event_id |  |  |  |
-| obs_event_field_concept_id |  |  |  |
-| value_as_datetime |  |  |  |
-| rule_id |  | Populate with 'dm.1.arm'? | Temp field for ETL |
+| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = dm.usubjid` |  |
+| observation_concept_id |  | Populate with 37208111 | Clinical trial arm |
+| observation_date | dm.dmdtc |  |  |
+| observation_datetime | NULL |  |  |
+| observation_type_concept_id |  | Populate with 32809 | Case Report Form |
+| value_as_number | NULL |  |  |
+| value_as_string | dm.arm<br>dm.actarm | `IF rule_id = 'dm.1.arm' THEN dm.arm`</br> `IF rule_id = 'dm.2.actarm' THEN dm.actarm` | Two inserts here |
+| value_as_concept_id |  | Populate with 0 |  |
+| qualifier_concept_id |  | `IF rule_id = 'dm.1.arm'`</br> `THEN 4161676`</br>`ELSE 0` | 4161676 - Planned |
+| unit_concept_id | NULL |  |  |
+| provider_id | NULL |  |  |
+| visit_occurrence_id | cdm.visit_occurrence.visit_occurrence_id | `LEFT JOIN cdm.visit_occurrence` </br> <code>ON cdm.visit_occurrence.unique_visit_source = dm.usubjid &#124;&#124; '&#124;1.0'</code> |  |
+| visit_detail_id | NULL |  |  |
+| observation_source_value |  | Populate with 'Clinical trial arm' |  |
+| observation_source_concept_id |  | Populate with 0 |  |
+| unit_source_value | NULL |  |  |
+| qualifier_source_value |  | `IF rule_id = 'dm.1.arm'`</br> `THEN 'Planned'`</br>`ELSE NULL` |  |
+| observation_event_id | NULL |  |  |
+| obs_event_field_concept_id |  | Populate with 0 |  |
+| value_as_datetime | NULL |  | CDM v.6 field |
+| rule_id |  | Populate with 'dm.1.arm'/'dm.2.actarm' | Temp field for ETL |
 | src |  | Populate with 'dm' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
 
 </br></br>
 
-### Reading from ds.csv
+### Mapping from Disposition: Trial Enrollment and Trial Outcome
 
 </br>
 
@@ -46,26 +46,26 @@ Trial outcomes
 | Destination Field | Source field | Logic | Comment |
 | --- | --- | --- | --- |
 | observation_id |  | A unique system generated identifier | Auto-increment |
-| person_id | usubjid |  |  |
+| person_id | cdm.person.person_id | `JOIN cdm.person` </br> `ON cdm.person.person_source_value = ds.usubjid` |  |
 | observation_concept_id | dsdecod | COMPLETED - 4042840 (completed trial)  SCREEN FAILURE - xxxxx (Not eligible to participate)  WITHDRAWAL BY SUBJECT - 4163733 (withdrawn from trial)  STUDY TERMINATED BY SPONSOR - 4163733 (withdrawn from trial)  DEATH - 4163733 (withdrawn from trial)    FINAL LAB VISIT - do not capture here  FINAL RETRIEVAL VISIT - do not capture here  PROTOCOL DEVIATION - do not capture here  ADVERSE EVENT - do not capture here | There are other values possible in the dsdecod field that still have to be covered in the logic<br> |
-| observation_source_value | dsdecod |  |  |
-| observation_date | dsstdtc |  |  |
-| observation_datetime | dsstdtc |  |  |
-| observation_type_concept_id |  |  | xxxxxx - Case Report Form |
-| value_as_number |  |  |  |
-| value_as_string |  |  |  |
+| observation_source_value | ds.dsdecod |  |  |
+| observation_date | ds.dsstdtc | `CAST(ds.dsstdtc AS date)` |  |
+| observation_datetime | NULL |  |  |
+| observation_type_concept_id |  | Populate with 32809  | Case Report Form |
+| value_as_number | NULL |  |  |
+| value_as_string | NULL |  |  |
 | value_as_concept_id | dsdecod | WITHDRAWAL BY SUBJECT - xxxxx ("Patient decided to withdraw")  STUDY TERMINATED BY SPONSOR - xxxxxxx ("Withdrawn by investigator")  DEATH - 4306655 (Death) |  |
-| qualifier_concept_id |  |  |  |
-| unit_concept_id |  |  |  |
-| provider_id |  |  |  |
-| visit_occurrence_id |  |  |  |
-| visit_detail_id |  |  |  |
-| observation_source_concept_id |  |  |  |
-| unit_source_value |  |  |  |
-| qualifier_source_value |  |  |  |
-| observation_event_id |  |  |  |
-| obs_event_field_concept_id |  |  |  |
-| value_as_datetime |  |  |  |
+| qualifier_concept_id |  | Populate with 0 |  |
+| unit_concept_id | NULL |  |  |
+| provider_id | NULL |  |  |
+| visit_occurrence_id | cdm.visit_occurrence.visit_occurrence_id | `LEFT JOIN cdm.visit_occurrence` </br> <code>ON cdm.visit_occurrence.unique_visit_source = ds.usubjid &#124;&#124; '&#124' &#124;&#124; ds.visitnum</code> |  |
+| visit_detail_id | NULL |  |  |
+| observation_source_concept_id |  | Populate with 0 |  |
+| unit_source_value | NULL |  |  |
+| qualifier_source_value | NULL |  |  |
+| observation_event_id | NULL |  |  |
+| obs_event_field_concept_id |  | Populate with 0 |  |
+| value_as_datetime | NULL |  | CDM v.6 field |
 | rule_id |  | Populate with 'ds.1.dsdecod' | Temp field for ETL |
 | src |  | Populate with 'ds' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
@@ -136,7 +136,7 @@ Trial outcomes
 | value_as_datetime | NULL |  | CDM v6.0 field</br> should be excluded |
 | rule_id |  | Populate with 'ae.1.aellt' | Temp field for ETL |
 | src |  | Populate with 'ae' | Temp field for ETL |
-| src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
+| src_row |  | Populate with the row number of the source table this record came from | Temp field for ETL |
 
 </br></br>
 
