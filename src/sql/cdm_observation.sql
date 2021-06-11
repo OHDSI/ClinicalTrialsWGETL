@@ -39,7 +39,10 @@ SELECT Row_number()
        src.event_source_value                 AS observation_source_value,
        msc.source_concept_id                  AS observation_source_concept_id,
        src.unit_source_value                  AS unit_source_value,
-       NULL                                   AS qualifier_source_value,
+       CASE
+         WHEN src.rule_id = 'dm.1.arm' THEN 'Planned'
+         ELSE NULL
+       END                                    AS qualifier_source_value,
        NULL                                   AS observation_event_id,
        NULL                                   AS obs_event_field_concept_id,
        src.rule_id                            AS rule_id,

@@ -12,7 +12,7 @@ CREATE TABLE temp.clinical_events
      event_end_date             TIMESTAMP,
      event_end_datetime         TIMESTAMP,
      operator_source_value      STRING,
-     visit_source_value         STRING,
+     unique_visit_source        STRING,
      event_source_value         STRING,
      value_source_value         STRING,
      value_as_number            DOUBLE,
@@ -50,7 +50,7 @@ SELECT src.usubjid                    AS person_source_value,
             )                         AS event_end_date,
        NULL                           AS event_end_datetime,
        NULL                           AS operator_source_value,
-       NULL                           AS visit_source_value,
+       NULL                           AS unique_visit_source,
        src.aellt                      AS event_source_value,
        NULL                           AS value_source_value,
        NULL                           AS value_as_number,
@@ -97,7 +97,7 @@ SELECT src.usubjid                    AS person_source_value,
        NULL                           AS event_end_date,
        NULL                           AS event_end_datetime,
        NULL                           AS operator_source_value,
-       NULL                           AS visit_source_value,
+       NULL                           AS unique_visit_source,
        'Severity/Intensity'
             || '|'
             || src.aesev              AS event_source_value,
@@ -133,7 +133,7 @@ SELECT src.usubjid                    AS person_source_value,
        NULL                           AS event_end_date,
        NULL                           AS event_end_datetime,
        NULL                           AS operator_source_value,
-       NULL                           AS visit_source_value,
+       NULL                           AS unique_visit_source,
        'Serious Event'
             || '|'
             || src.aeser              AS event_source_value,
@@ -169,7 +169,7 @@ SELECT src.usubjid                    AS person_source_value,
        NULL                           AS event_end_date,
        NULL                           AS event_end_datetime,
        NULL                           AS operator_source_value,
-       NULL                           AS visit_source_value,
+       NULL                           AS unique_visit_source,
        'Relationship to Study Drug (Causality)'
             || '|'
             || src.aerel              AS event_source_value,
@@ -205,7 +205,7 @@ SELECT src.usubjid                    AS person_source_value,
        NULL                           AS event_end_date,
        NULL                           AS event_end_datetime,
        NULL                           AS operator_source_value,
-       NULL                           AS visit_source_value,
+       NULL                           AS unique_visit_source,
        'Outcome of Adverse Event'
            || '|'
            || src.aeout               AS event_source_value,
@@ -241,7 +241,7 @@ SELECT src.usubjid                    AS person_source_value,
        NULL                           AS event_end_date,
        NULL                           AS event_end_datetime,
        NULL                           AS operator_source_value,
-       NULL                           AS visit_source_value,
+       NULL                           AS unique_visit_source,
        'Occurred with Overdose'
            || '|'
            || src.aesod               AS event_source_value,
@@ -277,7 +277,7 @@ SELECT src.usubjid                 AS person_source_value,
        NULL                        AS event_end_date,
        NULL                        AS event_end_datetime,
        NULL                        AS operator_source_value,
-       NULL                        AS visit_source_value,
+       NULL                        AS unique_visit_source,
        'Persist or Signif Disability/Incapacity'
        || '|'
        || src.aesdisab             AS event_source_value,
@@ -322,7 +322,7 @@ SELECT src.usubjid                   AS person_source_value,
                29)))                 AS event_end_date, -- impute according to the THEMIS #57
        NULL                          AS event_end_datetime,
        NULL                          AS operator_source_value,
-       NULL                          AS visit_source_value,
+       NULL                          AS unique_visit_source,
        src.cmtrt
        || '|'
        || src.cmdose
@@ -380,7 +380,10 @@ SELECT src.usubjid                 AS person_source_value,
        NULL                        AS event_end_date,
        NULL                        AS event_end_datetime,
        NULL                        AS operator_source_value,
-       NULL                        AS visit_source_value,  -- Must be updated after visits
+       src.usubjid
+       || '|'
+       ||
+       src.visitnum                AS unique_visit_source,
        src.dsdecod                 AS event_source_value,
        NULL                        AS value_source_value,
        NULL                        AS value_as_number,
@@ -415,7 +418,8 @@ SELECT src.usubjid                 AS person_source_value,
        NULL                        AS event_end_date,
        NULL                        AS event_end_datetime,
        NULL                        AS operator_source_value,
-       NULL                        AS visit_source_value,  -- Must be updated after visits
+       src.usubjid
+       || '|1.0'                   AS unique_visit_source,
        'Clinical trial arm'        AS event_source_value,
        NULL                        AS value_source_value,
        NULL                        AS value_as_number,
@@ -450,7 +454,8 @@ SELECT src.usubjid                 AS person_source_value,
        NULL                        AS event_end_date,
        NULL                        AS event_end_datetime,
        NULL                        AS operator_source_value,
-       NULL                        AS visit_source_value,  -- Must be updated after visits
+       src.usubjid
+       || '|1.0'                   AS unique_visit_source,
        'Clinical trial arm'        AS event_source_value,
        NULL                        AS value_source_value,
        NULL                        AS value_as_number,
