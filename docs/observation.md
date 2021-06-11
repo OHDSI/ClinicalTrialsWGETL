@@ -1,6 +1,6 @@
 ## Table name: observation
 
-### Mapping from Demographics: Trial Arm Assignment
+### Mapping from Demographics: Trial Arm Assignment (src.DM)
 
 </br>
 
@@ -20,7 +20,7 @@
 | qualifier_concept_id |  | `IF rule_id = 'dm.1.arm'`</br> `THEN 4161676`</br>`ELSE 0` | 4161676 - Planned |
 | unit_concept_id | NULL |  |  |
 | provider_id | NULL |  |  |
-| visit_occurrence_id | cdm.visit_occurrence.visit_occurrence_id | `LEFT JOIN cdm.visit_occurrence` </br> <code>ON cdm.visit_occurrence.unique_visit_source = dm.usubjid &#124;&#124; '&#124;1.0'</code> |  |
+| visit_occurrence_id | cdm.visit_occurrence.</br>visit_occurrence_id | `LEFT JOIN cdm.visit_occurrence` </br> <code>ON cdm.visit_occurrence.unique_visit_source = dm.usubjid &#124;&#124; '&#124;1.0'</code> |  |
 | visit_detail_id | NULL |  |  |
 | observation_source_value |  | Populate with 'Clinical trial arm' |  |
 | observation_source_concept_id |  | Populate with 0 |  |
@@ -35,7 +35,7 @@
 
 </br></br>
 
-### Mapping from Disposition: Trial Enrollment and Trial Outcome
+### Mapping from Disposition: Trial Enrollment and Trial Outcome (src.DS)
 
 </br>
 
@@ -58,7 +58,7 @@ Trial outcomes
 | qualifier_concept_id |  | Populate with 0 |  |
 | unit_concept_id | NULL |  |  |
 | provider_id | NULL |  |  |
-| visit_occurrence_id | cdm.visit_occurrence.visit_occurrence_id | `LEFT JOIN cdm.visit_occurrence` </br> <code>ON cdm.visit_occurrence.unique_visit_source = ds.usubjid &#124;&#124; '&#124' &#124;&#124; ds.visitnum</code> |  |
+| visit_occurrence_id | cdm.visit_occurrence.</br>visit_occurrence_id | `LEFT JOIN cdm.visit_occurrence` </br> <code>ON cdm.visit_occurrence.unique_visit_source = ds.usubjid &#124;&#124; '&#124' &#124;&#124; ds.visitnum</code> |  |
 | visit_detail_id | NULL |  |  |
 | observation_source_concept_id |  | Populate with 0 |  |
 | unit_source_value | NULL |  |  |
@@ -376,3 +376,31 @@ Note: we do loose information on the timeliness of the medical history, captured
 | rule_id |  | Populate with 'mh.2.???' | Temp field for ETL |
 | src |  | Populate with 'mh' | Temp field for ETL |
 | src_row |  | Populate with the row number of the source table this record came from| Temp field for ETL |
+
+### Reading from vs.csv
+
+![](md_files/image_observation_vs.png)
+
+| Destination Field | Source field | Logic | Comment field |
+| --- | --- | --- | --- |
+| observation_id |  |  |  |
+| person_id | usubjid |  |  |
+| observation_concept_id |  |  | Derived from observation_source_concept_id |
+| observation_date |  |  | Derived from observation_datetime |
+| observation_datetime |  |  | Would normally be VSRFTDTC, but it's missing from our dataset. |
+| observation_type_concept_id |  |  |  |
+| value_as_number |  |  |  |
+| value_as_string |  |  |  |
+| value_as_concept_id |  |  |  |
+| qualifier_concept_id |  |  |  |
+| unit_concept_id |  |  |  |
+| provider_id |  |  |  |
+| visit_occurrence_id |  |  |  |
+| visit_detail_id |  |  |  |
+| observation_source_value | vstptref |  |  |
+| observation_source_concept_id |  |  | Derived from observation_source_value.  We will probably need to make custom concepts for this. |
+| unit_source_value |  |  |  |
+| qualifier_source_value |  |  |  |
+| observation_event_id |  |  | FK to measurement associated with VSTPTREF |
+| obs_event_field_concept_id |  |  | Hardcode as 1147140 (measurement.measurement_concept_id) |
+| value_as_datetime |  |  |  |
