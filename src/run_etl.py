@@ -100,6 +100,9 @@ run_script(spark, 'src/sql/cdm_person.sql')
 # populate cdm.observation_period table
 run_script(spark, 'src/sql/cdm_observation_period.sql')
 
+# populate cdm.visit_occurrence table
+run_script(spark, 'src/sql/cdm_visit_occurrence.sql')
+
 # create the clinical_events lookup table
 run_script(spark, 'src/sql/clinical_events.sql')
 
