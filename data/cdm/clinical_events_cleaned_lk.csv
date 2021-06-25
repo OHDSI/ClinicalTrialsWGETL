@@ -13250,312 +13250,312 @@ person_id,event_start_date,event_start_datetime,event_end_date,event_end_datetim
 306,2013-01-16,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER_maps_to,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,959
 306,2013-01-21,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER_maps_to,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,960
 306,2013-02-04,,,,,,Serious Event|N,,,,,,,,,,,,,PHUSE_AE_AESER_maps_to,PHUSE_Unknown_AE_AESER,,Observation,32809,ae.3.aeser,ae,961
-1,2014-07-02,,,,16.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,1
-2,2012-09-02,,,,22.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,3
-3,2014-01-14,,,,43.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,6
-4,2014-04-14,,,,49.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,8
-5,2014-12-30,,,,67.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,11
-6,2013-03-29,,,,74.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,13
-7,2013-12-20,,,,77.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,16
-8,2014-07-09,,,,94.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,17
-9,2012-09-17,,,,98.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,19
-10,2013-01-23,,,,110.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,22
-11,2014-09-09,,,,130.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,25
-12,2014-08-16,,,,148.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,27
-13,2013-04-29,,,,166.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,29
-14,2013-09-05,,,,167.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,31
-15,2013-06-30,,,,175.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,32
-16,2014-02-20,,,,194.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,34
-17,2014-04-01,,,,214.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,36
-18,2013-04-18,,,,215.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,38
-19,2012-09-30,,,,216.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,39
-20,2013-03-23,,,,224.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,40
-21,2013-12-12,,,,229.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,42
-22,2013-03-25,,,,239.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,45
-23,2013-01-20,,,,260.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,48
-24,2013-08-03,,,,277.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,50
-25,2013-01-14,,,,287.0,,DEATH,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,52
-26,2013-09-22,,,,304.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,54
-27,2014-07-11,,,,323.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,56
-28,2013-09-22,,,,324.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,58
-29,2014-06-14,,,,337.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,59
-30,2014-07-26,,,,354.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,61
-31,2013-06-14,,,,365.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,63
-32,2013-11-05,,,,377.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,66
-33,2013-12-08,,,,380.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,69
-34,2014-11-20,,,,399.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,70
-35,2013-04-02,,,,419.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,72
-36,2013-02-07,,,,426.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,74
-37,2014-03-18,,,,444.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,76
-38,2014-04-01,,,,445.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,78
-39,2013-08-14,,,,449.0,,PHYSICIAN DECISION,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,79
-40,2013-11-27,,,,470.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,82
-41,2013-09-18,,,,471.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,84
-42,2013-08-06,,,,489.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,85
-43,2013-12-28,,,,490.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,87
-44,2014-03-25,,,,494.0,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,88
-45,2013-04-28,,,,513.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,91
-46,2012-11-14,,,,514.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,93
-47,2014-03-24,,,,533.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,94
-48,2013-04-30,,,,539.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,96
-49,2014-02-05,,,,557.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,98
-50,2014-04-26,,,,575.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,100
-51,2013-02-13,,,,583.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,102
-52,2013-11-17,,,,597.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,105
-53,2013-08-31,,,,616.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,107
-54,2013-12-24,,,,626.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,109
-55,2012-12-24,,,,641.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,111
-56,2013-03-29,,,,654.0,,LOST TO FOLLOW-UP,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,114
-57,2013-09-14,,,,674.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,116
-58,2013-06-13,,,,690.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,118
-59,2013-12-31,,,,696.0,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,121
-60,2013-12-12,,,,706.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,123
-61,2013-07-22,,,,712.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,125
-62,2013-09-06,,,,730.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,127
-63,2013-01-21,,,,748.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,129
-64,2013-06-22,,,,753.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,131
-65,2014-05-19,,,,768.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,133
-66,2013-03-13,,,,786.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,135
-67,2014-05-24,,,,796.0,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,137
-68,2014-03-21,,,,815.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,139
-69,2014-02-09,,,,816.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,141
-70,2012-12-19,,,,820.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,142
-71,2014-09-11,,,,839.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,144
-72,2013-02-25,,,,848.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,146
-73,2013-10-02,,,,854.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,148
-74,2014-07-09,,,,870.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,150
-75,2013-11-24,,,,878.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,152
-76,2013-11-29,,,,887.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,154
-77,2013-12-24,,,,897.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,156
-78,2014-03-31,,,,907.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,158
-79,2013-06-20,,,,921.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,160
-80,2013-07-08,,,,939.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,163
-81,2014-02-03,,,,949.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,165
-82,2014-03-31,,,,968.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,167
-83,2014-05-16,,,,986.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,169
-84,2013-04-04,,,,1004.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,171
-85,2013-05-27,,,,1024.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,173
-86,2013-07-14,,,,1038.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,175
-87,2013-10-31,,,,1047.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,177
-88,2013-01-18,,,,1058.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,179
-89,2013-12-06,,,,1067.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,181
-90,2013-08-08,,,,1076.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,183
-91,2014-08-06,,,,1089.0,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,185
-92,2014-02-16,,,,1099.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,187
-93,2014-04-18,,,,1119.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,189
-94,2013-06-19,,,,1137.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,191
-95,2013-01-12,,,,1146.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,193
-96,2014-11-01,,,,1164.0,,DEATH,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,195
-97,2013-09-01,,,,1165.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,197
-98,2013-07-12,,,,1169.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,198
-99,2014-05-11,,,,1186.0,,LOST TO FOLLOW-UP,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,200
-100,2013-12-02,,,,1187.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,202
-101,2013-12-05,,,,1200.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,203
-102,2014-02-23,,,,1203.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,206
-103,2014-02-07,,,,1211.0,,PHYSICIAN DECISION,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,207
-104,2013-09-29,,,,1216.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,209
-105,2013-02-26,,,,1218.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,211
-106,2014-07-25,,,,1236.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,212
-107,2014-03-17,,,,1249.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,214
-108,2013-06-24,,,,1268.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,216
-109,2014-05-14,,,,1287.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,218
-110,2014-06-02,,,,1302.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,220
-111,2014-01-23,,,,1314.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,222
-112,2013-09-08,,,,1334.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,224
-113,2014-03-07,,,,1342.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,226
-114,2013-05-13,,,,1346.0,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,228
-115,2013-02-20,,,,1362.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,230
-116,2013-01-14,,,,1364.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,232
-117,2013-12-19,,,,1382.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,233
-118,2014-07-29,,,,1400.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,235
-119,2013-06-25,,,,1408.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,237
-120,2012-09-29,,,,1415.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,240
-121,2014-01-08,,,,1420.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,243
-122,2014-04-27,,,,1438.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,245
-123,2012-10-12,,,,1439.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,247
-124,2014-02-14,,,,1440.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,248
-125,2013-07-25,,,,1441.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,249
-126,2012-10-13,,,,1442.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,250
-127,2014-01-23,,,,1446.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,251
-128,2013-03-09,,,,1452.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,253
-129,2014-02-14,,,,1453.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,255
-130,2013-02-07,,,,1454.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,256
-131,2013-11-11,,,,1473.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,257
-132,2013-04-28,,,,1491.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,259
-133,2014-01-23,,,,1492.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,261
-134,2014-03-22,,,,1502.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,262
-135,2013-06-04,,,,1520.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,264
-136,2014-04-06,,,,1533.0,,PHYSICIAN DECISION,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,266
-137,2013-01-14,,,,1534.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,268
-138,2013-02-26,,,,1539.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,269
-139,2012-12-06,,,,1547.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,271
-140,2013-09-26,,,,1553.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,273
-141,2012-08-13,,,,1554.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,275
-142,2013-11-05,,,,1573.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,276
-143,2013-04-04,,,,1582.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,278
-144,2014-03-08,,,,1600.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,280
-145,2013-12-12,,,,1618.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,282
-146,2013-05-08,,,,1631.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,284
-147,2014-03-01,,,,1648.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,286
-148,2013-06-05,,,,1666.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,288
-149,2013-06-28,,,,1685.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,290
-150,2013-06-18,,,,1695.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,292
-151,2014-02-13,,,,1718.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,294
-152,2013-09-16,,,,1719.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,296
-153,2013-09-10,,,,1728.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,297
-154,2013-05-10,,,,1732.0,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,299
-155,2014-01-28,,,,1745.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,301
-156,2014-07-02,,,,1763.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,303
-157,2014-01-31,,,,1772.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,305
-158,2014-04-08,,,,1792.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,307
-159,2012-09-01,,,,1799.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,309
-160,2013-06-01,,,,1816.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,311
-161,2013-06-26,,,,1834.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,313
-162,2014-05-10,,,,1848.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,315
-163,2014-10-09,,,,1866.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,317
-164,2014-04-25,,,,1884.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,319
-165,2013-03-31,,,,1895.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,321
-166,2013-09-27,,,,1904.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,323
-167,2013-06-25,,,,1918.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,325
-168,2013-11-18,,,,1919.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,327
-169,2014-01-17,,,,1920.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,328
-170,2013-08-07,,,,1931.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,329
-171,2013-06-13,,,,1947.0,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,331
-172,2013-05-31,,,,1957.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,333
-173,2014-01-17,,,,1976.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,335
-174,2014-06-25,,,,1991.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,337
-175,2013-12-19,,,,2010.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,339
-176,2014-10-19,,,,2028.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,341
-177,2013-10-02,,,,2046.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,343
-178,2013-08-29,,,,2051.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,345
-179,2013-06-24,,,,2069.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,347
-180,2013-03-08,,,,2073.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,349
-181,2014-01-18,,,,2080.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,351
-182,2013-08-10,,,,2101.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,353
-183,2013-11-12,,,,2109.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,355
-184,2014-08-29,,,,2126.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,357
-185,2013-08-17,,,,2137.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,359
-186,2013-02-15,,,,2147.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,361
-187,2013-07-05,,,,2168.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,363
-188,2013-02-23,,,,2183.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,365
-189,2014-05-18,,,,2203.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,367
-190,2014-03-23,,,,2221.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,369
-191,2013-08-02,,,,2225.0,,DEATH,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,371
-192,2013-03-05,,,,2226.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,373
-193,2013-11-13,,,,2234.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,374
-194,2012-10-23,,,,2241.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,376
-195,2013-11-16,,,,2243.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,378
-196,2014-05-09,,,,2251.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,379
-197,2013-03-30,,,,2266.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,381
-198,2014-05-17,,,,2289.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,383
-199,2013-05-12,,,,2310.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,385
-200,2013-03-27,,,,2328.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,387
-201,2014-06-28,,,,2346.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,389
-202,2013-11-29,,,,2347.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,391
-203,2013-10-12,,,,2361.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,392
-204,2014-03-01,,,,2366.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,394
-205,2012-12-02,,,,2376.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,396
-206,2013-03-03,,,,2387.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,398
-207,2013-02-19,,,,2398.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,400
-208,2013-05-25,,,,2406.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,402
-209,2013-07-16,,,,2422.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,404
-210,2013-12-30,,,,2424.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,406
-211,2013-05-01,,,,2442.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,407
-212,2013-03-12,,,,2458.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,409
-213,2014-04-24,,,,2476.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,411
-214,2014-04-21,,,,2477.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,413
-215,2013-06-02,,,,2478.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,414
-216,2013-02-18,,,,2493.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,415
-217,2013-07-12,,,,2513.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,417
-218,2013-12-13,,,,2514.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,419
-219,2013-05-02,,,,2521.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,420
-220,2014-03-17,,,,2524.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,423
-221,2013-02-10,,,,2543.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,424
-222,2013-06-01,,,,2554.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,426
-223,2012-11-08,,,,2559.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,429
-224,2012-10-04,,,,2560.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,430
-225,2013-10-24,,,,2561.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,431
-226,2014-02-28,,,,2562.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,432
-227,2014-03-27,,,,2563.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,433
-228,2013-08-05,,,,2564.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,434
-229,2013-12-20,,,,2565.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,435
-230,2013-02-06,,,,2570.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,436
-231,2014-03-24,,,,2588.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,438
-232,2014-10-05,,,,2605.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,440
-233,2013-05-06,,,,2622.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,442
-234,2013-08-06,,,,2630.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,444
-235,2014-02-05,,,,2647.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,446
-236,2013-11-22,,,,2665.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,448
-237,2013-03-25,,,,2683.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,450
-238,2014-07-28,,,,2700.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,452
-239,2014-05-17,,,,2714.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,454
-240,2014-10-16,,,,2734.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,457
-241,2013-10-16,,,,2744.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,459
-242,2013-10-23,,,,2761.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,461
-243,2014-06-17,,,,2780.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,463
-244,2013-09-07,,,,2798.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,465
-245,2013-08-22,,,,2802.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,467
-246,2013-08-18,,,,2820.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,469
-247,2013-05-13,,,,2831.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,471
-248,2014-04-17,,,,2834.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,474
-249,2014-04-26,,,,2842.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,475
-250,2013-06-01,,,,2861.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,477
-251,2013-01-22,,,,2862.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,479
-252,2013-03-18,,,,2868.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,480
-253,2014-04-22,,,,2878.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,482
-254,2013-06-03,,,,2879.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,484
-255,2013-10-03,,,,2897.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,485
-256,2013-07-13,,,,2901.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,487
-257,2012-10-24,,,,2904.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,490
-258,2014-03-29,,,,2905.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,491
-259,2013-01-20,,,,2923.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,492
-260,2014-10-16,,,,2942.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,494
-261,2014-01-10,,,,2946.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,496
-262,2013-11-03,,,,2965.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,498
-263,2014-02-14,,,,2966.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,500
-264,2013-08-28,,,,2979.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,501
-265,2013-08-01,,,,2990.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,504
-266,2013-01-26,,,,3001.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,507
-267,2014-09-20,,,,3022.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,510
-268,2013-08-10,,,,3040.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,512
-269,2013-06-07,,,,3053.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,514
-270,2014-04-05,,,,3073.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,517
-271,2013-10-11,,,,3092.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,519
-272,2013-04-13,,,,3109.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,521
-273,2015-03-05,,,,3126.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,523
-274,2013-03-03,,,,3141.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,525
-275,2013-04-02,,,,3151.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,528
-276,2013-08-15,,,,3153.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,530
-277,2013-07-06,,,,3163.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,531
-278,2013-08-06,,,,3166.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,534
-279,2013-10-07,,,,3176.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,535
-280,2014-09-30,,,,3189.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,537
-281,2013-11-25,,,,3191.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,540
-282,2014-01-09,,,,3207.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,541
-283,2013-02-28,,,,3218.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,543
-284,2013-11-20,,,,3237.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,545
-285,2014-07-22,,,,3256.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,547
-286,2014-06-17,,,,3274.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,549
-287,2014-07-16,,,,3292.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,551
-288,2014-07-28,,,,3310.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,553
-289,2013-07-24,,,,3330.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,555
-290,2014-02-21,,,,3339.0,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,557
-291,2014-03-14,,,,3349.0,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,559
-292,2013-10-20,,,,3365.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,561
-293,2014-03-04,,,,3383.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,563
-294,2013-07-30,,,,3388.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,565
-295,2012-11-06,,,,3397.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,567
-296,2013-08-02,,,,3415.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,570
-297,2013-11-17,,,,3432.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,572
-298,2013-07-31,,,,3450.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,574
-299,2013-11-03,,,,3457.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,576
-300,2013-11-29,,,,3468.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,579
-301,2014-02-08,,,,3484.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,582
-302,2014-01-09,,,,3506.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,585
-303,2013-05-01,,,,3518.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,587
-304,2013-08-29,,,,3536.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,590
-305,2013-08-08,,,,3548.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,592
-306,2013-02-18,,,,3557.0,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DECOD_maps_to,PHUSE_Unknown_DS_DECOD,,Observation,32809,ds.1.dsdecod,ds,594
+1,2014-07-02,,,,16.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,1
+2,2012-09-02,,,,22.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,3
+3,2014-01-14,,,,43.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,6
+4,2014-04-14,,,,49.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,8
+5,2014-12-30,,,,67.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,11
+6,2013-03-29,,,,74.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,13
+7,2013-12-20,,,,77.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,16
+8,2014-07-09,,,,94.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,17
+9,2012-09-17,,,,98.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,19
+10,2013-01-23,,,,110.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,22
+11,2014-09-09,,,,130.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,25
+12,2014-08-16,,,,148.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,27
+13,2013-04-29,,,,166.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,29
+14,2013-09-05,,,,167.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,31
+15,2013-06-30,,,,175.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,32
+16,2014-02-20,,,,194.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,34
+17,2014-04-01,,,,214.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,36
+18,2013-04-18,,,,215.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,38
+19,2012-09-30,,,,216.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,39
+20,2013-03-23,,,,224.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,40
+21,2013-12-12,,,,229.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,42
+22,2013-03-25,,,,239.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,45
+23,2013-01-20,,,,260.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,48
+24,2013-08-03,,,,277.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,50
+25,2013-01-14,,,,287.0,,DEATH,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,52
+26,2013-09-22,,,,304.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,54
+27,2014-07-11,,,,323.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,56
+28,2013-09-22,,,,324.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,58
+29,2014-06-14,,,,337.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,59
+30,2014-07-26,,,,354.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,61
+31,2013-06-14,,,,365.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,63
+32,2013-11-05,,,,377.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,66
+33,2013-12-08,,,,380.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,69
+34,2014-11-20,,,,399.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,70
+35,2013-04-02,,,,419.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,72
+36,2013-02-07,,,,426.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,74
+37,2014-03-18,,,,444.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,76
+38,2014-04-01,,,,445.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,78
+39,2013-08-14,,,,449.0,,PHYSICIAN DECISION,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,79
+40,2013-11-27,,,,470.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,82
+41,2013-09-18,,,,471.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,84
+42,2013-08-06,,,,489.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,85
+43,2013-12-28,,,,490.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,87
+44,2014-03-25,,,,494.0,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,88
+45,2013-04-28,,,,513.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,91
+46,2012-11-14,,,,514.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,93
+47,2014-03-24,,,,533.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,94
+48,2013-04-30,,,,539.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,96
+49,2014-02-05,,,,557.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,98
+50,2014-04-26,,,,575.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,100
+51,2013-02-13,,,,583.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,102
+52,2013-11-17,,,,597.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,105
+53,2013-08-31,,,,616.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,107
+54,2013-12-24,,,,626.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,109
+55,2012-12-24,,,,641.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,111
+56,2013-03-29,,,,654.0,,LOST TO FOLLOW-UP,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,114
+57,2013-09-14,,,,674.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,116
+58,2013-06-13,,,,690.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,118
+59,2013-12-31,,,,696.0,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,121
+60,2013-12-12,,,,706.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,123
+61,2013-07-22,,,,712.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,125
+62,2013-09-06,,,,730.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,127
+63,2013-01-21,,,,748.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,129
+64,2013-06-22,,,,753.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,131
+65,2014-05-19,,,,768.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,133
+66,2013-03-13,,,,786.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,135
+67,2014-05-24,,,,796.0,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,137
+68,2014-03-21,,,,815.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,139
+69,2014-02-09,,,,816.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,141
+70,2012-12-19,,,,820.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,142
+71,2014-09-11,,,,839.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,144
+72,2013-02-25,,,,848.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,146
+73,2013-10-02,,,,854.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,148
+74,2014-07-09,,,,870.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,150
+75,2013-11-24,,,,878.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,152
+76,2013-11-29,,,,887.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,154
+77,2013-12-24,,,,897.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,156
+78,2014-03-31,,,,907.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,158
+79,2013-06-20,,,,921.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,160
+80,2013-07-08,,,,939.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,163
+81,2014-02-03,,,,949.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,165
+82,2014-03-31,,,,968.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,167
+83,2014-05-16,,,,986.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,169
+84,2013-04-04,,,,1004.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,171
+85,2013-05-27,,,,1024.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,173
+86,2013-07-14,,,,1038.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,175
+87,2013-10-31,,,,1047.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,177
+88,2013-01-18,,,,1058.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,179
+89,2013-12-06,,,,1067.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,181
+90,2013-08-08,,,,1076.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,183
+91,2014-08-06,,,,1089.0,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,185
+92,2014-02-16,,,,1099.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,187
+93,2014-04-18,,,,1119.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,189
+94,2013-06-19,,,,1137.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,191
+95,2013-01-12,,,,1146.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,193
+96,2014-11-01,,,,1164.0,,DEATH,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,195
+97,2013-09-01,,,,1165.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,197
+98,2013-07-12,,,,1169.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,198
+99,2014-05-11,,,,1186.0,,LOST TO FOLLOW-UP,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,200
+100,2013-12-02,,,,1187.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,202
+101,2013-12-05,,,,1200.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,203
+102,2014-02-23,,,,1203.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,206
+103,2014-02-07,,,,1211.0,,PHYSICIAN DECISION,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,207
+104,2013-09-29,,,,1216.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,209
+105,2013-02-26,,,,1218.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,211
+106,2014-07-25,,,,1236.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,212
+107,2014-03-17,,,,1249.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,214
+108,2013-06-24,,,,1268.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,216
+109,2014-05-14,,,,1287.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,218
+110,2014-06-02,,,,1302.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,220
+111,2014-01-23,,,,1314.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,222
+112,2013-09-08,,,,1334.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,224
+113,2014-03-07,,,,1342.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,226
+114,2013-05-13,,,,1346.0,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,228
+115,2013-02-20,,,,1362.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,230
+116,2013-01-14,,,,1364.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,232
+117,2013-12-19,,,,1382.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,233
+118,2014-07-29,,,,1400.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,235
+119,2013-06-25,,,,1408.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,237
+120,2012-09-29,,,,1415.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,240
+121,2014-01-08,,,,1420.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,243
+122,2014-04-27,,,,1438.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,245
+123,2012-10-12,,,,1439.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,247
+124,2014-02-14,,,,1440.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,248
+125,2013-07-25,,,,1441.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,249
+126,2012-10-13,,,,1442.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,250
+127,2014-01-23,,,,1446.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,251
+128,2013-03-09,,,,1452.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,253
+129,2014-02-14,,,,1453.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,255
+130,2013-02-07,,,,1454.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,256
+131,2013-11-11,,,,1473.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,257
+132,2013-04-28,,,,1491.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,259
+133,2014-01-23,,,,1492.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,261
+134,2014-03-22,,,,1502.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,262
+135,2013-06-04,,,,1520.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,264
+136,2014-04-06,,,,1533.0,,PHYSICIAN DECISION,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,266
+137,2013-01-14,,,,1534.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,268
+138,2013-02-26,,,,1539.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,269
+139,2012-12-06,,,,1547.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,271
+140,2013-09-26,,,,1553.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,273
+141,2012-08-13,,,,1554.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,275
+142,2013-11-05,,,,1573.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,276
+143,2013-04-04,,,,1582.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,278
+144,2014-03-08,,,,1600.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,280
+145,2013-12-12,,,,1618.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,282
+146,2013-05-08,,,,1631.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,284
+147,2014-03-01,,,,1648.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,286
+148,2013-06-05,,,,1666.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,288
+149,2013-06-28,,,,1685.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,290
+150,2013-06-18,,,,1695.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,292
+151,2014-02-13,,,,1718.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,294
+152,2013-09-16,,,,1719.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,296
+153,2013-09-10,,,,1728.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,297
+154,2013-05-10,,,,1732.0,,PROTOCOL DEVIATION,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,299
+155,2014-01-28,,,,1745.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,301
+156,2014-07-02,,,,1763.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,303
+157,2014-01-31,,,,1772.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,305
+158,2014-04-08,,,,1792.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,307
+159,2012-09-01,,,,1799.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,309
+160,2013-06-01,,,,1816.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,311
+161,2013-06-26,,,,1834.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,313
+162,2014-05-10,,,,1848.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,315
+163,2014-10-09,,,,1866.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,317
+164,2014-04-25,,,,1884.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,319
+165,2013-03-31,,,,1895.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,321
+166,2013-09-27,,,,1904.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,323
+167,2013-06-25,,,,1918.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,325
+168,2013-11-18,,,,1919.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,327
+169,2014-01-17,,,,1920.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,328
+170,2013-08-07,,,,1931.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,329
+171,2013-06-13,,,,1947.0,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,331
+172,2013-05-31,,,,1957.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,333
+173,2014-01-17,,,,1976.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,335
+174,2014-06-25,,,,1991.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,337
+175,2013-12-19,,,,2010.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,339
+176,2014-10-19,,,,2028.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,341
+177,2013-10-02,,,,2046.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,343
+178,2013-08-29,,,,2051.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,345
+179,2013-06-24,,,,2069.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,347
+180,2013-03-08,,,,2073.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,349
+181,2014-01-18,,,,2080.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,351
+182,2013-08-10,,,,2101.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,353
+183,2013-11-12,,,,2109.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,355
+184,2014-08-29,,,,2126.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,357
+185,2013-08-17,,,,2137.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,359
+186,2013-02-15,,,,2147.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,361
+187,2013-07-05,,,,2168.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,363
+188,2013-02-23,,,,2183.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,365
+189,2014-05-18,,,,2203.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,367
+190,2014-03-23,,,,2221.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,369
+191,2013-08-02,,,,2225.0,,DEATH,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,371
+192,2013-03-05,,,,2226.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,373
+193,2013-11-13,,,,2234.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,374
+194,2012-10-23,,,,2241.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,376
+195,2013-11-16,,,,2243.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,378
+196,2014-05-09,,,,2251.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,379
+197,2013-03-30,,,,2266.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,381
+198,2014-05-17,,,,2289.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,383
+199,2013-05-12,,,,2310.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,385
+200,2013-03-27,,,,2328.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,387
+201,2014-06-28,,,,2346.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,389
+202,2013-11-29,,,,2347.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,391
+203,2013-10-12,,,,2361.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,392
+204,2014-03-01,,,,2366.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,394
+205,2012-12-02,,,,2376.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,396
+206,2013-03-03,,,,2387.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,398
+207,2013-02-19,,,,2398.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,400
+208,2013-05-25,,,,2406.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,402
+209,2013-07-16,,,,2422.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,404
+210,2013-12-30,,,,2424.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,406
+211,2013-05-01,,,,2442.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,407
+212,2013-03-12,,,,2458.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,409
+213,2014-04-24,,,,2476.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,411
+214,2014-04-21,,,,2477.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,413
+215,2013-06-02,,,,2478.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,414
+216,2013-02-18,,,,2493.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,415
+217,2013-07-12,,,,2513.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,417
+218,2013-12-13,,,,2514.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,419
+219,2013-05-02,,,,2521.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,420
+220,2014-03-17,,,,2524.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,423
+221,2013-02-10,,,,2543.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,424
+222,2013-06-01,,,,2554.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,426
+223,2012-11-08,,,,2559.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,429
+224,2012-10-04,,,,2560.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,430
+225,2013-10-24,,,,2561.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,431
+226,2014-02-28,,,,2562.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,432
+227,2014-03-27,,,,2563.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,433
+228,2013-08-05,,,,2564.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,434
+229,2013-12-20,,,,2565.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,435
+230,2013-02-06,,,,2570.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,436
+231,2014-03-24,,,,2588.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,438
+232,2014-10-05,,,,2605.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,440
+233,2013-05-06,,,,2622.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,442
+234,2013-08-06,,,,2630.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,444
+235,2014-02-05,,,,2647.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,446
+236,2013-11-22,,,,2665.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,448
+237,2013-03-25,,,,2683.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,450
+238,2014-07-28,,,,2700.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,452
+239,2014-05-17,,,,2714.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,454
+240,2014-10-16,,,,2734.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,457
+241,2013-10-16,,,,2744.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,459
+242,2013-10-23,,,,2761.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,461
+243,2014-06-17,,,,2780.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,463
+244,2013-09-07,,,,2798.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,465
+245,2013-08-22,,,,2802.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,467
+246,2013-08-18,,,,2820.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,469
+247,2013-05-13,,,,2831.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,471
+248,2014-04-17,,,,2834.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,474
+249,2014-04-26,,,,2842.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,475
+250,2013-06-01,,,,2861.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,477
+251,2013-01-22,,,,2862.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,479
+252,2013-03-18,,,,2868.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,480
+253,2014-04-22,,,,2878.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,482
+254,2013-06-03,,,,2879.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,484
+255,2013-10-03,,,,2897.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,485
+256,2013-07-13,,,,2901.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,487
+257,2012-10-24,,,,2904.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,490
+258,2014-03-29,,,,2905.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,491
+259,2013-01-20,,,,2923.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,492
+260,2014-10-16,,,,2942.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,494
+261,2014-01-10,,,,2946.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,496
+262,2013-11-03,,,,2965.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,498
+263,2014-02-14,,,,2966.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,500
+264,2013-08-28,,,,2979.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,501
+265,2013-08-01,,,,2990.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,504
+266,2013-01-26,,,,3001.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,507
+267,2014-09-20,,,,3022.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,510
+268,2013-08-10,,,,3040.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,512
+269,2013-06-07,,,,3053.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,514
+270,2014-04-05,,,,3073.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,517
+271,2013-10-11,,,,3092.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,519
+272,2013-04-13,,,,3109.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,521
+273,2015-03-05,,,,3126.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,523
+274,2013-03-03,,,,3141.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,525
+275,2013-04-02,,,,3151.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,528
+276,2013-08-15,,,,3153.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,530
+277,2013-07-06,,,,3163.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,531
+278,2013-08-06,,,,3166.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,534
+279,2013-10-07,,,,3176.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,535
+280,2014-09-30,,,,3189.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,537
+281,2013-11-25,,,,3191.0,,SCREEN FAILURE,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,540
+282,2014-01-09,,,,3207.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,541
+283,2013-02-28,,,,3218.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,543
+284,2013-11-20,,,,3237.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,545
+285,2014-07-22,,,,3256.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,547
+286,2014-06-17,,,,3274.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,549
+287,2014-07-16,,,,3292.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,551
+288,2014-07-28,,,,3310.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,553
+289,2013-07-24,,,,3330.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,555
+290,2014-02-21,,,,3339.0,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,557
+291,2014-03-14,,,,3349.0,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,559
+292,2013-10-20,,,,3365.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,561
+293,2014-03-04,,,,3383.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,563
+294,2013-07-30,,,,3388.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,565
+295,2012-11-06,,,,3397.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,567
+296,2013-08-02,,,,3415.0,,STUDY TERMINATED BY SPONSOR,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,570
+297,2013-11-17,,,,3432.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,572
+298,2013-07-31,,,,3450.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,574
+299,2013-11-03,,,,3457.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,576
+300,2013-11-29,,,,3468.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,579
+301,2014-02-08,,,,3484.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,582
+302,2014-01-09,,,,3506.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,585
+303,2013-05-01,,,,3518.0,,WITHDRAWAL BY SUBJECT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,587
+304,2013-08-29,,,,3536.0,,COMPLETED,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,590
+305,2013-08-08,,,,3548.0,,ADVERSE EVENT,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,592
+306,2013-02-18,,,,3557.0,,LACK OF EFFICACY,,,,,,,,,,,,,PHUSE_DS_DSDECOD_maps_to,PHUSE_Unknown_DS_DSDECOD,,Observation,32809,ds.1.dsdecod,ds,594
 1,2014-01-02,,,,1.0,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM_maps_to,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,1
 2,2012-08-05,,,,17.0,,Clinical trial arm,,,Placebo,,,,,,,,,,PHUSE_DM_maps_to,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,2
 3,2013-07-19,,,,26.0,,Clinical trial arm,,,Xanomeline High Dose,,,,,,,,,,PHUSE_DM_maps_to,PHUSE_Unknown_DM,,Observation,32809,dm.2.actarm,dm,3
