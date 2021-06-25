@@ -85,8 +85,25 @@ custom_vocab_df = spark.read.csv(
     inferSchema=True)
 custom_vocab_df.createOrReplaceTempView('src_source_to_concept_map')
 
+# load custom concepts
+custom_concepts_path = 'vocab/custom_concept'
+custom_concepts_file_names = get_fnames(custom_concepts_path)
+
+custom_concepts_dfs = {}
+for path, name in custom_concepts_file_names:
+    df_name = name.replace('.csv', '')
+    custom_concepts_dfs[df_name] = spark\
+        .read\
+        .csv(path, header=True, inferSchema=True, sep=',')
+
+for table_name, df in custom_concepts_dfs.items():
+    df.createOrReplaceTempView("src_custom_" + table_name.lower())
+
 # populate vocab.* tables from temp views
 run_script(spark, 'src/sql/load_stnd_vocabs.sql')
+
+# insert to the vocab.* tables custom concepts and relations
+run_script(spark, 'src/sql/load_custom_concepts.sql')
 
 # populate source_codes_raw
 run_script(spark, 'src/sql/source_codes_raw.sql')
@@ -152,7 +169,6 @@ df.toPandas().to_csv('data/cdm/clinical_events_lk.csv', index=False)
 # export the clinical_events_cleaned lookup for testing purposes
 df = spark.sql('select * from temp.clinical_events_cleaned')
 df.toPandas().to_csv('data/cdm/clinical_events_cleaned_lk.csv', index=False)
-
 
 # run tests
 run_script(spark, 'src/qa/integration_tests.sql')

@@ -43,7 +43,7 @@ WHERE  src.race IS NOT NULL;
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
 SELECT DISTINCT 'Condition'            AS domain_id,
-                'PHUSE_MedDRA'         AS vocabulary_id,
+                'PHUSE_MedDRA_maps_to' AS vocabulary_id,
                 'PHUSE_Unknown_MedDRA' AS default_vocabulary_id,
                 src.aellt              AS source_code,
                 src.aellt              AS concept_name
@@ -55,7 +55,7 @@ WHERE  src.aellt IS NOT NULL;
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
 SELECT DISTINCT 'Observation'            AS domain_id,
-                'PHUSE_AE_AESEV'         AS vocabulary_id,
+                'PHUSE_AE_AESEV_maps_to' AS vocabulary_id,
                 'PHUSE_Unknown_AE_AESEV' AS default_vocabulary_id,
                 'Severity/Intensity'
                 || '|'
@@ -71,7 +71,7 @@ WHERE  src.aesev IS NOT NULL;
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
 SELECT DISTINCT 'Observation'            AS domain_id,
-                'PHUSE_AE_AESER'         AS vocabulary_id,
+                'PHUSE_AE_AESER_maps_to' AS vocabulary_id,
                 'PHUSE_Unknown_AE_AESER' AS default_vocabulary_id,
                 'Serious Event'
                 || '|'
@@ -91,7 +91,7 @@ WHERE  src.aeser IS NOT NULL;
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
 SELECT DISTINCT 'Observation'            AS domain_id,
-                'PHUSE_AE_AEREL'         AS vocabulary_id,
+                'PHUSE_AE_AEREL_maps_to' AS vocabulary_id,
                 'PHUSE_Unknown_AE_AEREL' AS default_vocabulary_id,
                 'Relationship to Study Drug (Causality)'
                 || '|'
@@ -107,7 +107,7 @@ WHERE  src.aerel IS NOT NULL;
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
 SELECT DISTINCT 'Observation'            AS domain_id,
-                'PHUSE_AE_AEOUT'         AS vocabulary_id,
+                'PHUSE_AE_AEOUT_maps_to' AS vocabulary_id,
                 'PHUSE_Unknown_AE_AEOUT' AS default_vocabulary_id,
                 'Outcome of Adverse Event'
                 || '|'
@@ -123,7 +123,7 @@ WHERE  src.aeout IS NOT NULL;
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
 SELECT DISTINCT 'Observation'            AS domain_id,
-                'PHUSE_AE_AESOD'         AS vocabulary_id,
+                'PHUSE_AE_AESOD_maps_to' AS vocabulary_id,
                 'PHUSE_Unknown_AE_AESOD' AS default_vocabulary_id,
                 'Occurred with Overdose'
                 || '|'
@@ -143,7 +143,7 @@ WHERE  src.aesod IS NOT NULL;
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
 SELECT DISTINCT 'Condition'                 AS domain_id,
-                'PHUSE_AE_AESDISAB'         AS vocabulary_id,
+                'PHUSE_AE_AESDISAB_maps_to' AS vocabulary_id,
                 'PHUSE_Unknown_AE_AESDISAB' AS default_vocabulary_id,
                 'Persist or Signif Disability/Incapacity'
                 || '|'
@@ -163,7 +163,7 @@ WHERE  src.aesdisab IS NOT NULL;
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
 SELECT DISTINCT 'Drug'                       AS domain_id,
-                'PHUSE_CM'                   AS vocabulary_id,
+                'PHUSE_CM_maps_to'           AS vocabulary_id,
                 'PHUSE_Unknown_CM'           AS default_vocabulary_id,
                 src.cmtrt
                 || '|'
@@ -187,7 +187,7 @@ WHERE  src.cmtrt IS NOT NULL;
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
 SELECT DISTINCT 'Route'                      AS domain_id,
-                'PHUSE_CM_ROUTE'             AS vocabulary_id,
+                'PHUSE_CM_ROUTE_maps_to'     AS vocabulary_id,
                 'PHUSE_Unknown_CM_ROUTE'     AS default_vocabulary_id,
                 src.cmroute                  AS source_code,
                 src.cmroute                  AS concept_name
@@ -199,7 +199,7 @@ WHERE  src.cmroute IS NOT NULL;
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
 SELECT 'Observation'                                   AS domain_id,
-       'PHUSE_DM'                                      AS vocabulary_id,
+       'PHUSE_DM_maps_to'                              AS vocabulary_id,
        'PHUSE_Unknown_DM'                              AS default_vocabulary_id,
        'Patient consented to clinical trial'           AS source_code,
        'Patient consented to clinical trial (finding)' AS concept_name;
@@ -209,7 +209,7 @@ SELECT 'Observation'                                   AS domain_id,
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
 SELECT 'Observation'                     AS domain_id,
-       'PHUSE_DM'                        AS vocabulary_id,
+       'PHUSE_DM_maps_to'                AS vocabulary_id,
        'PHUSE_Unknown_DM'                AS default_vocabulary_id,
        'Clinical trial arm'              AS source_code,
        'Clinical trial arm'              AS concept_name;
@@ -218,11 +218,11 @@ SELECT 'Observation'                     AS domain_id,
 -- DS: Trial Outcome
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
-SELECT DISTINCT 'Observation'            AS domain_id,
-                'PHUSE_DS_DECOD'         AS vocabulary_id,
-                'PHUSE_Unknown_DS_DECOD' AS default_vocabulary_id,
-                src.dsdecod              AS source_code,
-                src.dsdecod              AS concept_name
+SELECT DISTINCT 'Observation'               AS domain_id,
+                'PHUSE_DS_DSDECOD_maps_to'  AS vocabulary_id,
+                'PHUSE_Unknown_DS_DSDECOD'  AS default_vocabulary_id,
+                src.dsdecod                 AS source_code,
+                src.dsdecod                 AS concept_name
 FROM   src.ds src
 WHERE  src.dscat != 'OTHER EVENT'
        AND src.dsdecod IS NOT NULL;
@@ -231,16 +231,13 @@ WHERE  src.dscat != 'OTHER EVENT'
 -- SV: visit concepts (topic 2)
 -------------------------------------------------------------------
 INSERT INTO temp.source_codes_raw
-SELECT DISTINCT 'Visit'                  AS domain_id,
-                'PHUSE_SV_VISIT'         AS vocabulary_id,
-                'PHUSE_Unknown_SV_VISIT' AS default_vocabulary_id,
-                src.epoch
-                || ':'
-                || src.visit             AS source_code,
-                src.epoch
-                || ':'
-                || src.visit             AS concept_name
+SELECT DISTINCT 'Visit'                     AS domain_id,
+                'PHUSE_SV_VISIT_maps_to'    AS vocabulary_id,
+                'PHUSE_Unknown_SV_VISIT'    AS default_vocabulary_id,
+                IFNULL(src.epoch || ':', '')
+                || src.visit                AS source_code,
+                IFNULL(src.epoch || ':', '')
+                || src.visit                AS concept_name
 FROM   src.sv src
-WHERE  src.epoch
-       || ':'
+WHERE  IFNULL(src.epoch || ':', '')
        || src.visit IS NOT NULL;
