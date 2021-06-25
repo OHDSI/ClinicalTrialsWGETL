@@ -1,0 +1,9 @@
+﻿source_code,source_concept_id,source_vocabulary_id,source_code_description,target_concept_id,target_vocabulary_id,valid_start_date,valid_end_date,invalid_reason
+ADVERSE EVENT,0,PHUSE_DS_DSDECOD_maps_to_value,Reason for withdrawing: ADVERSE EVENT,45884383,LOINC,1970-01-01,2099-12-31,
+COMPLETED,0,PHUSE_DS_DSDECOD_maps_to_value,Reason for withdrawing: COMPLETED,44810922,SNOMED,2013-01-04,2099-12-31,
+DEATH,0,PHUSE_DS_DSDECOD_maps_to_value,Reason for withdrawing: DEATH,45881348,LOINC,1970-01-01,2099-12-31,
+LACK OF EFFICACY,0,PHUSE_DS_DSDECOD_maps_to_value,Reason for withdrawing: LACK OF EFFICACY,4008155,SNOMED,2002-01-31,2099-12-31,
+LOST TO FOLLOW-UP,0,PHUSE_DS_DSDECOD_maps_to_value,Reason for withdrawing: LOST TO FOLLOW-UP,44810923,SNOMED,2013-04-01,2099-12-31,
+PHYSICIAN DECISION,0,PHUSE_DS_DSDECOD_maps_to_value,Reason for withdrawing: PHYSICIAN DECISION,4013714,SNOMED,2002-01-31,2099-12-31,
+SCREEN FAILURE,0,PHUSE_DS_DSDECOD_maps_to_value,Reason for withdrawing: SCREEN FAILURE,44811374,SNOMED,2013-04-01,2099-12-31,
+WITHDRAWAL BY SUBJECT,0,PHUSE_DS_DSDECOD_maps_to_value,Reason for withdrawing: WITHDRAWAL BY SUBJECT,4019958,SNOMED,2002-01-31,2099-12-31,

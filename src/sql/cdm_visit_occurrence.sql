@@ -47,8 +47,7 @@ SELECT DISTINCT Row_number()
                 32809                              AS visit_type_concept_id,
                 NULL                               AS provider_id,
                 NULL                               AS care_site_id,
-                src.epoch
-                || ':'
+                IFNULL(src.epoch || ':', '')
                 || src.visit                       AS visit_source_value,
                 src.usubjid
                 || '|'
@@ -66,10 +65,9 @@ FROM   src.sv src
        INNER JOIN cdm.person per
                ON per.person_source_value = src.usubjid
        LEFT JOIN temp.source_codes_mapped msc
-              ON msc.source_code = src.epoch
-                                   || ':'
-                                   || src.visit
-                 AND msc.source_vocabulary_id = 'PHUSE_SV_VISIT'
+              ON msc.source_code = IFNULL(src.epoch || ':', '')
+                                        || src.visit
+                 AND msc.source_vocabulary_id = 'PHUSE_SV_VISIT_maps_to'
 WHERE  src.svstdtc IS NOT NULL
        AND Cast(src.svstdtc AS DATE) BETWEEN Cast(
            Concat(per.year_of_birth, '-01-01') AS

@@ -1,7 +1,7 @@
 cohort_definition_id,cohort_definition_name,cohort_definition_description,definition_type_concept_id,cohort_definition_syntax,subject_concept_id,cohort_initiation_date
-4,Actual Arm - Placebo,Actual Arm - Placebo,0,select person_id from cdm.person inner join dm on dm.usubjid = cdm.person.person_source_value and dm.actarmcd = 'pbo',1147314,2021-06-11
-5,Actual Arm - Xanomeline High Dose,Actual Arm - Xanomeline High Dose,0,select person_id from cdm.person inner join dm on dm.usubjid = cdm.person.person_source_value and dm.actarmcd = 'xan_hi',1147314,2021-06-11
-6,Actual Arm - Xanomeline Low Dose,Actual Arm - Xanomeline Low Dose,0,select person_id from cdm.person inner join dm on dm.usubjid = cdm.person.person_source_value and dm.actarmcd = 'xan_lo',1147314,2021-06-11
-1,Planned Arm - Placebo,Planned Arm - Placebo,0,select person_id from cdm.person inner join dm on dm.usubjid = cdm.person.person_source_value and dm.armcd = 'pbo',1147314,2021-06-11
-2,Planned Arm - Xanomeline High Dose,Planned Arm - Xanomeline High Dose,0,select person_id from cdm.person inner join dm on dm.usubjid = cdm.person.person_source_value and dm.armcd = 'xan_hi',1147314,2021-06-11
-3,Planned Arm - Xanomeline Low Dose,Planned Arm - Xanomeline Low Dose,0,select person_id from cdm.person inner join dm on dm.usubjid = cdm.person.person_source_value and dm.armcd = 'xan_lo',1147314,2021-06-11
+4,Actual Arm - Placebo,Actual Arm - Placebo,0,select person_id from cdm.person inner join dm on dm.usubjid = cdm.person.person_source_value and dm.actarmcd = 'pbo',1147314,2021-06-25
+5,Actual Arm - Xanomeline High Dose,Actual Arm - Xanomeline High Dose,0,select person_id from cdm.person inner join dm on dm.usubjid = cdm.person.person_source_value and dm.actarmcd = 'xan_hi',1147314,2021-06-25
+6,Actual Arm - Xanomeline Low Dose,Actual Arm - Xanomeline Low Dose,0,select person_id from cdm.person inner join dm on dm.usubjid = cdm.person.person_source_value and dm.actarmcd = 'xan_lo',1147314,2021-06-25
+1,Planned Arm - Placebo,Planned Arm - Placebo,0,select person_id from cdm.person inner join dm on dm.usubjid = cdm.person.person_source_value and dm.armcd = 'pbo',1147314,2021-06-25
+2,Planned Arm - Xanomeline High Dose,Planned Arm - Xanomeline High Dose,0,select person_id from cdm.person inner join dm on dm.usubjid = cdm.person.person_source_value and dm.armcd = 'xan_hi',1147314,2021-06-25
+3,Planned Arm - Xanomeline Low Dose,Planned Arm - Xanomeline Low Dose,0,select person_id from cdm.person inner join dm on dm.usubjid = cdm.person.person_source_value and dm.armcd = 'xan_lo',1147314,2021-06-25
