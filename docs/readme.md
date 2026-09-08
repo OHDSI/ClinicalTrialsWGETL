@@ -10,15 +10,15 @@
 | [provider](provider.md) |  | done |  |
 | **Clinical Data Tables** |  |  |  |
 | [person](person.md) | dm | done |  |
-| [observation_period](observation_period.md) | dm</br> sv | done |  |
-| [visit_occurrence](visit_occurrence.md) | sv |  |  |
-| [condition_occurrence](condition_occurrence.md) | ae | done |  |
+| [observation_period](observation_period.md) | sv | done |  |
+| [visit_occurrence](visit_occurrence.md) | ds</br>sv |  |  |
+| [condition_occurrence](condition_occurrence.md) | ae</br>ce</br>pr | done |  |
 | [drug_exposure](drug_exposure.md) | cm</br>ex |  |  |
-| procedure_occurrence |  | not covered |  |
+| procedure_occurrence | cm</br>pr |  |  |
 | device_exposure |  | not covered |  |
-| [measurement](measurement.md) | qsco |  | Questionnaire |
-| [observation](observation.md) | ae</br> dm</br> ds</br> mh</br> sv</br>  |  | Seriousness, Severity </br> Trial/Arm assignment </br> Study withdrawal </br> Reason for visit |
-| death | dm | |  |
+| [measurement](measurement.md) | eg</br>ft</br>lb</br>mb</br>ms</br>pe</br>pc<br>qs</br>re</br>rs</br>vs |  | Questionnaire |
+| [observation](observation.md) | ae</br>ce</br>dm</br> ds</br> mh</br> sv</br> |  | Seriousness, Severity </br> Trial/Arm assignment </br> Study withdrawal </br> Reason for visit |
+| death | ae</br>dd</br>dm | |  |
 | note |  | not covered |  |
 | specimen |  | not covered |  |
 | fact_relationship |  | not covered |  |
@@ -29,7 +29,7 @@
 | dose_era |  | not covered |  |
 | condition_era |  | not covered |  |
 | **Metadata tables** |  |  |  |
-| [metadata](metadata.md) |  | done | Trial summary </br> Trial inclusion/exclusion criteria |
+| [metadata](metadata.md) | ta</br>td</br>ti</br>tm</br>ts</br>tv | done | Trial summary </br> Trial inclusion/exclusion criteria |
 | [cdm_source](cdm_source.md) |  | done |  |
 
 
@@ -39,11 +39,11 @@
 ### Missing specification for
 
 - ae <- Adverse Events: for convention on severity and causality
-- cm <-
+
 - lbch <- Lab: pick one of the lab tables as an example
 - lbhe <-
 - lbur <-
-- mh <- Medical History: for convention on historic events
+
 - qsda
 - qsgi
 - qshi
@@ -58,15 +58,16 @@
 - supplbch
 - supplbhe
 - supplbur
-- ta
-- te
-- tv
-- vs <- Vital Signs: low-hanging fruit
 
-### Tasks
-- [ ] Philip: ae <- Adverse Events: for convention on severity and causality
-- [ ] Philip: cm <- (only structural mapping)
-- [ ] Chris: lbch, lbhe, lbur <- Lab: pick one of the lab tables as an example
-- [ ] Maxim: mh <- Medical History: for convention on historic events
-- [ ] Katy: vs <- Vital Signs: low-hanging fruit
-- [ ] Sonia: dm to death
+
+### 
+| Improving Vocabulary Matching | Concatenations to Improve USAGI Matches |
+| :-: | :- |
+| CE | CETERM + CECAT |
+| CM | CMDECOD + CMDOSE + CMDOSU + CMROUTE |
+| EX | EXTRT + EXDOSE + EXDOSU + EXROUTE + EXDOSFRM |
+| LB | LBTEST + LBSPEC + LBCAT + LBORRESU (or LBSTRESU) |
+| MB | MBTEST + MBTSTDTL |
+| MS | MSTEST + MSAGENT + MSCAT |
+| PR | PRTRT + PRINDC + PRCLAS |
+| VS | VSTEST + VSSTRESU |
