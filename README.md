@@ -1,5 +1,7 @@
 # Clinical trial data conventions for the OMOP Common Data Model
 
+2026 tutorial
+
 The goal of this repository is to apply Clinical trial data conventions to the 'real' data.
 As the first try, the PhUSE dataset has been chosen. It is a CDISC-compliant synthetic SDTM dataset.
 
